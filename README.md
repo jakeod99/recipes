@@ -35,7 +35,7 @@ so:
 cd ~/workspace/recipes/scripts
 node release.js 0.1.0
 ```
-Doing this should overwrite the contents of `current` and `website`, as well 
+Doing this should overwrite the contents of `current` and `docs`, as well 
 as add a new entry into `version`. The release that this specific example 
 would generate would be version `v0.1.0`. Generally speaking, the version 
 digits represent the following increments `MajorRelease.StageVersion.Feature`. 
@@ -43,7 +43,7 @@ digits represent the following increments `MajorRelease.StageVersion.Feature`.
 ### Basic System Overview
 Frankly, this is a bit homegrown and doesn't follow any traditional 
 organizational structure. The system has five main sections: `content`, 
-`current`, `scripts`, `versions`, and `website`.
+`current`, `docs`, `scripts`, and `versions`.
 
 #### Content
 This is where all the actual recipe information is stored. Everything is 
@@ -60,6 +60,16 @@ to the most recent version. This means the naming scheme of the contents of
 this folder must be kept consistent, and therefore independent from their 
 respective version.
 
+#### Docs (Website)
+This folder holds all of the frontend code to be rendered by Github Pages. 
+A name like "website" would have been far clearer, but the Github Pages 
+configuration options do not currently allow for a custom folder name as the 
+site's base. Generating new releases will overwrite this folder without saving 
+previous versions. This is the only display format which does not save 
+previous versions, so if you desire older content please look in the 
+`versions` folder and settle for the markdown or the cookbook document. The 
+website can be seen hosted at https://jakeod99.github.io/recipes.
+
 #### Scripts
 This is where all the logic is kept. Running `release.js` should 
 trigger all the necessary generations and overwrites housed here. To run 
@@ -72,14 +82,6 @@ temporarily store featured versions (or versions which increment the `Feature`
 digit). When merging into the `stage` branch, be sure that these are scrubbed 
 and that the newest version increments `StageVersion` (e.g., `v1.3.0` or 
 `v2.0.0`, but not `v1.5.3`). 
-
-#### Website
-This folder holds all of the frontend code to be rendered by Github Pages. 
-Generating new releases will overwrite this folder without saving previous 
-versions. This is the only display format which does not save previous 
-versions, so if you desire older content please look in the `versions` folder 
-and settle for the markdown or the cookbook document. The website can be seen 
-hosted at https://jakeod99.github.io/recipes.
 
 ### Tech Stack
 It's basically just a bit of straight javascript that produces really basic 
