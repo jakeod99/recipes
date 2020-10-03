@@ -1,0 +1,66 @@
+{
+    "name": "", //Fajitas
+    "ingredients": [
+        {
+            "food": {"$ref": "./base.json"}, //"./tortillas.json"
+            "amount": 1, //multiplier on primaryQuantity (which defaults to 1 is undefined)
+            "potentialSubstitution": [ //optional
+                {"$ref": "./base.json"}, //"../bases/tortilla.json"
+                {"$ref": "./base.json"} //"../bases/bread.json
+            ],
+            "optional": false, //false if undefined
+            "preparation": "", //optinal
+        },
+        {
+            "food": {"$ref": "./base.json"},
+            "amount": 2,
+            "optional": true
+        }
+    ],
+    "steps": [
+        "step 1 description",
+        "step 2 description",
+        [
+            "step 2.1 description",
+            "step 2.2 description",
+            "step 2.3 description"
+        ],
+        "step 3 description"
+    ],
+    "metrics": {
+        "time": {
+            "total": "",
+            "active": ""
+        },
+        "yield": {
+            "amount": 0, //8
+            "unit": "", //"fajitas"
+            "calories": 0 //optional, only define to override sum of ingredient calories
+        },
+        "serving": {
+            "amount": 0, //2
+            "unit": "", //"fajitas"
+            "ratio": 0.25 // 2/8 == 0.25
+        }
+    },
+    "tags": {
+        "type": [ //required, entries are optional
+            "", //"Entrée", "Appetizer", "Dessert", "Beverage", "Component", or "Miscellaneous"
+            "" //Soup/Stew", "Salad", "Coffee", "Smoothie", "Dip", "Sauce", etc.
+        ], 
+        "meals": [ //required, entried are optional
+            "", //lunch
+            "" //dinner
+        ],
+        "style": [ //required, entries are optional
+            "", //mexican
+            "" //barbecue
+        ],
+        "healthy": [ //required, entries are optional 
+            "", //"heart", "gi", "terrible"
+        ]
+    },
+    "comments": [ //optional
+        ""
+    ]
+}
