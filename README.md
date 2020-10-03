@@ -1,4 +1,4 @@
-# About Jake's Recipes
+# Jake's Recipes
 This project generates various ways to display Jake's recipes while tracking 
 previous versions/releases.
 
