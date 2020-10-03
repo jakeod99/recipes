@@ -2,17 +2,17 @@
     "name": "", //Fajitas
     "ingredients": [
         {
-            "food": {"$ref": "./base.json"}, //"./tortillas.json"
+            "food": {"$ref": "../recipes/placeholder.json"}, //"./tortillas.json"
             "amount": 1, //multiplier on primaryQuantity (which defaults to 1 is undefined)
             "potentialSubstitution": [ //optional
-                {"$ref": "./base.json"}, //"../bases/tortilla.json"
-                {"$ref": "./base.json"} //"../bases/bread.json
+                {"$ref": "../bases/placeholder.json"}, //"../bases/tortilla.json"
+                {"$ref": "../bases/placeholder.json"} //"../bases/bread.json
             ],
             "optional": false, //false if undefined
-            "preparation": "", //optinal
+            "preparation": "" //optional
         },
         {
-            "food": {"$ref": "./base.json"},
+            "food": {"$ref": "../bases/placeholder.json"},
             "amount": 2,
             "optional": true
         }
@@ -37,7 +37,7 @@
             "unit": "", //"fajitas"
             "calories": 0 //optional, only define to override sum of ingredient calories
         },
-        "serving": {
+        "serving": { //if undefined, assumes `yield` is one serving
             "amount": 0, //2
             "unit": "", //"fajitas"
             "ratio": 0.25 // 2/8 == 0.25
@@ -46,18 +46,18 @@
     "tags": {
         "type": [ //required, entries are optional
             "", //"Entrée", "Appetizer", "Dessert", "Beverage", "Component", or "Miscellaneous"
-            "" //Soup/Stew", "Salad", "Coffee", "Smoothie", "Dip", "Sauce", etc.
+            "" //"Soup/Stew", "Salad", "Coffee", "Smoothie", "Dip", "Sauce", "Spread", etc.
         ], 
-        "meals": [ //required, entried are optional
-            "", //lunch
-            "" //dinner
+        "meals": [ //required, entries are optional
+            "", //"Lunch"
+            "" //"Dinner"
         ],
         "style": [ //required, entries are optional
-            "", //mexican
-            "" //barbecue
+            "", //"Mexican"
+            "" //"Barbecue"
         ],
         "healthy": [ //required, entries are optional 
-            "", //"heart", "gi", "terrible"
+            "", //"Heart", "GI", "Terrible"
         ]
     },
     "comments": [ //optional

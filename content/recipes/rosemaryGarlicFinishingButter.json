@@ -1,0 +1,44 @@
+{
+    "name": "Rosemary Garlic Finishing Butter",
+    "ingredients": [
+        {
+            "food": {"$ref": "../bases/butter.json"},
+            "amount": 2,
+            "preparation": "room temperature"
+        },
+        {
+            "food": {"$ref": "../bases/garlic.json"},
+            "amount": 3,
+            "preparation": "minced"
+        },
+        {
+            "food": {"$ref": "../bases/rosemary.json"},
+            "amount": 1.5
+        }
+    ],
+    "steps": [
+        "Leave Butter out until soft enough to mix (about 1 hour)",
+        "Stir all ingredients together until well combined",
+        "Ready to use whenever, but it's best if it sits for a bit"
+    ],
+    "metrics": {
+        "time": {
+            "total": "1 hour",
+            "active": "5 minutes"
+        },
+        "yield": {
+            "amount": 3,
+            "unit": "Tablespoon"
+        }
+    },
+    "tags": {
+        "type": [
+            "Component",
+            "Spread"
+        ], 
+        "meals": [],
+        "style": [],
+        "healthy": [ "Terrible" ]
+    },
+    "comments": []
+}

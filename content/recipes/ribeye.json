@@ -1,0 +1,64 @@
+{
+    "name": "Ribeye",
+    "ingredients": [
+        {
+            "food": {"$ref": "../bases/ribeye.json"}
+        },
+        {
+            "food": {"$ref": "../bases/salt.json"},
+            "amount": 6
+        },
+        {
+            "food": {"$ref": "../bases/oliveOil.json"},
+            "amount": 2
+        },
+        {
+            "food": {"$ref": "../recipes/rosemaryGarlicFinishingButter.json"},
+            "amount": 1
+        }
+    ],
+    "steps": [
+        "Leave Steak out at room temperature for 10 minutes",
+        "Do the following twice",
+        [
+            "Sprinkle Salt generously on top",
+            "Flip the Steak over",
+            "Sprinkle Salt generously on top",
+            "Wait 10 minutes"
+        ],
+        "Wait 40 minutes (in addition to the 10 you just waited in the last iteration above)",
+        "Pour Olive Oil into a dark pan until there is ~3mm of Oil in the pan",
+        "Heat the pan on on medium-high",
+        "Once the oil is hot, place the steak in on one side for 7 minutes",
+        "Flip the Steak to the other side for 6 minutes",
+        "Put the Steak on a warm plate",
+        "Put the Finishing Butter on the Steak",
+        "Let teh Steak rest for 10 minutes to retain juice, then dig in"
+    ],
+    "metrics": {
+        "time": {
+            "total": "1.5 hours",
+            "active": "1 hour"
+        },
+        "yield": {
+            "amount": 1,
+            "unit": "Steak"
+        }
+    },
+    "tags": {
+        "type": [
+            "Entrée",
+            "Meat"
+        ], 
+        "meals": [
+            "Lunch",
+            "Dinner"
+        ],
+        "style": [
+            "American",
+            "Meat"
+        ],
+        "healthy": [ "Terrible" ]
+    },
+    "comments": [ "This is Jake's favorite thing to eat" ]
+}

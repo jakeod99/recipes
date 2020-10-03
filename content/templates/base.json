@@ -1,10 +1,10 @@
 {
     "name": "",
     "brand": "", //optional, only define if relevant. Just prepended to name in certain circumstances.
-    "primaryQuantity": 1, //if undefined, 1 is assumed
-    "primaryUnit": "", //if undefined, `name` is assumed. Could be "Cup", "Tablespoon", "Slice", etc.
-    "primaryUnitAbbreviation": "", //if undefined, `primaryUnit` is assumed. Could be "C", "Tbsp", etc.
-    "primaryUnitPlural": "", //if undefined, `name` + "s" is assumed. Could be "Cups", "Tablespoons"
-    "caloriesPerPrimaryQuantity": 0,
-    "pricePerPrimaryQuantity": //clearly this varies by location and season, and should be updated with inflation
+    "quantity": 1, //if undefined, 1 is assumed
+    "unit": "", //if undefined, `name` is assumed. Could be "Cup", "Tablespoon", "Slice", etc.
+    "unitAbbreviation": "", //if undefined, `unit` is assumed. Could be "C", "Tbsp", etc.
+    "unitPlural": "", //if undefined, `name` + "s" is assumed. Could be "Cups", "Tablespoons"
+    "calories": 0,
+    "price": 0 //clearly this varies by location and season, and should be updated with inflation
 }
