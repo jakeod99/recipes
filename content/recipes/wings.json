@@ -1,0 +1,108 @@
+{
+    "name": "Wings",
+    "ingredients": [
+        {
+            "food": {"$ref": "./bases/chickenWing.json"},
+            "amount": 12
+        },
+        {
+            "food": {"$ref": "../bases/bakingPowder.json"},
+            "amount": 6
+        },
+        {
+            "food": {"$ref": "../bases/flour.json"},
+            "amount": 0.125
+        },
+        {
+            "food": {"$ref": "../bases/salt.json"},
+            "amount": 2
+        },
+        {
+            "food": {"$ref": "../bases/blackPepper.json"},
+            "amount": 1
+        },
+        {
+            "food": {"$ref": "../bases/vegetableOil.json"},
+            "amount": 2
+        },
+        [
+            "Sauce",
+            {
+                "food": {"$ref": "../recipes/mildBuffaloSauce.json"}
+            },
+            {
+                "food": {"$ref": "../recipes/mediumBuffaloSauce.json"}
+            },
+            {
+                "food": {"$ref": "../recipes/hotBuffaloSauce.json"}
+            },
+            {
+                "food": {"$ref": "../recipes/honeyBarbecueSauce.json"}
+            },
+            {
+                "food": {"$ref": "../recipes/smokeyBarbecueSauce.json"}
+            },
+            {
+                "food": {"$ref": "../recipes/garlicBarbecueSauce.json"}
+            },
+            {
+                "food": {"$ref": "../recipes/hotBarbecueSauce.json"}
+            }
+        ],
+        {
+            "food": {"$ref": "../bases/blueCheeseDressing.json"},
+            "amount": 3,
+            "optional": true
+        }
+    ],
+    "steps": [
+        "Pre-heat the oven to 425",
+        "Ensure Wing quality (separated, no tips, no excess skin/fat/bone)",
+        "Dry Wings by patting them down with a paper towel",
+        "Mix Baking Powder, Flour, Salt, and Black Pepper in a large plastic bag",
+        "Put Wings in the bag",
+        "Roll Wings in the bag until each Wing is fully coated",
+        "Spread Vegetable Oil very conservatively on a pan (a very thin layer)",
+        "For each wing",
+        [
+            "Remove from the bag",
+            "Shake off excess dry ingediants back into bag",
+            "Place on pan (with room to breath), fatty-side down",
+            "Drip Vegetable Oil conservatively on the Wing (3 drops per Wing)"
+        ],
+        "Put in the oven until Wings are brown on bottom (20 min)",
+        "Flip each Wing",
+        "Place the pan back in the oven until brown on bottom (20 min)",
+        "Take Wings out of the oven (once done cooking)",
+        "Put Wings in a tossing bowl big enough to toss the Wings in",
+        "Pour 2/3 of your Sauce over the Wings in the bowl",
+        "Toss the Wings until covered in sauce",
+        "Drizzle remaining Sauce on top and serve with Blue Cheese"
+    ],
+    "metrics": {
+        "time": {
+            "total": "3.5 hours",
+            "active": "3 hours"
+        },
+        "yield": {
+            "amount": 12,
+            "unit": "Wings"
+        }
+    },
+    "tags": {
+        "type": [
+            "Entrée",
+            "Meat"
+        ], 
+        "meals": [
+            "Lunch",
+            "Dinner"
+        ],
+        "style": [
+            "American",
+            "Meat",
+            "Barbecue"
+        ],
+        "healthy": [ "Terrible" ]
+    }
+}

@@ -5,6 +5,7 @@
             "food": {"$ref": "../bases/sirloin.json"}
         },
         [
+            "Marinade",
             {
                 "food": {"$ref": "../recipes/sweetJerkyMarinade.json"}
             },

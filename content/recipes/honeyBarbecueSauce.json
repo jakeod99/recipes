@@ -1,0 +1,52 @@
+{
+    "name": "Honey Barbecue Sauce",
+    "ingredients": [
+        {
+            "food": {"$ref": "../bases/sweetBabyRays.json"},
+            "amount": 6
+        },
+        {
+            "food": {"$ref": "../bases/honey.json"},
+            "amount": 4
+        },
+        {
+            "food": {"$ref": "../bases/butter.json"},
+            "amount": 2
+        },
+        {
+            "food": {"$ref": "../bases/brownSugar.json"},
+            "amount": 1
+        },
+        {
+            "food": {"$ref": "../bases/hickoryLiquidSmoke.json"},
+            "amount": 1
+        }
+    ],
+    "steps": [
+        "Put all ingredients in a pot on medium heat",
+        "Stir until consistent and simmering",
+        "Take off heat and store in the refrigerator"
+    ],
+    "metrics": {
+        "time": {
+            "total": "10 minutes",
+            "active": "10 minutes"
+        },
+        "yield": {
+            "amount": 0.75,
+            "unit": "Cups"
+        }
+    },
+    "tags": {
+        "type": [ 
+            "Component",
+            "Sauce"
+        ], 
+        "meals": [],
+        "style": [
+            "American",
+            "Barbecue"
+        ],
+        "healthy": [ "Terrible" ]
+    }
+}

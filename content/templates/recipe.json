@@ -17,6 +17,7 @@
             "optional": true
         },
         [ //these are interchangeable ingredients - like different sauce options for wings
+            "Shared Term (like Sauce)",
             {
                 "food": {"$ref": "../bases/placeholder.json"}
             },
