@@ -1,0 +1,59 @@
+{
+    "name": "Beef Jerky",
+    "ingredients": [
+        {
+            "food": {"$ref": "../bases/sirloin.json"}
+        },
+        [
+            {
+                "food": {"$ref": "../recipes/sweetJerkyMarinade.json"}
+            },
+            {
+                "food": {"$ref": "../recipes/hotJerkyMarinade.json"}
+            }
+        ]
+    ],
+    "steps": [
+        "Place Steak in the freezer for about 20 minutes",
+        "Shave off excess fat from the Steak (won't dry well)",
+        "Cut Steak into 1/8\"-1/4\" strips, perpendicular to the muscle fiber grain",
+        "Submerge Steak strips in the Marinade overnight (12-24 hours)",
+        "Remove strips from marinade, ensuring the outsides aren't still heavily coated in marinade",
+        "Space out the strips on an oven-safe metal grate, and place the grate on an oven pan",
+        "Preheat the oven to 180F",
+        "Put pan in the oven for 2 hours",
+        "Flip the strips and put back in the oven for an hour and a half",
+        "Remove from the oven and let sit for 15 minutes at room temperature",
+        "Transfer to a resealable bag and seal them suckers in",
+        "Refrigerate to keep them good, they should last about 4 weeks"
+    ],
+    "metrics": {
+        "time": {
+            "total": "18-30 hours",
+            "active": "3 hours"
+        },
+        "yield": {
+            "amount": 1,
+            "unit": "Pound"
+        },
+        "serving": {
+            "amount": 0.125,
+            "unit": "Pound",
+            "ratio": 0.125
+        }
+    },
+    "tags": {
+        "type": [
+            "Snack",
+            "Meat"
+        ], 
+        "meals": [],
+        "style": [
+            "American",
+            "Meat"
+        ],
+        "healthy": [ 
+            "Protein"
+        ]
+    }
+}

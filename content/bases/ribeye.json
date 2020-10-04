@@ -1,6 +1,6 @@
 {
     "name": "Well-Marbled 1\"-1.25\" Ribeye Steak",
-    "primaryUnit": "Pound",
+    "unit": "Pound",
     "unitAbbreviation": "lb",
     "calories": 1360,
     "price": 12

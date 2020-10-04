@@ -1,0 +1,71 @@
+{
+    "name": "Sweet Jerky Marinade",
+    "ingredients": [
+        {
+            "food": {"$ref": "../bases/soySauce.json"},
+            "amount": 4
+        },
+        {
+            "food": {"$ref": "../bases/worcestershireSauce.json"},
+            "amount": 4
+        },
+        {
+            "food": {"$ref": "../bases/mapleSyrup.json"},
+            "amount": 1
+        },
+        {
+            "food": {"$ref": "../bases/honey.json"},
+            "amount": 1
+        },
+        {
+            "food": {"$ref": "../bases/hickoryLiquidSmoke.json"},
+            "amount": 15
+        },
+        {
+            "food": {"$ref": "../bases/blackPepper.json"},
+            "amount": 2
+        },
+        {
+            "food": {"$ref": "../bases/seasonedSalt.json"},
+            "amount": 1
+        },
+        {
+            "food": {"$ref": "../bases/onionPowder.json"},
+            "amount": 1
+        },
+        {
+            "food": {"$ref": "../bases/garlicPowder.json"},
+            "amount": 0.5
+        },
+        {
+            "food": {"$ref": "../bases/groundCayenne.json"},
+            "amount": 0.25
+        }
+    ],
+    "steps": [
+        "Mix all liquid ingredients together until consistent",
+        "Mix all dry ingredients into the liquid mixture",
+        "Let sit in the fridge for at least an hour"
+    ],
+    "metrics": {
+        "time": {
+            "total": "1 hour and 10 minutes",
+            "active": "10 minutes"
+        },
+        "yield": {
+            "amount": 0.75,
+            "unit": "Cups"
+        }
+    },
+    "tags": {
+        "type": [ 
+            "Component",
+            "Marinade"
+        ], 
+        "meals": [],
+        "style": [
+            "American"
+        ],
+        "healthy": []
+    }
+}

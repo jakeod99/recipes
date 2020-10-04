@@ -37,8 +37,7 @@
             "Spread"
         ], 
         "meals": [],
-        "style": [],
+        "style": [ "American" ],
         "healthy": [ "Terrible" ]
-    },
-    "comments": []
+    }
 }

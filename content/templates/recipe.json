@@ -2,7 +2,7 @@
     "name": "", //Fajitas
     "ingredients": [
         {
-            "food": {"$ref": "../recipes/placeholder.json"}, //"./tortillas.json"
+            "food": {"$ref": "./placeholder.json"}, //"./tortillas.json"
             "amount": 1, //multiplier on primaryQuantity (which defaults to 1 is undefined)
             "potentialSubstitution": [ //optional
                 {"$ref": "../bases/placeholder.json"}, //"../bases/tortilla.json"
@@ -15,7 +15,15 @@
             "food": {"$ref": "../bases/placeholder.json"},
             "amount": 2,
             "optional": true
-        }
+        },
+        [ //these are interchangeable ingredients - like different sauce options for wings
+            {
+                "food": {"$ref": "../bases/placeholder.json"}
+            },
+            {
+                "food": {"$ref": "../bases/placeholder.json"}
+            }
+        ]
     ],
     "steps": [
         "step 1 description",
@@ -45,8 +53,8 @@
     },
     "tags": {
         "type": [ //required, entries are optional
-            "", //"Entrée", "Appetizer", "Dessert", "Beverage", "Component", or "Miscellaneous"
-            "" //"Soup/Stew", "Salad", "Coffee", "Smoothie", "Dip", "Sauce", "Spread", etc.
+            "", //"Entrée", "Snack", "Dessert", "Beverage", "Component", or "Miscellaneous"
+            "" //"Soup/Stew", "Salad", "Coffee", "Smoothie", "Dip", "Sauce", "Spread", "Meat"
         ], 
         "meals": [ //required, entries are optional
             "", //"Lunch"
@@ -57,7 +65,7 @@
             "" //"Barbecue"
         ],
         "healthy": [ //required, entries are optional 
-            "", //"Heart", "GI", "Terrible"
+            "", //"Heart", "GI", "Terrible", "Protein"
         ]
     },
     "comments": [ //optional

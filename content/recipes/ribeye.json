@@ -58,7 +58,10 @@
             "American",
             "Meat"
         ],
-        "healthy": [ "Terrible" ]
+        "healthy": [ 
+            "Terrible",
+            "Protein"
+        ]
     },
     "comments": [ "This is Jake's favorite thing to eat" ]
 }
