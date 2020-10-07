@@ -1,0 +1,65 @@
+{
+    "name": "Rib Basting Barbecue Sauce",
+    "ingredients": [
+        {
+            "food": {"$ref": "../bases/appleCiderVinegar.json"},
+            "amount": 32
+        },
+        {
+            "food": {"$ref": "../bases/ketchup.json"},
+            "amount": 24
+        },
+        {
+            "food": {"$ref": "../bases/worcestershire.json"},
+            "amount": 4
+        },
+        {
+            "food": {"$ref": "../bases/hickoryLiquidSmoke.json"},
+            "amount": 30
+        },
+        {
+            "food": {"$ref": "../bases/brownSugar.json"},
+            "amount": 24
+        },
+        {
+            "food": {"$ref": "../bases/garlicPowder.json"},
+            "amount": 2
+        },
+        {
+            "food": {"$ref": "../bases/onionPowder.json"},
+            "amount": 2
+        }
+    ],
+    "steps": [
+        "Put a pot on medium heat",
+        "Add all liquid ingredients, then stir in all dry ingredients",
+        "Once consistent, lower heat and keep sauce at a bare simmer",
+        "Let simmer for an hour and a half (or until thick and syrupy)",
+        "Store in refrigerator to keep good"
+    ],
+    "metrics": {
+        "time": {
+            "total": "2 hours",
+            "active": "30 minutes"
+        },
+        "yield": {
+            "amount": 3,
+            "unit": "Cup"
+        }
+    },
+    "tags": {
+        "type": [
+            "Component",
+            "Sauce"
+        ], 
+        "meals": [
+            "Lunch",
+            "Dinner"
+        ],
+        "style": [ "Barbecue" ],
+        "healthy": []
+    },
+    "comments": [
+        "Usually used for basting ribs, but I bet it's pretty good on other things"
+    ]
+}

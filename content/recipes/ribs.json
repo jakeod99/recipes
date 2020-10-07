@@ -1,0 +1,124 @@
+{
+    "name": "Ribs",
+    "ingredients": [
+        {
+            "food": {"$ref": "../bases/stLouisRibs.json"},
+            "amount": 2
+        },
+        {
+            "food": {"$ref": "../bases/yellowMustard.json"},
+            "amount": 3
+        },
+        {
+            "food": {"$ref": "../bases/worcestershire.json"},
+            "amount": 3
+        },
+        {
+            "food": {"$ref": "../bases/hickoryLiquidSmoke.json"},
+            "amount": 30
+        },
+        {
+            "food": {"$ref": "../bases/hickoryLiquidSmoke.json"},
+            "amount": 30
+        },
+        {
+            "food": {"$ref": "../bases/paprika.json"},
+            "amount": 15
+        },
+        {
+            "food": {"$ref": "../bases/chiliPowder.json"},
+            "amount": 9
+        },
+        {
+            "food": {"$ref": "../bases/garlicPowder.json"},
+            "amount": 9
+        },
+        {
+            "food": {"$ref": "../bases/onionPowder.json"},
+            "amount": 4.5
+        },
+        {
+            "food": {"$ref": "../bases/salt.json"},
+            "amount": 4.5
+        },
+        {
+            "food": {"$ref": "../bases/blackPepper.json"},
+            "amount": 4.5
+        },
+        {
+            "food": {"$ref": "../bases/groundCayenne.json"},
+            "amount": 1
+        },
+        {
+            "food": {"$ref": "../bases/appleJuice.json"},
+            "amount": 0.5
+        },
+        {
+            "food": {"$ref": "./ribBastingBarbecueSauce.json"},
+            "amount": 1
+        }
+    ],
+    "steps": [
+        "Remove membrane from back of ribs",
+        "Mix 3 Tbsp Mustard, 3 Tbsp Worcestershire, 30 drops Smoke",
+        "Rub Ribs down with the liquidy mixture until very thinly coated",
+        "Mix Smoked Paprika, Chili, 3 Tbsp Garlic, 1.5 Tbsp Onion, Salt",
+        "Also mix in Black Pepper and Cayenne",
+        "Thoroughly coat Ribs with dry rub until every inch is covered",
+        "Cover Ribs and let sit in fridge over night",
+        "Put tin foil on a pan (enough to cover both racks multiple times)",
+        "Place Ribs on an oven-safe metal grate (for breathing)",
+        "Place the grid on the foil, so it goes pan - foil - grate - ribs",
+        "Mix Apple Juice and 30 drops Smoke",
+        "Pour over the Ribs so it trickles all over them and lands in the foil",
+        "Preheat oven to 250F",
+        "Wrap the liquid/grate/ribs tightly in the tin foil, no holes",
+        "Bottom to top, it should go pan - (foil - grate - ribs - foil)",
+        "Put in oven for 2.5 hours",
+        "Once the Ribs are done in the oven, pull the pan out",
+        "Rip off the top layers of tin foil and baste the ribs with the sauce",
+        "Put back in oven for 1:20, basting the ribs every 20 minutes",
+        "Set the oven to 450F and watch until a bit carmalized (~5 minutes)",
+        "Pull the ribs out and let rest for 20 min"
+    ],
+    "metrics": {
+        "time": {
+            "total": "19-25 hours",
+            "active": " 4 hours"
+        },
+        "yield": {
+            "amount": 2,
+            "unit": "Racks"
+        },
+        "serving": {
+            "amount": 2,
+            "unit": "Ribs",
+            "ratio": 0.075
+        }
+    },
+    "tags": {
+        "type": [
+            "Entrée",
+            "Meat"
+        ], 
+        "meals": [
+            "Lunch",
+            "Dinner"
+        ],
+        "style": [
+            "American",
+            "Barbecue",
+            "Meat"
+        ],
+        "healthy": [
+            "Terrible",
+            "Protein",
+            "Fat"
+        ]
+    },
+    "comments": [
+        "Don't forget to remove the membrane!",
+        "Don't trim off all the extra meat on the cut, it's still good! It's just not pretty.",
+        "Re-work once you have a way to smoke meat - oven is not ideal"
+    ]
+}

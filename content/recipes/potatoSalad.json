@@ -8,7 +8,7 @@
         {
             "food": {"$ref": "../bases/water.json"},
             "amount": 10
-        }
+        },
         {
             "food": {"$ref": "../bases/bacon.json"},
             "amount": 2,
@@ -108,5 +108,5 @@
             "American"
         ],
         "healthy": []
-    },
+    }
 }

@@ -111,7 +111,10 @@
             "Lunch",
             "Dinner"
         ],
-        "style": [ "American" ],
+        "style": [ 
+            "American",
+            "Meat"
+        ],
         "healthy": [ 
             "Protein",
             "Fat"

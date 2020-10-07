@@ -53,8 +53,8 @@
     ],
     "metrics": {
         "time": {
-            "total": "",
-            "active": ""
+            "total": "2 hours",
+            "active": "1.5 hours"
         },
         "yield": {
             "amount": 4,
