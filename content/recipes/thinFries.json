@@ -1,0 +1,85 @@
+{
+    "name": "Thin Fries",
+    "ingredients": [
+        {
+            "food": {"$ref": "../bases/russettPotato.json"},
+            "amount": 4
+        },
+        {
+            "food": {"$ref": "../bases/iceWater.json"},
+            "amount": 10
+        },
+        {
+            "food": {"$ref": "../bases/water.json"},
+            "amount": 12
+        },
+        {
+            "food": {"$ref": "../bases/sugar.json"},
+            "amount": 8
+        },
+        {
+            "food": {"$ref": "../bases/cornSyrup.json"},
+            "amount": 8
+        },
+        {
+            "food": {"$ref": "../bases/peanutOil.json"},
+            "amount": 32,
+            "potentialSubstitution": [
+                {"$ref": "../bases/vegetableOil.json"}
+            ]
+        },
+        {
+            "food": {"$ref": "../bases/salt.json"},
+            "amount": 6
+        }
+    ],
+    "steps": [
+        "Peel the potatoes",
+        "Cut each potato into 1/8\"x1/8\" fry-length sections (Think McD's)",
+        "Soak Fries in Ice Water for 5 minutes",
+        "Take Fries out and dry them (doesn't need to be too too thorough)",
+        "Mix Water, Sugar, and Corn Syrup",
+        "Bring sugary water to a boil",
+        "Once boiling, take off heat, then add Fries for 10 minutes",
+        "Take out Fries and dry (again, doesn't need to be perfectly dry)",
+        "Put the dried Fries in the freezer for 20 minutes (not frozen, cold)",
+        "Heat Peanut Oil to 350F",
+        "Fry the Fries in the oil for 2 minutes",
+        "Store the Fries in the freezer for just about as long as you want",
+        "Once you want to serve the Fries, reheat Peanut Oil back to 350F",
+        "Take Fries out of the freezer and put them in the 350F Peanut Oil",
+        "Fry until light golden (right around 10 minutes)",
+        "Salt generously and serve with Ketchup"
+    ],
+    "metrics": {
+        "time": {
+            "total": "",
+            "active": ""
+        },
+        "yield": {
+            "amount": 4,
+            "unit": "Potato's worth",
+            "calories": 2500
+        },
+        "serving": {
+            "amount": 1,
+            "unit": "Potato's worth",
+            "ratio": 0.25
+        }
+    },
+    "tags": {
+        "type": [ "Snack" ], 
+        "meals": [
+            "Lunch",
+            "Dinner"
+        ],
+        "style": [ "American" ],
+        "healthy": [
+            "Terrible",
+            "Fat"
+        ]
+    },
+    "comments": [
+        "If you're going to go through the trouble of doing these, might as well make a bunch and freeze"
+    ]
+}

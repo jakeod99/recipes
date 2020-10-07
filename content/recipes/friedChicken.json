@@ -53,8 +53,11 @@
             "amount": 2
         },
         {
-            "food": {"$ref": "../bases/vegetableOil.json"},
-            "amount": 16
+            "food": {"$ref": "../bases/peanutOil.json"},
+            "amount": 16,
+            "potentialSubstitution": [
+                {"$ref": "../bases/vegetableOil.json"}
+            ]
         },
         {
             "food": {"$ref": "./chickfilaSauce.json"},
