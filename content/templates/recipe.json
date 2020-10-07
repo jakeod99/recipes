@@ -24,7 +24,11 @@
             {
                 "food": {"$ref": "../bases/placeholder.json"}
             }
-        ]
+        ],
+        {
+            "food": {"$ref": "../bases/placeholder.json"},
+            "amount": 1
+        }
     ],
     "steps": [
         "step 1 description",
@@ -55,7 +59,7 @@
     "tags": {
         "type": [ //required, entries are optional
             "", //"Entrée", "Snack", "Dessert", "Beverage", "Component", or "Miscellaneous"
-            "" //"Soup/Stew", "Salad", "Coffee", "Smoothie", "Dip", "Sauce", "Spread", "Meat"
+            "" //"Soup/Stew", "Salad", "Coffee", "Smoothie", "Dip", "Sauce", "Spread", "Meat", "Bread"
         ], 
         "meals": [ //required, entries are optional
             "", //"Lunch"

@@ -9,7 +9,7 @@
         {
             "food": {"$ref": "../bases/garlic.json"},
             "amount": 3,
-            "preparation": "minced"
+            "preparation": "crushed"
         },
         {
             "food": {"$ref": "../bases/rosemary.json"},
