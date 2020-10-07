@@ -1,0 +1,62 @@
+{
+    "name": "Chick-fil-a Sauce",
+    "ingredients": [
+        {
+            "food": {"$ref": "../bases/mayo.json"},
+            "amount": 2
+        },
+        {
+            "food": {"$ref": "../bases/honey.json"},
+            "amount": 1
+        },
+        {
+            "food": {"$ref": "../bases/sweetBabyRays.json"},
+            "amount": 1
+        },
+        {
+            "food": {"$ref": "../bases/yellowMustard.json"},
+            "amount": 0.5
+        },
+        {
+            "food": {"$ref": "../bases/dijonMustard.json"},
+            "amount": 0.25
+        },
+        {
+            "food": {"$ref": "../bases/lemon.json"},
+            "amount": 0.125
+        }
+    ],
+    "steps": [
+        "Mix all ingredients together and let sit in the fridge for an hour"
+    ],
+    "metrics": {
+        "time": {
+            "total": "1 hour",
+            "active": "5 minutes"
+        },
+        "yield": {
+            "amount": 5,
+            "unit": "Tablespoon"
+        },
+        "serving": {
+            "amount": 1,
+            "unit": "Tablespoon",
+            "ratio": 0.2
+        }
+    },
+    "tags": {
+        "type": [
+            "Component",
+            "Sauce"
+        ], 
+        "meals": [
+            "Lunch",
+            "Dinner"
+        ],
+        "style": [ "American" ],
+        "healthy": [ 
+            "Terrible",
+            "Fat"
+        ]
+    }
+}

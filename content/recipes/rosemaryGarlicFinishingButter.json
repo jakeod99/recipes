@@ -38,6 +38,9 @@
         ], 
         "meals": [],
         "style": [ "American" ],
-        "healthy": [ "Terrible" ]
+        "healthy": [ 
+            "Terrible",
+            "Fat"
+        ]
     }
 }

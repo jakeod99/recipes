@@ -28,25 +28,25 @@
         [
             "Sauce",
             {
-                "food": {"$ref": "../recipes/mildBuffaloSauce.json"}
+                "food": {"$ref": "./mildBuffaloSauce.json"}
             },
             {
-                "food": {"$ref": "../recipes/mediumBuffaloSauce.json"}
+                "food": {"$ref": "./mediumBuffaloSauce.json"}
             },
             {
-                "food": {"$ref": "../recipes/hotBuffaloSauce.json"}
+                "food": {"$ref": "./hotBuffaloSauce.json"}
             },
             {
-                "food": {"$ref": "../recipes/honeyBarbecueSauce.json"}
+                "food": {"$ref": "./honeyBarbecueSauce.json"}
             },
             {
-                "food": {"$ref": "../recipes/smokeyBarbecueSauce.json"}
+                "food": {"$ref": "./smokeyBarbecueSauce.json"}
             },
             {
-                "food": {"$ref": "../recipes/garlicBarbecueSauce.json"}
+                "food": {"$ref": "./garlicBarbecueSauce.json"}
             },
             {
-                "food": {"$ref": "../recipes/hotBarbecueSauce.json"}
+                "food": {"$ref": "./hotBarbecueSauce.json"}
             }
         ],
         {
@@ -103,6 +103,10 @@
             "Meat",
             "Barbecue"
         ],
-        "healthy": [ "Terrible" ]
+        "healthy": [ 
+            "Terrible",
+            "Protein",
+            "Fat"
+        ]
     }
 }

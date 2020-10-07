@@ -43,12 +43,12 @@
         },
         "yield": {
             "amount": 0, //8
-            "unit": "", //"fajitas"
+            "unit": "", //"fajita"
             "calories": 0 //optional, only define to override sum of ingredient calories
         },
         "serving": { //if undefined, assumes `yield` is one serving
             "amount": 0, //2
-            "unit": "", //"fajitas"
+            "unit": "", //"fajita"
             "ratio": 0.25 // 2/8 == 0.25
         }
     },

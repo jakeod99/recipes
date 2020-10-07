@@ -1,0 +1,120 @@
+{
+    "name": "Fried Chicken",
+    "ingredients": [
+        {
+            "food": {"$ref": "../bases/chickenBreast.json"},
+            "amount": 5,
+            "potentialSubstitution": [
+                {"$ref": "../bases/chickenDrumstick.json"}
+            ]
+        },
+        {
+            "food": {"$ref": "../bases/garlicPowder.json"},
+            "amount": 3
+        },
+        {
+            "food": {"$ref": "../bases/onionPowder.json"},
+            "amount": 1.5
+        },
+        {
+            "food": {"$ref": "../bases/driedOregano.json"},
+            "amount": 1.5
+        },
+        {
+            "food": {"$ref": "../bases/groundCayenne.json"},
+            "amount": 0.125
+        },
+        {
+            "food": {"$ref": "../bases/salt.json"},
+            "amount": 0.5
+        },
+        {
+            "food": {"$ref": "../bases/salt.json"},
+            "amount": 1
+        },
+        {
+            "food": {"$ref": "../bases/blackPepper.json"},
+            "amount": 1
+        },
+        {
+            "food": {"$ref": "../bases/blackPepper.json"},
+            "amount": 2
+        },
+        {
+            "food": {"$ref": "../bases/flour.json"},
+            "amount": 2
+        },
+        {
+            "food": {"$ref": "../bases/bakingPowder.json"},
+            "amount": 4.5
+        },
+        {
+            "food": {"$ref": "../bases/egg.json"},
+            "amount": 2
+        },
+        {
+            "food": {"$ref": "../bases/vegetableOil.json"},
+            "amount": 16
+        },
+        {
+            "food": {"$ref": "./chickfilaSauce.json"},
+            "amount": 1,
+            "optional": true
+        }
+    ],
+    "steps": [
+        "Mix Buttermilk, Garlic, Onion, Chili, Oregano, and Cayenne",
+        "Add 1/2 teaspoon Salt and 1 teaspoon Pepper into the mixture",
+        "Cut each Chicken Breast into 3 (or 4) filets",
+        "Each filet should be 1/2\" thick or less",
+        "Pound each filet with a meat tenderizer on both sides",
+        "Marinate all the filets overnight in the Buttermilk Mixture",
+        "Mix Flour, Baking Powder, 1 tsp Salt, and 2 tsp Black Pepper",
+        "Pull each filet, let drip 'til lightly coated, and cover in dry mix",
+        "Place the covered filets on a grate",
+        "Crack the Eggs into the marinade and mix until homogenous",
+        "Re-dip each covered filet in the marinade and return to grate",
+        "Let sit on grate for 30 minutes",
+        "Pour Vegetable Oil into your frying pan until it's 1/4\" deep",
+        "Put pan on low heat (maybe slightly higher?). Aim for 275F",
+        "Place the filets in the oil",
+        "If the oil is sizzling, it's too hot. You want more of a weak fizzle",
+        "Cook for 10-15 minutes on one side, then 10-15 minutes on the other",
+        "Aim for a light-golden shade to your breading",
+        "Let filets sit on a clean grate for 5-10 minutes then serve"
+    ],
+    "metrics": {
+        "time": {
+            "total": "21 hours",
+            "active": "2 hours"
+        },
+        "yield": {
+            "amount": 15,
+            "unit": "filets", 
+            "calories": 3500
+        },
+        "serving": {
+            "amount": 1,
+            "unit": "filet",
+            "ratio": 0.07
+        }
+    },
+    "tags": {
+        "type": [
+            "Entrée",
+            "Meat"
+        ], 
+        "meals": [
+            "Lunch",
+            "Dinner"
+        ],
+        "style": [ "American" ],
+        "healthy": [ 
+            "Protein",
+            "Fat"
+        ]
+    },
+    "comments": [
+        "If you sub in Drumsticks, finish the job in the oven at 400F for like 20 minutes."
+    ]
+}
