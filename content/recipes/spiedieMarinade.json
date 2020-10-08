@@ -1,0 +1,80 @@
+{
+    "name": "Spiedie Marinade",
+    "ingredients": [
+        {
+            "food": {"$ref": "../bases/oliveOil.json"},
+            "amount": 5
+        },
+        {
+            "food": {"$ref": "../bases/lemon.json"},
+            "amount": 1
+        },
+        {
+            "food": {"$ref": "../bases/whiteVinegar.json"},
+            "amount": 4
+        },
+        {
+            "food": {"$ref": "../bases/garlic.json"},
+            "amount": 3,
+            "preparation": "crushed"
+        },
+        {
+            "food": {"$ref": "../bases/driedParsley.json"},
+            "amount": 1
+        },
+        {
+            "food": {"$ref": "../bases/driedBasil.json"},
+            "amount": 1
+        },
+        {
+            "food": {"$ref": "../bases/driedOregano.json"},
+            "amount": 0.5
+        },
+        {
+            "food": {"$ref": "../bases/garlicPowder.json"},
+            "amount": 0.5
+        },
+        {
+            "food": {"$ref": "../bases/salt.json"},
+            "amount": 0.75
+        },
+        {
+            "food": {"$ref": "../bases/blackPepper.json"},
+            "amount": 0.5
+        },
+        {
+            "food": {"$ref": "../bases/groundCayenne.json"},
+            "amount": 0.5
+        }
+    ],
+    "steps": [
+        "Mix all liquid ingredients together until consistent",
+        "Mix all dry ingredients into the liquid mixture",
+        "Let sit in the fridge for at least an hour"
+    ],
+    "metrics": {
+        "time": {
+            "total": "1 hour and 10 minutes",
+            "active": "10 minutes"
+        },
+        "yield": {
+            "amount": 0.75,
+            "unit": "Cup"
+        }
+    },
+    "tags": {
+        "type": [ 
+            "Component",
+            "Marinade"
+        ], 
+        "meals": [],
+        "style": [
+            "American",
+            "Barbecue"
+        ],
+        "healthy": [
+            "Heart",
+            "GI"
+        ]
+    }
+}

@@ -1,0 +1,66 @@
+{
+    "name": "Spiedies",
+    "ingredients": [
+        {
+            "food": {"$ref": "../bases/chickenBreast.json"},
+            "amount": 2
+        },
+        {
+            "food": {"$ref": "./spiedieMarinade.json"},
+            "amount": 1
+        },
+        {
+            "food": {"$ref": "../bases/italianSesameBread.json"},
+            "amount": 8
+        }
+    ],
+    "steps": [
+        "Cut Raw Chicken Breasts into 1\" cubes",
+        "Marinate in Spiedie Marinade for 3 hours",
+        "Soak 8 skewers in water for 2 hours before cooking",
+        "Drain the Spiedie Marinade",
+        "Skewer the Spiedies evenly across the 8 skewers",
+        "Grill on Medium-High for 8 minutes",
+        "Flip skewers to other side and continue grilling for 8 more minutes",
+        "Take the skewers off the grill",
+        "Use Bread to slide the chicken off each skewer and into the Bread"
+    ],
+    "metrics": {
+        "time": {
+            "total": "4 hours",
+            "active": "1 hour"
+        },
+        "yield": {
+            "amount": 8,
+            "unit": "Spiedie Sammich"
+        },
+        "serving": {
+            "amount": 1,
+            "unit": "Spiedie Sammich",
+            "ratio": 0.125
+        }
+    },
+    "tags": {
+        "type": [
+            "Entrée",
+            "Meat"
+        ], 
+        "meals": [
+            "Lunch",
+            "Dinner"
+        ],
+        "style": [
+            "American",
+            "Barbecue",
+            "Meat"
+        ],
+        "healthy": [
+            "Protein",
+            "Heart",
+            "GI"
+        ]
+    },
+    "comments": [
+        "Not too too far from the OG Lupo's"
+    ]
+}
