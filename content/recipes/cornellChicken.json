@@ -1,0 +1,66 @@
+{
+    "name": "Cornell Chicken",
+    "ingredients": [
+        {
+            "food": {"$ref": "../bases/threePoundChicken.json"},
+            "amount": 2
+        },
+        {
+            "food": {"$ref": "../bases/cornellMarinade.json"},
+            "amount": 1
+        },
+        {
+            "food": {"$ref": "../bases/cornellMarinade.json"},
+            "amount": 1
+        }
+    ],
+    "steps": [
+        "Cut the Whole Chickens in into Half Chickens (or Quarters)",
+        "Use teh first batch of Cornell Marinade to marinate the Half Chickens overnight (~18 hours)",
+        "Drain the marinade from the Chicken",
+        "Grill Chicken about 1 foot over charcoal (make sure coals are hot)",
+        "If you're feelin' it, maybe put some wood on the coals for smoke",
+        "Continue the following until cooked (might take up to 3 hours)",
+        [
+            "Baste generously every 5 minutes (using the safe, 2nd batch of Cornell Marinade)",
+            "Flip every 15 minutes or so, ensuring an even heat distribution",
+            "Be sure to thoroughly heat the breast and thighs in particular"
+        ],
+        "Once cooked to FDA standards, serve"
+    ],
+    "metrics": {
+        "time": {
+            "total": "23 hours",
+            "active": "5 hours"
+        },
+        "yield": {
+            "amount": 4,
+            "unit": "Half Chicken"
+        },
+        "serving": {
+            "amount": 1,
+            "unit": "Half Chicken",
+            "ratio": 0.25
+        }
+    },
+    "tags": {
+        "type": [ 
+            "Component",
+            "Meat"
+        ], 
+        "meals": [
+            "Dinner"
+        ],
+        "style": [
+            "American",
+            "Barbecue",
+            "Meat"
+        ],
+        "healthy": [
+            "Protein"
+        ]
+    },
+    "comments": [
+        "This is delicious, but easy to undercook so be careful"
+    ]
+}

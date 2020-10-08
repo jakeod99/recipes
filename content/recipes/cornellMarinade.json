@@ -1,0 +1,56 @@
+{
+    "name": "Cornell Marinade",
+    "ingredients": [
+        {
+            "food": {"$ref": "../bases/appleCiderVinegar.json"},
+            "amount": 32
+        },
+        {
+            "food": {"$ref": "../bases/vegetableOil.json"},
+            "amount": 16
+        },
+        {
+            "food": {"$ref": "../bases/egg.json"},
+            "amount": 1
+        },
+        {
+            "food": {"$ref": "../bases/poultrySeasoning.json"},
+            "amount": 3
+        },
+        {
+            "food": {"$ref": "../bases/salt.json"},
+            "amount": 9
+        },
+        {
+            "food": {"$ref": "../bases/blackPepper.json"},
+            "amount": 0.5
+        }
+    ],
+    "steps": [
+        "Mix all liquid ingredients together until consistent",
+        "Mix all dry ingredients into the liquid mixture",
+        "Let sit in the fridge for at least an hour"
+    ],
+    "metrics": {
+        "time": {
+            "total": "1 hour and 10 minutes",
+            "active": "10 minutes"
+        },
+        "yield": {
+            "amount": 0.75,
+            "unit": "Cup"
+        }
+    },
+    "tags": {
+        "type": [ 
+            "Component",
+            "Marinade"
+        ], 
+        "meals": [],
+        "style": [
+            "American",
+            "Barbecue"
+        ],
+        "healthy": [ "GI" ]
+    }
+}
