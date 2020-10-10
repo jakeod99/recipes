@@ -1,0 +1,97 @@
+{
+    "name": "Burgers (on the Grill)",
+    "ingredients": [
+        {
+            "food": {"$ref": "../bases/groundBeef8020.json"},
+            "amount": 2
+        },
+        {
+            "food": {"$ref": "../bases/whiteOnion.json"},
+            "amount": 0.25,
+            "preparation": "diced"
+        },
+        {
+            "food": {"$ref": "../bases/groundCayenne.json"},
+            "amount": 1.5
+        },
+        {
+            "food": {"$ref": "../bases/blackPepper.json"},
+            "amount": 2
+        },
+        {
+            "food": {"$ref": "../bases/garlicPowder.json"},
+            "amount": 1
+        },
+        {
+            "food": {"$ref": "../bases/garlicSalt.json"},
+            "amount": 1
+        },
+        {
+            "food": {"$ref": "../bases/worcestershire.json"},
+            "amount": 2
+        },
+        {
+            "food": {"$ref": "../bases/chipotleRanch.json"},
+            "amount": 1
+        },
+        {
+            "food": {"$ref": "../bases/potatoRolls.json"},
+            "amount": 6
+        },
+        {
+            "food": {"$ref": "../bases/butter.json"},
+            "amount": 2
+        }
+    ],
+    "steps": [
+        "Carefully seperate Ground beef into 6 equal chunks",
+        "Mix Onion, Cayenne, Pepper, Garlic Powder, and Garlic Salt together",
+        "Pour in Worcestershire Sauce and Chipotle Ranch",
+        "Mix together and pour over Beef chunks equally",
+        "Work mixture into Beef chunks briefly (avoid over-working the beef)",
+        "Form beefy chunks into patties, each 3/5\"-tall and concave",
+        "Heat grill to 500F",
+        "Once hot, place patties on grill for 8 minutes on each side",
+        "Spread Butter on inside of buns",
+        "Place buns butter-down on grill until light/golden brown",
+        "When patties have 1 minute left, add cheese/bacon (if applicable)",
+        "Once burgers are done, dress accordingly with your desired toppings and serve"
+    ],
+    "metrics": {
+        "time": {
+            "total": "1.5 hours",
+            "active": "1.5 hours"
+        },
+        "yield": {
+            "amount": 6,
+            "unit": "Burger"
+        },
+        "serving": {
+            "amount": 1,
+            "unit": "Burger",
+            "ratio": 0.167
+        }
+    },
+    "tags": {
+        "type": [ 
+            "Entrée",
+            "Meat"
+        ], 
+        "meals": [ 
+            "Dinner"
+        ],
+        "style": [ 
+            "American",
+            "Barbecue",
+            "Meat"
+        ],
+        "healthy": [ 
+            "Terrible",
+            "Protein"
+        ]
+    },
+    "comments": [ 
+        "Definitely add the toppings of your choice, this recipe is for the base meat/bun preparation",
+        "Suggested Topping: Mayo, Lettuce, Extra Red Onion, Thick Bacon, and Jake's Beer Cheese"
+    ]
+}

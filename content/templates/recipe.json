@@ -58,7 +58,7 @@
     },
     "tags": {
         "type": [ //required, entries are optional
-            "", //"Entrée", "Snack", "Dessert", "Beverage", "Component", or "Miscellaneous"
+            "", //"Entrée", "Snack", "Side", "Dessert", "Beverage", or "Component"
             "" //"Soup/Stew", "Salad", "Coffee", "Smoothie", "Dip", "Sauce", "Spread", "Meat", "Bread"
         ], 
         "meals": [ //required, entries are optional

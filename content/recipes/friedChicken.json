@@ -93,7 +93,7 @@
         },
         "yield": {
             "amount": 15,
-            "unit": "filets", 
+            "unit": "filet", 
             "calories": 3500
         },
         "serving": {
