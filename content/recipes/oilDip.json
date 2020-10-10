@@ -1,0 +1,65 @@
+{
+    "name": "Oil Dip",
+    "ingredients": [
+        {
+            "food": {"$ref": "../bases/oliveOil.json"},
+            "amount": 8
+        },
+        {
+            "food": {"$ref": "../bases/parmesean.json"},
+            "amount": 0.5,
+            "preparation": "grated"
+        },
+        {
+            "food": {"$ref": "../bases/garlic.json"},
+            "amount": 1,
+            "preparation": "crushed"
+        },
+        {
+            "food": {"$ref": "../bases/driedParsley.json"},
+            "amount": 1
+        },
+        {
+            "food": {"$ref": "../bases/driedRosemary.json"},
+            "amount": 1
+        },
+        {
+            "food": {"$ref": "../bases/redPepperFlakes.json"},
+            "amount": 0.5
+        },
+        {
+            "food": {"$ref": "../bases/salt.json"},
+            "amount": 0.25
+        },
+        {
+            "food": {"$ref": "../bases/blackPepper.json"},
+            "amount": 0.125
+        }
+    ],
+    "steps": [
+        "Mix all liquid ingredients together until consistent",
+        "Mix all dry ingredients into the liquid mixture",
+        "Let sit for at least an hour"
+    ],
+    "metrics": {
+        "time": {
+            "total": "1 hour and 10 minutes",
+            "active": "10 minutes"
+        },
+        "yield": {
+            "amount": 0.75,
+            "unit": "Cup"
+        }
+    },
+    "tags": {
+        "type": [ 
+            "Component",
+            "Dip"
+        ], 
+        "meals": [],
+        "style": [
+            "Italian"
+        ],
+        "healthy": []
+    }
+}

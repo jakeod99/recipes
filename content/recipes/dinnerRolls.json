@@ -1,0 +1,94 @@
+{
+    "name": "Dinner Rolls",
+    "ingredients": [
+        {
+            "food": {"$ref": "../bases/water.json"},
+            "amount": 1.5,
+            "preparation": "warm (~110F)"
+        },
+        {
+            "food": {"$ref": "../bases/water.json"},
+            "amount": 0.125
+        },
+        {
+            "food": {"$ref": "../bases/sugar.json"},
+            "amount": 1
+        },
+        {
+            "food": {"$ref": "../bases/yeast.json"},
+            "amount": 2.25
+        },
+        {
+            "food": {"$ref": "../bases/salt.json"},
+            "amount": 2
+        },
+        {
+            "food": {"$ref": "../bases/oliveOil.json"},
+            "amount": 0.667
+        },
+        {
+            "food": {"$ref": "../bases/oliveOil.json"},
+            "amount": 2
+        },
+        {
+            "food": {"$ref": "../bases/oliveOil.json"},
+            "amount": 2
+        },
+        {
+            "food": {"$ref": "../bases/flour.json"},
+            "amount": 3.5
+        },
+        {
+            "food": {"$ref": "../bases/cornmealStone.json"},
+            "amount": 2
+        },
+        {
+            "food": {"$ref": "../bases/oilDip.json"},
+            "amount": 1,
+            "optional": true
+        }
+    ],
+    "steps": [
+        "Mix Warm Water (1 1/2 Cup), Sugar, and Yeast in a big bowl",
+        "Let sit for 5 minutes",
+        "If there's no foaming, the yeast is dead and you need to start over",
+        "Mix in Olive Oil (2 teaspoons) and Salt",
+        "Mix in Flour",
+        "Knead until elastic (15 min), adding minimal flour as necessary",
+        "Cut dough into a dozen roll sized bunches and form into rolls",
+        "Lightly coat each roll with Olive Oil (~1/8 Cup cumulative)",
+        "Put in tupperware and place in the fridge for 36-48 hours",
+        "Take dough out of the fridge",
+        "Cover the bottom of each roll in Cornmeal",
+        "Place each roll on a pan and leave in a dark, warm place for 2 hrs",
+        "Preheat the Oven to 450F",
+        "Mix Water (1/8 Cup) and Olive Oil (1/8 Cup) in a spray bottle",
+        "Spray each roll",
+        "Put the pan in the oven (middle rack) for 12 minutes",
+        "Take the rolls out of the oven and eat them up yum yum ya know"
+    ],
+    "metrics": {
+        "time": {
+            "total": "40-52 hours",
+            "active": "2 hours"
+        },
+        "yield": {
+            "amount": 12,
+            "unit": "Roll"
+        },
+        "serving": { 
+            "amount": 1,
+            "unit": "Roll",
+            "ratio": 0.0834
+        }
+    },
+    "tags": {
+        "type": [ 
+            "Side",
+            "Bread"
+        ], 
+        "meals": [ "Dinner" ],
+        "style": [ "Bread" ],
+        "healthy": []
+    }
+}
