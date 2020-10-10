@@ -1,0 +1,86 @@
+{
+    "name": "Rosemary Bread",
+    "ingredients": [
+        {
+            "food": {"$ref": "../bases/yeast.json"},
+            "amount": 3
+        },
+        {
+            "food": {"$ref": "../bases/sugar.json"},
+            "amount": 1
+        },
+        {
+            "food": {"$ref": "../bases/water.json"},
+            "amount": 1,
+            "preparation": "warm (~110F)"
+        },
+        {
+            "food": {"$ref": "../bases/oliveOil.json"},
+            "amount": 1
+        },
+        {
+            "food": {"$ref": "../bases/oliveOil.json"},
+            "amount": 1
+        },
+        {
+            "food": {"$ref": "../bases/driedRosemary.json"},
+            "amount": 3
+        },
+        {
+            "food": {"$ref": "../bases/driedRosemary.json"},
+            "amount": 3
+        },
+        {
+            "food": {"$ref": "../bases/oilDip.json"},
+            "amount": 1,
+            "optional": true
+        }
+    ],
+    "steps": [
+        "Mix Sugar, Water, and Yeast in a bowl",
+        "Let sit for 4 minutes (until bubbly)",
+        "Mix in 1 tablespoon each of the Olive Oil and Rosemary",
+        "Mix in Salt and Flour",
+        "Once consistent, transfer dough to a floured surface",
+        "Knead for 10 minutes until dough is smooth and elastic",
+        "Lightly coat an opaque bowl with olive oil",
+        "Shape the dough into a ball and place in the bowl",
+        "Put the bowl in a warm dark corner and cover with a tea towel",
+        "Let rise for an hour",
+        "Take off tea towel and punch the dough ball down",
+        "Divide dough into 2 balls",
+        "Spread Olive Oil over each dough ball",
+        "Sprinkle remaining tablespoon of Rosemary over the dough balls",
+        "Lightly press the Rosemary onto the dough balls with a spoon",
+        "Lightly coat a pan with olive oil",
+        "Place both dough balls onto the pan with some space between",
+        "Cover the pan with the tea towel and place in a warm dark area",
+        "Let sit for another 45 minutes",
+        "Preheat the oven to 400F",
+        "Optional: Place a bowl of boiling water on the bottom oven rack",
+        "Remove the tea towel and place the pan on the middle oven rack",
+        "Let bake for 12 minutes",
+        "Start watching the bread, and take out once top is lightly brown",
+        "Let sit for 10 minutes",
+        "Cut it into dippable sections, and serve with Oil Dip"
+    ],
+    "metrics": {
+        "time": {
+            "total": "3 hours",
+            "active": "2.5 hours"
+        },
+        "yield": {
+            "amount": 1,
+            "unit": "Loaf"
+        }
+    },
+    "tags": {
+        "type": [ 
+            "Side",
+            "Bread"
+        ], 
+        "meals": [ "Dinner" ],
+        "style": [ "Bread" ],
+        "healthy": []
+    }
+}
