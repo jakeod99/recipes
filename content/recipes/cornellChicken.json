@@ -3,7 +3,10 @@
     "ingredients": [
         {
             "food": {"$ref": "../bases/threePoundChicken.json"},
-            "amount": 2
+            "amount": 2,
+            "potentialSubstitution": [
+                {"$ref": "../bases/chickenDrumstick.json"}
+            ]
         },
         {
             "food": {"$ref": "../bases/cornellMarinade.json"},

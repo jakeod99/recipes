@@ -35,16 +35,22 @@
             "amount": 1
         },
         {
-            "food": {"$ref": "../bases/potatoRolls.json"},
-            "amount": 6
+            "food": {"$ref": "../bases/potatoRoll.json"},
+            "amount": 6,
+            "potentialSubstitution": [
+                {"$ref": "../bases/sesameBun.json"}
+            ]
         },
         {
             "food": {"$ref": "../bases/butter.json"},
-            "amount": 2
+            "amount": 2,
+            "potentialSubstitution": [
+                {"$ref": "../bases/mayo.json"}
+            ]
         }
     ],
     "steps": [
-        "Carefully seperate Ground beef into 6 equal chunks",
+        "Carefully seperate Ground Beef into 6 equal chunks",
         "Mix Onion, Cayenne, Pepper, Garlic Powder, and Garlic Salt together",
         "Pour in Worcestershire Sauce and Chipotle Ranch",
         "Mix together and pour over Beef chunks equally",
@@ -87,6 +93,7 @@
         ],
         "healthy": [ 
             "Terrible",
+            "Fat",
             "Protein"
         ]
     },

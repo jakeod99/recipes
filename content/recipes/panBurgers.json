@@ -1,0 +1,74 @@
+{
+    "name": "Burgers (in a Pan)",
+    "ingredients": [
+        {
+            "food": {"$ref": "../bases/groundBeef8020.json"},
+            "amount": 2
+        },
+        {
+            "food": {"$ref": "../bases/sesameBun.json"},
+            "amount": 8,
+            "potentialSubstitution": [
+                {"$ref": "../bases/potatoRoll.json"}
+            ]
+        },
+        {
+            "food": {"$ref": "../bases/mayo.json"},
+            "amount": 4,
+            "potentialSubstitution": [
+                {"$ref": "../bases/butter.json"}
+            ]
+        }
+    ],
+    "steps": [
+        "Carefully seperate Ground Beef into 8 equal chunks",
+        "Roll the Ground Beef chunks into beef spheres",
+        "For each bun, lightly spread a thin layer of mayo on the insides",
+        "Put a griddle or cast-iron pan on medium heat",
+        "Toast each bun until golden brown, then let rest on a grate",
+        "Warning: There's no time estimates here, cook it to your desired doneness",
+        "Put the beef balls on the griddle/pan and smash down into patties",
+        "Continue to apply pressure with a weight",
+        "Flip and apply weight",
+        "When patties have maybe a minute left, add cheese/bacon (if applicable)",
+        "Once burgers are done, dress accordingly with your desired toppings and serve"
+    ],
+    "metrics": {
+        "time": {
+            "total": "30 minutes",
+            "active": "30 minutes"
+        },
+        "yield": {
+            "amount": 8,
+            "unit": "Burger"
+        },
+        "serving": {
+            "amount": 1,
+            "unit": "Burger",
+            "ratio": 0.125
+        }
+    },
+    "tags": {
+        "type": [ 
+            "Entrée",
+            "Meat"
+        ], 
+        "meals": [ 
+            "Lunch",
+            "Dinner"
+        ],
+        "style": [ 
+            "American",
+            "Meat"
+        ],
+        "healthy": [ 
+            "Terrible",
+            "Fat",
+            "Protein"
+        ]
+    },
+    "comments": [ 
+        "Definitely add the toppings of your choice, this recipe is for the base meat/bun preparation",
+        "Suggested Topping: American Cheese, Mayo, Lettuce, and Extra Red Onion"
+    ]
+}
