@@ -1,0 +1,73 @@
+{
+    "name": "Corn Butter",
+    "ingredients": [
+        {
+            "food": {"$ref": "../bases/butter.json"},
+            "amount": 4,
+            "preparation": "room temperature"
+        },
+        {
+            "food": {"$ref": "../bases/blackPepper.json"},
+            "amount": 1.5
+        },
+        {
+            "food": {"$ref": "../bases/seasonedSalt.json"},
+            "amount": 1
+        },
+        {
+            "food": {"$ref": "../bases/salt.json"},
+            "amount": 0.5
+        },
+        {
+            "food": {"$ref": "../bases/garlicPowder.json"},
+            "amount": 0.5
+        },
+        {
+            "food": {"$ref": "../bases/paprika.json"},
+            "amount": 0.5
+        },
+        {
+            "food": {"$ref": "../bases/driedParsley.json"},
+            "amount": 0.5
+        },
+        {
+            "food": {"$ref": "../bases/driedBasil.json"},
+            "amount": 0.5
+        },
+        {
+            "food": {"$ref": "../bases/driedPOregano.json"},
+            "amount": 0.5
+        },
+        {
+            "food": {"$ref": "../bases/groundCayenne.json"},
+            "amount": 0.25
+        }
+    ],
+    "steps": [
+        "Leave Butter out until soft enough to mix (about 1 hour)",
+        "Stir all ingredients together until well combined",
+        "Ready to use whenever, but it's best if it sits for a bit"
+    ],
+    "metrics": {
+        "time": {
+            "total": "1 hour",
+            "active": "5 minutes"
+        },
+        "yield": {
+            "amount": 6,
+            "unit": "Tablespoon"
+        }
+    },
+    "tags": {
+        "type": [
+            "Component",
+            "Spread"
+        ], 
+        "meals": [],
+        "style": [ "American" ],
+        "healthy": [ 
+            "Terrible",
+            "Fat"
+        ]
+    }
+}

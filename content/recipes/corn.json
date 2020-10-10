@@ -1,0 +1,55 @@
+{
+    "name": "Corn on the Cob",
+    "ingredients": [
+        {
+            "food": {"$ref": "../bases/cornEar.json"},
+            "amount": 6,
+            "preparation": "still in husk"
+        },
+        {
+            "food": {"$ref": "../bases/water.json"},
+            "amount": 10
+        },
+        {
+            "food": {"$ref": "./cornButter.json"},
+            "amount": 1,
+            "optional": true
+        }  
+    ],
+    "steps": [
+        "Soak each Ear of Corn underwater, still in its husk, for 3 hours",
+        "Cut the String into 8\" bits (1 bit per Ear), and soak with the Corn",
+        "Pull each corn's husk back, but still connected to the cob",
+        "Tie each husk together into a handle with the soaked String bits",
+        "Grill until cooked through and the corn has some charred bits",
+        "Smother in the butter of your choice, salt/pepper to taste, and eat"
+    ],
+    "metrics": {
+        "time": {
+            "total": "3 hour",
+            "active": "30 minutes"
+        },
+        "yield": {
+            "amount": 8,
+            "unit": "Burger"
+        },
+        "serving": {
+            "amount": 1,
+            "unit": "Burger",
+            "ratio": 0.125
+        }
+    },
+    "tags": {
+        "type": [ "Side" ], 
+        "meals": [ "Dinner" ],
+        "style": [ 
+            "American",
+            "Barbecue"
+        ],
+        "healthy": []
+    },
+    "comments": [ 
+        "Definitely add the toppings of your choice, this recipe is for the base meat/bun preparation",
+        "Suggested Topping: American Cheese, Mayo, Lettuce, and Extra Red Onion"
+    ]
+}

@@ -1,5 +1,6 @@
 {
-    "name": "Wing",
+    "name": "Chicken Wing",
+    "unit": "Wing",
     "calories": 90,
     "price": 0.40
 }

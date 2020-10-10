@@ -68,7 +68,7 @@
         }
     },
     "tags": {
-        "type": [ "Snack" ], 
+        "type": [ "Side" ], 
         "meals": [
             "Lunch",
             "Dinner"
