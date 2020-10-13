@@ -1,0 +1,82 @@
+{
+    "name": "Tortillas",
+    "ingredients": [
+        {
+            "food": {"$ref": "../bases/flour.json"},
+            "amount": 3
+        },
+        {
+            "food": {"$ref": "../bases/bakingPowder.json"},
+            "amount": 2
+        },
+        {
+            "food": {"$ref": "../bases/salt.json"},
+            "amount": 1
+        },
+        {
+            "food": {"$ref": "../bases/shortening.json"},
+            "amount": 5
+        },
+        {
+            "food": {"$ref": "../bases/water.json"},
+            "amount": 1,
+            "preparation": "real hot, not boiling"
+        }
+    ],
+    "steps": [
+        "Put flour, baking powder, and salt in mixing bowl",
+        "Whisk dry ingredients",
+        "Add shortening to dry ingredients",
+        "Mix shortening and dry ingredients w/ hand",
+        "Once consistent, pour water in while mixing",
+        "Once consistent, move dough to unfloured spot",
+        "Knead dough ball for 10-15 minutes",
+        "Roll dough ball into 16-ish smaller balls",
+        "Put dough balls back into the bowl",
+        "Place a damp paper towel over the dough (like tucking in a child)",
+        "Let rest for 10 minutes",
+        "Take balls from bowl and use a rolling pin to partially flatten them",
+        "Simulatenously preheat pan to medium-medium-high",
+        "Once done rolling, put 2.25 tortilla sized sheet of tin foil on plate",
+        "Put two opened napkins on one half & 2 on the other half",
+        "Spread MINIMAL butter on pan to prevent burning",
+        "For each tortilla one by one:",
+        [
+            "Flatten dough so it's very thin",
+            "Place in pan",
+            "Cook on one side until it has some brownish marks",
+            "Flip to other side waiting for some small browning there too",
+            "Take off once tortilla seems done (little browning on both sides)",
+            "Place on the plate side of the tin foil / napkin setup"
+        ],
+        "Once each tortilla is cooked and stacked, fold over tin",
+        "End result should look like a tin foil / napkin / tortilla sandwich"
+    ],
+    "metrics": {
+        "time": {
+            "total": "2.5 hours",
+            "active": "2.5 hours"
+        },
+        "yield": {
+            "amount": 16,
+            "unit": "Tortilla"
+        },
+        "serving": { 
+            "amount": 1,
+            "unit": "Tortilla",
+            "ratio": 0.0625
+        }
+    },
+    "tags": {
+        "type": [ 
+            "Side",
+            "Bread"
+        ], 
+        "meals": [ "Dinner" ],
+        "style": [ 
+            "Mexican",
+            "Bread"
+        ],
+        "healthy": []
+    }
+}
