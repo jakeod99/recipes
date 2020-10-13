@@ -26,6 +26,14 @@ Jake's recipes - both in unique files and as a part of one big compilation.
 All versions (past and present) can be seen in the `versions` folder, but for 
 quick access to the current version, see the `current` folder. 
 
+## Questions, Comments, and Suggestions
+If you have any general questions/comments, or if you have any suggestions 
+after perusing, please feel free to open an `issue` 
+[here](https://github.com/jakeod99/recipes/issues). Jake will do his best to 
+address what you bring up. If you see something in a recipe that seems wrong, 
+it's probably a mistake! I would greatly appreciate you alerting me to the 
+specific problem by opening an `issue`.
+
 ## Development
 
 ### <a name="gar"></a>Generating a Release
@@ -55,9 +63,9 @@ I to stop you - it's a free country.
 
 #### Current
 This is a duplicate of the most recent version in the `versions` folder. It is 
-here for quick access and so that a single unchanging link will always point 
-to the most recent version. This means the naming scheme of the contents of 
-this folder must be kept consistent, and therefore independent from their 
+here for quick access and so that a single unchanging link can always point to 
+the most recent version. This means the naming scheme of the contents of this 
+folder must be kept consistent, and therefore independent from their 
 respective version.
 
 #### Docs (Website)
@@ -76,12 +84,13 @@ trigger all the necessary generations and overwrites housed here. To run
 `release.js`, see [Generating a Release](#gar).
 
 #### Versions
-Every version generated that increments the `StageVersion` digit is stored 
-here indefinitely. Of course, during development of a feature, it will 
-temporarily store featured versions (or versions which increment the `Feature` 
-digit). When merging into the `stage` branch, be sure that these are scrubbed 
-and that the newest version increments `StageVersion` (e.g., `v1.3.0` or 
-`v2.0.0`, but not `v1.5.3`). 
+Every version generated that updates recipe content and increments the 
+`StageVersion` digit is stored here indefinitely. Of course, during 
+development of a feature, feature branches will temporarily store featured 
+versions (or versions which increment the `Feature` digit). When merging into 
+the `stage` branch, be sure that these are scrubbed and that the newest 
+version increments `StageVersion` (e.g., `v1.3.0` or `v2.0.0`, but not 
+`v1.5.3`). 
 
 ### Tech Stack
 It's basically just a bit of straight javascript that produces really basic 
@@ -101,7 +110,9 @@ given feature branch `v1.3.0` would mostly be done with the `StageVersion` `2`
 (with development versions like `v1.2.2` and `v1.2.6`). The `v1.3.0` 
 feature branch would conclude by generating `v1.3.0`, scrubbing all `v1.2.X` 
 versions (with the obvious exception of `v1.2.0`), and merging into the 
-`stage` branch.
+`stage` branch. That said, if for whatever reason the changes being merged 
+into `stage` do not necessitate generating a new version (logic changes, 
+stylistic tweaks, etc.)
 
 #### Stage Branch
 The `stage` branch persists, and is where all feature branches flow into. When 
@@ -119,12 +130,6 @@ to Jake's recipe work should point, whether it's showing the current major
 release or providing access to a deprecated recipe in the `versions` folder. 
 Everything in other branches are still under development and subject to 
 change. 
-
-## Questions/Comments
-If you have any questions, comments, or concerns you would like to bring up, 
-please feel free to open an `issue` on this repository. Jake will do his best 
-to address what you bring up. Also, if you know Jake personally, feel free to 
-text him about it.
 
 ## Thanks!
 Jake has spent a lot of time learning about cooking recently, and there are a 

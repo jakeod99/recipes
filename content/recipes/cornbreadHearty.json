@@ -1,0 +1,103 @@
+{
+    "name": "Hearty Cornbread",
+    "ingredients": [
+        {
+            "food": {"$ref": "../bases/cornmealFine.json"},
+            "amount": 12
+        },
+        {
+            "food": {"$ref": "../bases/cornmealStone.json"},
+            "amount": 12
+        },
+        {
+            "food": {"$ref": "../bases/cornmealCoarse.json"},
+            "amount": 8
+        },
+        {
+            "food": {"$ref": "../bases/salt.json"},
+            "amount": 0.25
+        },
+        {
+            "food": {"$ref": "../bases/bakingPowder.json"},
+            "amount": 0.5
+        },
+        {
+            "food": {"$ref": "../bases/bakingSoda.json"},
+            "amount": 0.5
+        },
+        {
+            "food": {"$ref": "../bases/egg.json"},
+            "amount": 2
+        },
+        {
+            "food": {"$ref": "../bases/buttermilk.json"},
+            "amount": 1
+        },
+        {
+            "food": {"$ref": "../bases/frozenCorn.json"},
+            "amount": 0.5
+        },
+        {
+            "food": {"$ref": "../bases/butter.json"},
+            "amount": 5
+        },
+        {
+            "food": {"$ref": "../bases/ice.json"},
+            "amount": 2
+        },
+        {
+            "food": {"$ref": "../bases/honey.json"},
+            "amount": 1
+        },
+        {
+            "food": {"$ref": "../bases/saltFlakey.json"},
+            "amount": 0.5,
+            "potentialSubstitution": [
+                {"$ref": "../bases/saltCoarse.json"}
+            ]
+        },
+        {
+            "food": {"$ref": "./honeyButter.json"},
+            "amount": 1,
+            "optional": true
+        }
+    ],
+    "steps": [
+        "Preheat Oven to 425F",
+        "Mix All Cornmeals, Fine Salt, Baking Powder, and Baking Soda",
+        "Put Eggs, Buttermilk, and Corn Kernels into a blender/processor",
+        "Pulse until Corn is broken a little bit, but do not pulse into a paste",
+        "Put butter in a cast iron pan and melt down",
+        "Heat until butter browns a tad (not burns), then pour it into a bowl",
+        "Add ice cubes to the butter and stir until melted",
+        "Mix cooled melted brown butter into the liquid mixture",
+        "Pour the liquid mixture into dry ingredients",
+        "Mix everything together minimally (avoid overworking the flour)",
+        "Pour batter into the pan and put in the oven",
+        "After 22 minutes, pull it out and give 'er the ol' toothpick test",
+        "Spread Honey on top and sprinkle with Flakey Salt",
+        "Once structurally sound, transfer to a cooling grate for ~30min"
+    ],
+    "metrics": {
+        "time": {
+            "total": "1.5 hour",
+            "active": "45 minutes"
+        },
+        "yield": {
+            "amount": 1,
+            "unit": "Loaf"
+        }
+    },
+    "tags": {
+        "type": [ 
+            "Side",
+            "Bread"
+        ], 
+        "meals": [ "Dinner" ],
+        "style": [ 
+            "American",
+            "Bread"
+        ],
+        "healthy": []
+    }
+}
