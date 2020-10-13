@@ -1,0 +1,128 @@
+{
+    "name": "Dinner Rolls",
+    "ingredients": [
+        {
+            "food": {"$ref": "../bases/modeloEspecial.json"},
+            "amount": 1.5,
+            "preparation": "warm (~110F)"
+        },
+        {
+            "food": {"$ref": "../bases/yeast.json"},
+            "amount": 2.25
+        },
+        {
+            "food": {"$ref": "../bases/butter.json"},
+            "amount": 2,
+            "preparation": "melted"
+        },
+        {
+            "food": {"$ref": "../bases/sugar.json"},
+            "amount": 2
+        },
+        {
+            "food": {"$ref": "../bases/salt.json"},
+            "amount": 1.5
+        },
+        {
+            "food": {"$ref": "../bases/flour.json"},
+            "amount": 3.5
+        },
+        {
+            "food": {"$ref": "../bases/flour.json"},
+            "amount": 0.125
+        },
+        {
+            "food": {"$ref": "../bases/vegetableOil.json"},
+            "amount": 1
+        },
+        {
+            "food": {"$ref": "../bases/water.json"},
+            "amount": 10
+        },
+        {
+            "food": {"$ref": "../bases/water.json"},
+            "amount": 0.0625
+        },
+        {
+            "food": {"$ref": "../bases/bakingSoda.json"},
+            "amount": 32
+        },
+        {
+            "food": {"$ref": "../bases/eggYolk.json"},
+            "amount": 1
+        },
+        {
+            "food": {"$ref": "../bases/saltFalkey.json"},
+            "amount": 2,
+            "potentialSubstitution": [
+                {"$ref": "../bases/saltCoarse.json"}
+            ]
+        },
+        {
+            "food": {"$ref": "./beerCheese.json"},
+            "amount": 1,
+            "optional": true
+        }
+    ],
+    "steps": [
+        "Heat beer to 110F-115F",
+        "Take off heat and add yeast, stir to consistency",
+        "Mix in Melted Butter, Sugar, Salt (fine), and Flour",
+        "Flour a surface and knead the dough for ~10 minutes",
+        "Coat an opaque bowl with Vegetable Oil",
+        "Put dough ball in bowl and turn once so top is coated w/ oil",
+        "Cover w/ tea towel and let rise for 1 hour",
+        "Punch down the dough and divide into 8 balls",
+        "For Traditional Shapes:",
+        [
+            "Roll each ball into 18\" cylinders and twist into pretzely shapes",
+            "Bring Water and Baking Soda to a boil",
+            "Preheat Oven to 400F",
+            "Boil Pretzels for 30 seconds each (only a few at a time)",
+            "Drain on paper towels",
+            "Place with ample space on a greased baking sheet",
+            "Whisk Egg Yolk and Water, brush over each pretzel",
+            "Sprinkle on Salt (coarse) to taste",
+            "Bake for 10-12 minutes (Until golden/golden-brown)"
+        ],
+        "For Pretzel Bites:",
+        [
+            "Roll each ball into 12\" cylinders and cut each into 12 bites",
+            "Bring Water and Baking Soda to a boil",
+            "Preheat Oven to 425F",
+            "Boil Pretzels for 30 seconds each (only a few at a time)",
+            "Drain on paper towels",
+            "Place with ample space on a greased baking sheet",
+            "Whisk Egg Yolk and Water, brush over each pretzel",
+            "Sprinkle on Salt (coarse) to taste",
+            "Bake for 6-8 minutes (Until golden/golden-brown)"
+        ]
+    ],
+    "metrics": {
+        "time": {
+            "total": "2.5 hours",
+            "active": "2 hours"
+        },
+        "yield": {
+            "amount": 8,
+            "unit": "Pretzels"
+        },
+        "serving": { 
+            "amount": 1,
+            "unit": "Pretzels",
+            "ratio": 0.125
+        }
+    },
+    "tags": {
+        "type": [ 
+            "Side",
+            "Bread"
+        ], 
+        "meals": [ "Dinner" ],
+        "style": [ 
+            "Germany",
+            "Bread" 
+        ],
+        "healthy": []
+    }
+}

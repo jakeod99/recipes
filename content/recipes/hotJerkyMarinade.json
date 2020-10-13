@@ -30,7 +30,7 @@
             "amount": 1
         },
         {
-            "food": {"$ref": "../bases/seasonedSalt.json"},
+            "food": {"$ref": "../bases/saltSeasoned.json"},
             "amount": 1
         },
         {

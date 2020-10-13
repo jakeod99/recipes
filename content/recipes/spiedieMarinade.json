@@ -10,7 +10,7 @@
             "amount": 1
         },
         {
-            "food": {"$ref": "../bases/whiteVinegar.json"},
+            "food": {"$ref": "../bases/vinegarWhite.json"},
             "amount": 4
         },
         {

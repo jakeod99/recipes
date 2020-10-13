@@ -2,7 +2,7 @@
     "name": "Thin Fries",
     "ingredients": [
         {
-            "food": {"$ref": "../bases/russettPotato.json"},
+            "food": {"$ref": "../bases/potatoRussett.json"},
             "amount": 4
         },
         {

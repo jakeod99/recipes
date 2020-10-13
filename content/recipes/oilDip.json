@@ -6,7 +6,7 @@
             "amount": 8
         },
         {
-            "food": {"$ref": "../bases/parmesean.json"},
+            "food": {"$ref": "../bases/cheeseParmesan.json"},
             "amount": 0.5,
             "preparation": "grated"
         },

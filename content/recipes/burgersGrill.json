@@ -6,7 +6,7 @@
             "amount": 2
         },
         {
-            "food": {"$ref": "../bases/whiteOnion.json"},
+            "food": {"$ref": "../bases/onionWhite.json"},
             "amount": 0.25,
             "preparation": "diced"
         },

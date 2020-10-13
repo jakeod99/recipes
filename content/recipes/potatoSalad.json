@@ -2,7 +2,7 @@
     "name": "Potato Salad",
     "ingredients": [
         {
-            "food": {"$ref": "../bases/babyRedPotato.json"},
+            "food": {"$ref": "../bases/potatoBabyRed.json"},
             "amount": 50
         },
         {
@@ -15,7 +15,7 @@
             "preparation": "chopped"
         },
         {
-            "food": {"$ref": "../bases/redOnion.json"},
+            "food": {"$ref": "../bases/onionRed.json"},
             "amount": 0.5,
             "preparation": "diced"
         },
@@ -37,7 +37,7 @@
             "amount": 1.5
         },
         {
-            "food": {"$ref": "../bases/whiteVinegar.json"},
+            "food": {"$ref": "../bases/vinegarWhite.json"},
             "amount": 1.5
         },
         {

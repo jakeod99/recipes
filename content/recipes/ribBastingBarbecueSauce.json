@@ -2,7 +2,7 @@
     "name": "Rib Basting Barbecue Sauce",
     "ingredients": [
         {
-            "food": {"$ref": "../bases/appleCiderVinegar.json"},
+            "food": {"$ref": "../bases/vinegarAppleCider.json"},
             "amount": 32
         },
         {
