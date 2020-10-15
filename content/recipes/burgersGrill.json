@@ -2,50 +2,50 @@
     "name": "Burgers (on the Grill)",
     "ingredients": [
         {
-            "food": {"$ref": "../bases/groundBeef8020.json"},
+            "food": "b/groundBeef8020",
             "amount": 2
         },
         {
-            "food": {"$ref": "../bases/onionWhite.json"},
+            "food": "b/onionWhite",
             "amount": 0.25,
             "preparation": "diced"
         },
         {
-            "food": {"$ref": "../bases/groundCayenne.json"},
+            "food": "b/groundCayenne",
             "amount": 1.5
         },
         {
-            "food": {"$ref": "../bases/blackPepper.json"},
+            "food": "b/blackPepper",
             "amount": 2
         },
         {
-            "food": {"$ref": "../bases/garlicPowder.json"},
+            "food": "b/garlicPowder",
             "amount": 1
         },
         {
-            "food": {"$ref": "../bases/garlicSalt.json"},
+            "food": "b/garlicSalt",
             "amount": 1
         },
         {
-            "food": {"$ref": "../bases/worcestershire.json"},
+            "food": "b/worcestershire",
             "amount": 2
         },
         {
-            "food": {"$ref": "../bases/chipotleRanch.json"},
+            "food": "b/chipotleRanch",
             "amount": 1
         },
         {
-            "food": {"$ref": "../bases/potatoRoll.json"},
+            "food": "b/potatoRoll",
             "amount": 6,
             "potentialSubstitution": [
-                {"$ref": "../bases/sesameBun.json"}
+                "b/sesameBun"
             ]
         },
         {
-            "food": {"$ref": "../bases/butter.json"},
+            "food": "b/butter",
             "amount": 2,
             "potentialSubstitution": [
-                {"$ref": "../bases/mayo.json"}
+                "b/mayo"
             ]
         }
     ],

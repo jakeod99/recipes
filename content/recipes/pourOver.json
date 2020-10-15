@@ -4,16 +4,16 @@
         [
             "Coffee Beans (Whole)",
             {
-                "food": {"$ref": "../bases/coffee8Original.json"},
+                "food": "b/coffee8Original",
                 "amount": 3
             },
             {
-                "food": {"$ref": "../bases/coffeeSBPortside.json"},
+                "food": "b/coffeeSBPortside",
                 "amount": 3
             }
         ],
         {
-            "food": {"$ref": "../bases/water.json"},
+            "food": "b/water",
             "amount": 2.25 
         }
     ],

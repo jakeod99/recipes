@@ -2,18 +2,18 @@
     "name": "Cornell Chicken",
     "ingredients": [
         {
-            "food": {"$ref": "../bases/threePoundChicken.json"},
+            "food": "b/threePoundChicken",
             "amount": 2,
             "potentialSubstitution": [
-                {"$ref": "../bases/chickenDrumstick.json"}
+                "b/chickenDrumstick"
             ]
         },
         {
-            "food": {"$ref": "../bases/cornellMarinade.json"},
+            "food": "b/cornellMarinade",
             "amount": 1
         },
         {
-            "food": {"$ref": "../bases/cornellMarinade.json"},
+            "food": "b/cornellMarinade",
             "amount": 1
         }
     ],

@@ -2,48 +2,48 @@
     "name": "Dinner Rolls",
     "ingredients": [
         {
-            "food": {"$ref": "../bases/water.json"},
+            "food": "b/water",
             "amount": 1.5,
             "preparation": "warm (~110F)"
         },
         {
-            "food": {"$ref": "../bases/water.json"},
+            "food": "b/water",
             "amount": 0.125
         },
         {
-            "food": {"$ref": "../bases/sugar.json"},
+            "food": "b/sugar",
             "amount": 1
         },
         {
-            "food": {"$ref": "../bases/yeast.json"},
+            "food": "b/yeast",
             "amount": 2.25
         },
         {
-            "food": {"$ref": "../bases/salt.json"},
+            "food": "b/salt",
             "amount": 2
         },
         {
-            "food": {"$ref": "../bases/oliveOil.json"},
+            "food": "b/oliveOil",
             "amount": 0.667
         },
         {
-            "food": {"$ref": "../bases/oliveOil.json"},
+            "food": "b/oliveOil",
             "amount": 2
         },
         {
-            "food": {"$ref": "../bases/oliveOil.json"},
+            "food": "b/oliveOil",
             "amount": 2
         },
         {
-            "food": {"$ref": "../bases/flour.json"},
+            "food": "b/flour",
             "amount": 3.5
         },
         {
-            "food": {"$ref": "../bases/cornmealStone.json"},
+            "food": "b/cornmealStone",
             "amount": 2
         },
         {
-            "food": {"$ref": "../bases/oilDip.json"},
+            "food": "r/oilDip",
             "amount": 1,
             "optional": true
         }

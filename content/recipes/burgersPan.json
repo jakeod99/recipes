@@ -2,21 +2,21 @@
     "name": "Burgers (in a Pan)",
     "ingredients": [
         {
-            "food": {"$ref": "../bases/groundBeef8020.json"},
+            "food": "b/groundBeef8020",
             "amount": 2
         },
         {
-            "food": {"$ref": "../bases/sesameBun.json"},
+            "food": "b/sesameBun",
             "amount": 8,
             "potentialSubstitution": [
-                {"$ref": "../bases/potatoRoll.json"}
+                "b/potatoRoll"
             ]
         },
         {
-            "food": {"$ref": "../bases/mayo.json"},
+            "food": "b/mayo",
             "amount": 4,
             "potentialSubstitution": [
-                {"$ref": "../bases/butter.json"}
+                "b/butter"
             ]
         }
     ],

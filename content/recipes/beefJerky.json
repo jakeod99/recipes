@@ -2,15 +2,15 @@
     "name": "Beef Jerky",
     "ingredients": [
         {
-            "food": {"$ref": "../bases/sirloin.json"}
+            "food": "b/sirloin"
         },
         [
             "Marinade",
             {
-                "food": {"$ref": "../recipes/sweetJerkyMarinade.json"}
+                "food": "r/sweetJerkyMarinade"
             },
             {
-                "food": {"$ref": "../recipes/hotJerkyMarinade.json"}
+                "food": "r/hotJerkyMarinade"
             }
         ]
     ],

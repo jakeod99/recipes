@@ -2,20 +2,20 @@
     "name": "Honey Butter",
     "ingredients": [
         {
-            "food": {"$ref": "../bases/butter.json"},
+            "food": "b/butter",
             "amount": 8,
             "preparation": "room temperature"
         },
         {
-            "food": {"$ref": "../bases/powderedSugar.json"},
+            "food": "b/powderedSugar",
             "amount": 4
         },
         {
-            "food": {"$ref": "../bases/honey.json"},
+            "food": "b/honey",
             "amount": 1.5
         },
         {
-            "food": {"$ref": "../bases/groundCinnamon.json"},
+            "food": "b/groundCinnamon",
             "amount": 0.75
         }
     ],

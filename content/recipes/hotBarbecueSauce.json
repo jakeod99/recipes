@@ -2,31 +2,31 @@
     "name": "Hot Barbecue Sauce",
     "ingredients": [
         {
-            "food": {"$ref": "../bases/sweetBabyRays.json"},
+            "food": "b/sweetBabyRays",
             "amount": 3
         },
         {
-            "food": {"$ref": "../bases/redhot.json"},
+            "food": "b/redhot",
             "amount": 5
         },
         {
-            "food": {"$ref": "../bases/honey.json"},
+            "food": "b/honey",
             "amount": 2
         },
         {
-            "food": {"$ref": "../bases/worcestershire.json"},
+            "food": "b/worcestershire",
             "amount": 1
         },
         {
-            "food": {"$ref": "../bases/butter.json"},
+            "food": "b/butter",
             "amount": 2
         },
         {
-            "food": {"$ref": "../bases/groundCayenne.json"},
+            "food": "b/groundCayenne",
             "amount": 1
         },
         {
-            "food": {"$ref": "../bases/hickoryLiquidSmoke.json"},
+            "food": "b/hickoryLiquidSmoke",
             "amount": 2
         }
     ],

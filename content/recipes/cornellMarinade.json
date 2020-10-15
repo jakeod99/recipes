@@ -2,27 +2,27 @@
     "name": "Cornell Marinade",
     "ingredients": [
         {
-            "food": {"$ref": "../bases/vinegarAppleCider.json"},
+            "food": "b/vinegarAppleCider",
             "amount": 32
         },
         {
-            "food": {"$ref": "../bases/vegetableOil.json"},
+            "food": "b/vegetableOil",
             "amount": 16
         },
         {
-            "food": {"$ref": "../bases/egg.json"},
+            "food": "b/egg",
             "amount": 1
         },
         {
-            "food": {"$ref": "../bases/poultrySeasoning.json"},
+            "food": "b/poultrySeasoning",
             "amount": 3
         },
         {
-            "food": {"$ref": "../bases/salt.json"},
+            "food": "b/salt",
             "amount": 9
         },
         {
-            "food": {"$ref": "../bases/blackPepper.json"},
+            "food": "b/blackPepper",
             "amount": 0.5
         }
     ],

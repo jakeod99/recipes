@@ -2,48 +2,48 @@
     "name": "Spiedie Marinade",
     "ingredients": [
         {
-            "food": {"$ref": "../bases/oliveOil.json"},
+            "food": "b/oliveOil",
             "amount": 5
         },
         {
-            "food": {"$ref": "../bases/lemon.json"},
+            "food": "b/lemon",
             "amount": 1
         },
         {
-            "food": {"$ref": "../bases/vinegarWhite.json"},
+            "food": "b/vinegarWhite",
             "amount": 4
         },
         {
-            "food": {"$ref": "../bases/garlic.json"},
+            "food": "b/garlic",
             "amount": 3,
             "preparation": "crushed"
         },
         {
-            "food": {"$ref": "../bases/driedParsley.json"},
+            "food": "b/driedParsley",
             "amount": 1
         },
         {
-            "food": {"$ref": "../bases/driedBasil.json"},
+            "food": "b/driedBasil",
             "amount": 1
         },
         {
-            "food": {"$ref": "../bases/driedOregano.json"},
+            "food": "b/driedOregano",
             "amount": 0.5
         },
         {
-            "food": {"$ref": "../bases/garlicPowder.json"},
+            "food": "b/garlicPowder",
             "amount": 0.5
         },
         {
-            "food": {"$ref": "../bases/salt.json"},
+            "food": "b/salt",
             "amount": 0.75
         },
         {
-            "food": {"$ref": "../bases/blackPepper.json"},
+            "food": "b/blackPepper",
             "amount": 0.5
         },
         {
-            "food": {"$ref": "../bases/groundCayenne.json"},
+            "food": "b/groundCayenne",
             "amount": 0.5
         }
     ],

@@ -2,75 +2,75 @@
     "name": "Potato Salad",
     "ingredients": [
         {
-            "food": {"$ref": "../bases/potatoBabyRed.json"},
+            "food": "b/potatoBabyRed",
             "amount": 50
         },
         {
-            "food": {"$ref": "../bases/water.json"},
+            "food": "b/water",
             "amount": 10
         },
         {
-            "food": {"$ref": "../bases/bacon.json"},
+            "food": "b/bacon",
             "amount": 2,
             "preparation": "chopped"
         },
         {
-            "food": {"$ref": "../bases/onionRed.json"},
+            "food": "b/onionRed",
             "amount": 0.5,
             "preparation": "diced"
         },
         {
-            "food": {"$ref": "../bases/scallion.json"},
+            "food": "b/scallion",
             "amount": 1,
             "preparation": "sliced"
         },
         {
-            "food": {"$ref": "../bases/sourCream.json"},
+            "food": "b/sourCream",
             "amount": 2.5
         },
         {
-            "food": {"$ref": "../bases/mayo.json"},
+            "food": "b/mayo",
             "amount": 1.5
         },
         {
-            "food": {"$ref": "../bases/oliveOil.json"},
+            "food": "b/oliveOil",
             "amount": 1.5
         },
         {
-            "food": {"$ref": "../bases/vinegarWhite.json"},
+            "food": "b/vinegarWhite",
             "amount": 1.5
         },
         {
-            "food": {"$ref": "../bases/dijonMustard.json"},
+            "food": "b/dijonMustard",
             "amount": 0.5
         },
         {
-            "food": {"$ref": "../bases/sugar.json"},
+            "food": "b/sugar",
             "amount": 1.5
         },
         {
-            "food": {"$ref": "../bases/garlic.json"},
+            "food": "b/garlic",
             "amount": 1,
             "preparation": "crushed"
         },
         {
-            "food": {"$ref": "../bases/paprika.json"},
+            "food": "b/paprika",
             "amount": 0.5
         },
         {
-            "food": {"$ref": "../bases/chiliPowder.json"},
+            "food": "b/chiliPowder",
             "amount": 0.25
         },
         {
-            "food": {"$ref": "../bases/dillWeed.json"},
+            "food": "b/dillWeed",
             "amount": 0.125
         },
         {
-            "food": {"$ref": "../bases/salt.json"},
+            "food": "b/salt",
             "amount": 0.125
         },
         {
-            "food": {"$ref": "../bases/blackPepper.json"},
+            "food": "b/blackPepper",
             "amount": 0.125
         }
     ],

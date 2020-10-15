@@ -2,55 +2,55 @@
     "name": "Wings",
     "ingredients": [
         {
-            "food": {"$ref": "./bases/chickenWing.json"},
+            "food": "b/chickenWing",
             "amount": 12
         },
         {
-            "food": {"$ref": "../bases/bakingPowder.json"},
+            "food": "b/bakingPowder",
             "amount": 6
         },
         {
-            "food": {"$ref": "../bases/flour.json"},
+            "food": "b/flour",
             "amount": 0.125
         },
         {
-            "food": {"$ref": "../bases/salt.json"},
+            "food": "b/salt",
             "amount": 2
         },
         {
-            "food": {"$ref": "../bases/blackPepper.json"},
+            "food": "b/blackPepper",
             "amount": 1
         },
         {
-            "food": {"$ref": "../bases/vegetableOil.json"},
+            "food": "b/vegetableOil",
             "amount": 2
         },
         [
             "Sauce",
             {
-                "food": {"$ref": "./mildBuffaloSauce.json"}
+                "food": "r/mildBuffaloSauce"
             },
             {
-                "food": {"$ref": "./mediumBuffaloSauce.json"}
+                "food": "r/mediumBuffaloSauce"
             },
             {
-                "food": {"$ref": "./hotBuffaloSauce.json"}
+                "food": "r/hotBuffaloSauce"
             },
             {
-                "food": {"$ref": "./honeyBarbecueSauce.json"}
+                "food": "r/honeyBarbecueSauce"
             },
             {
-                "food": {"$ref": "./smokeyBarbecueSauce.json"}
+                "food": "r/smokeyBarbecueSauce"
             },
             {
-                "food": {"$ref": "./garlicBarbecueSauce.json"}
+                "food": "r/garlicBarbecueSauce"
             },
             {
-                "food": {"$ref": "./hotBarbecueSauce.json"}
+                "food": "r/hotBarbecueSauce"
             }
         ],
         {
-            "food": {"$ref": "../bases/blueCheeseDressing.json"},
+            "food": "b/blueCheeseDressing",
             "amount": 3,
             "optional": true
         }

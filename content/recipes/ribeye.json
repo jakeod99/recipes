@@ -2,18 +2,18 @@
     "name": "Ribeye",
     "ingredients": [
         {
-            "food": {"$ref": "../bases/ribeye.json"}
+            "food": "b/ribeye"
         },
         {
-            "food": {"$ref": "../bases/salt.json"},
+            "food": "b/salt",
             "amount": 6
         },
         {
-            "food": {"$ref": "../bases/oliveOil.json"},
+            "food": "b/oliveOil",
             "amount": 2
         },
         {
-            "food": {"$ref": "../recipes/rosemaryGarlicFinishingButter.json"},
+            "food": "r/rosemaryGarlicFinishingButter",
             "amount": 1
         }
     ],

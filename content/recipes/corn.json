@@ -2,16 +2,16 @@
     "name": "Corn on the Cob",
     "ingredients": [
         {
-            "food": {"$ref": "../bases/cornEar.json"},
+            "food": "b/cornEar",
             "amount": 6,
             "preparation": "still in husk"
         },
         {
-            "food": {"$ref": "../bases/water.json"},
+            "food": "b/water",
             "amount": 10
         },
         {
-            "food": {"$ref": "./cornButter.json"},
+            "food": "r/cornButter",
             "amount": 1,
             "optional": true
         }  

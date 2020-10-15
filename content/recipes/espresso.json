@@ -2,11 +2,11 @@
     "name": "Espresso",
     "ingredients": [
         {
-            "food": {"$ref": "../bases/coffeeLSuperCrema"},
+            "food": "b/coffeeLSuperCrema",
             "amount": 1.25
         },
         {
-            "food": {"$ref": "../bases/water.json"},
+            "food": "b/water",
             "amount": 0.125
         }
     ],

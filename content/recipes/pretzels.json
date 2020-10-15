@@ -2,64 +2,64 @@
     "name": "Dinner Rolls",
     "ingredients": [
         {
-            "food": {"$ref": "../bases/modeloEspecial.json"},
+            "food": "b/modeloEspecial",
             "amount": 1.5,
             "preparation": "warm (~110F)"
         },
         {
-            "food": {"$ref": "../bases/yeast.json"},
+            "food": "b/yeast",
             "amount": 2.25
         },
         {
-            "food": {"$ref": "../bases/butter.json"},
+            "food": "b/butter",
             "amount": 2,
             "preparation": "melted"
         },
         {
-            "food": {"$ref": "../bases/sugar.json"},
+            "food": "b/sugar",
             "amount": 2
         },
         {
-            "food": {"$ref": "../bases/salt.json"},
+            "food": "b/salt",
             "amount": 1.5
         },
         {
-            "food": {"$ref": "../bases/flour.json"},
+            "food": "b/flour",
             "amount": 3.5
         },
         {
-            "food": {"$ref": "../bases/flour.json"},
+            "food": "b/flour",
             "amount": 0.125
         },
         {
-            "food": {"$ref": "../bases/vegetableOil.json"},
+            "food": "b/vegetableOil",
             "amount": 1
         },
         {
-            "food": {"$ref": "../bases/water.json"},
+            "food": "b/water",
             "amount": 10
         },
         {
-            "food": {"$ref": "../bases/water.json"},
+            "food": "b/water",
             "amount": 0.0625
         },
         {
-            "food": {"$ref": "../bases/bakingSoda.json"},
+            "food": "b/bakingSoda",
             "amount": 32
         },
         {
-            "food": {"$ref": "../bases/eggYolk.json"},
+            "food": "b/eggYolk",
             "amount": 1
         },
         {
-            "food": {"$ref": "../bases/saltFalkey.json"},
+            "food": "b/saltFalkey",
             "amount": 2,
             "potentialSubstitution": [
-                {"$ref": "../bases/saltCoarse.json"}
+                "b/saltCoarse"
             ]
         },
         {
-            "food": {"$ref": "./beerCheese.json"},
+            "food": "r/beerCheese",
             "amount": 1,
             "optional": true
         }

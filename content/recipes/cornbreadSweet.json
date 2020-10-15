@@ -2,62 +2,62 @@
     "name": "Sweet Cornbread",
     "ingredients": [
         {
-            "food": {"$ref": "../bases/cornmealFine.json"},
+            "food": "b/cornmealFine",
             "amount": 12
         },
         {
-            "food": {"$ref": "../bases/flour.json"},
+            "food": "b/flour",
             "amount": 0.75
         },
         {
-            "food": {"$ref": "../bases/cornmealStone.json"},
+            "food": "b/cornmealStone",
             "amount": 4
         },
         {
-            "food": {"$ref": "../bases/sugar.json"},
+            "food": "b/sugar",
             "amount": 4
         },
         {
-            "food": {"$ref": "../bases/bakingPowder.json"},
+            "food": "b/bakingPowder",
             "amount": 0.5
         },
         {
-            "food": {"$ref": "../bases/bakingSoda.json"},
+            "food": "b/bakingSoda",
             "amount": 0.5
         },
         {
-            "food": {"$ref": "../bases/egg.json"},
+            "food": "b/egg",
             "amount": 2
         },
         {
-            "food": {"$ref": "../bases/buttermilk.json"},
+            "food": "b/buttermilk",
             "amount": 1
         },
         {
-            "food": {"$ref": "../bases/vanillaExtract.json"},
+            "food": "b/vanillaExtract",
             "amount": 0.5
         },
         {
-            "food": {"$ref": "../bases/frozenCorn.json"},
+            "food": "b/frozenCorn",
             "amount": 0.5
         },
         {
-            "food": {"$ref": "../bases/butter.json"},
+            "food": "b/butter",
             "amount": 5
         },
         {
-            "food": {"$ref": "../bases/honey.json"},
+            "food": "b/honey",
             "amount": 1
         },
         {
-            "food": {"$ref": "../bases/saltFlakey.json"},
+            "food": "b/saltFlakey",
             "amount": 0.5,
             "potentialSubstitution": [
-                {"$ref": "../bases/saltCoarse.json"}
+                "b/saltCoarse"
             ]
         },
         {
-            "food": {"$ref": "./honeyButter.json"},
+            "food": "r/honeyButter",
             "amount": 1,
             "optional": true
         }

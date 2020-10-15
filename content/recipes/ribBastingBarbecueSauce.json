@@ -2,31 +2,31 @@
     "name": "Rib Basting Barbecue Sauce",
     "ingredients": [
         {
-            "food": {"$ref": "../bases/vinegarAppleCider.json"},
+            "food": "b/vinegarAppleCider",
             "amount": 32
         },
         {
-            "food": {"$ref": "../bases/ketchup.json"},
+            "food": "b/ketchup",
             "amount": 24
         },
         {
-            "food": {"$ref": "../bases/worcestershire.json"},
+            "food": "b/worcestershire",
             "amount": 4
         },
         {
-            "food": {"$ref": "../bases/hickoryLiquidSmoke.json"},
+            "food": "b/hickoryLiquidSmoke",
             "amount": 30
         },
         {
-            "food": {"$ref": "../bases/brownSugar.json"},
+            "food": "b/brownSugar",
             "amount": 24
         },
         {
-            "food": {"$ref": "../bases/garlicPowder.json"},
+            "food": "b/garlicPowder",
             "amount": 2
         },
         {
-            "food": {"$ref": "../bases/onionPowder.json"},
+            "food": "b/onionPowder",
             "amount": 2
         }
     ],

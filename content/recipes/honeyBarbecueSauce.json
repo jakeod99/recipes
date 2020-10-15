@@ -2,23 +2,23 @@
     "name": "Honey Barbecue Sauce",
     "ingredients": [
         {
-            "food": {"$ref": "../bases/sweetBabyRays.json"},
+            "food": "b/sweetBabyRays",
             "amount": 6
         },
         {
-            "food": {"$ref": "../bases/honey.json"},
+            "food": "b/honey",
             "amount": 4
         },
         {
-            "food": {"$ref": "../bases/butter.json"},
+            "food": "b/butter",
             "amount": 2
         },
         {
-            "food": {"$ref": "../bases/brownSugar.json"},
+            "food": "b/brownSugar",
             "amount": 1
         },
         {
-            "food": {"$ref": "../bases/hickoryLiquidSmoke.json"},
+            "food": "b/hickoryLiquidSmoke",
             "amount": 1
         }
     ],

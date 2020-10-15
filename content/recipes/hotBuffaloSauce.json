@@ -2,23 +2,23 @@
     "name": "Hot Buffalo Sauce",
     "ingredients": [
         {
-            "food": {"$ref": "../bases/redhot.json"},
+            "food": "b/redhot",
             "amount": 8
         },
         {
-            "food": {"$ref": "../bases/sriracha.json"},
+            "food": "b/sriracha",
             "amount": 3
         },
         {
-            "food": {"$ref": "../bases/butter.json"},
+            "food": "b/butter",
             "amount": 1
         },
         {
-            "food": {"$ref": "../bases/worcestershire.json"},
+            "food": "b/worcestershire",
             "amount": 1
         },
         {
-            "food": {"$ref": "../bases/groundCayenne.json"},
+            "food": "b/groundCayenne",
             "amount": 1
         }
     ],

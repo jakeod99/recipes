@@ -2,27 +2,27 @@
     "name": "Chick-fil-a Sauce",
     "ingredients": [
         {
-            "food": {"$ref": "../bases/mayo.json"},
+            "food": "b/mayo",
             "amount": 2
         },
         {
-            "food": {"$ref": "../bases/honey.json"},
+            "food": "b/honey",
             "amount": 1
         },
         {
-            "food": {"$ref": "../bases/sweetBabyRays.json"},
+            "food": "b/sweetBabyRays",
             "amount": 1
         },
         {
-            "food": {"$ref": "../bases/yellowMustard.json"},
+            "food": "b/yellowMustard",
             "amount": 0.5
         },
         {
-            "food": {"$ref": "../bases/dijonMustard.json"},
+            "food": "b/dijonMustard",
             "amount": 0.25
         },
         {
-            "food": {"$ref": "../bases/lemon.json"},
+            "food": "b/lemon",
             "amount": 0.125
         }
     ],

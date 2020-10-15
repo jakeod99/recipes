@@ -2,42 +2,42 @@
     "name": "Honey Buns",
     "ingredients": [
         {
-            "food": {"$ref": "../bases/milkWhole.json"},
+            "food": "b/milkWhole",
             "amount": 1.25
         },
         {
-            "food": {"$ref": "../bases/salt.json"},
+            "food": "b/salt",
             "amount": 1
         },
         {
-            "food": {"$ref": "../bases/butter.json"},
+            "food": "b/butter",
             "amount": 3,
             "preparation": "melted"
         },
         {
-            "food": {"$ref": "../bases/butter.json"},
+            "food": "b/butter",
             "amount": 1,
             "preparation": "melted"
         },
         {
-            "food": {"$ref": "../bases/egg.json"},
+            "food": "b/egg",
             "amount": 1,
             "preparation": "room temperature"
         },
         {
-            "food": {"$ref": "../bases/honey.json"},
+            "food": "b/honey",
             "amount": 4
         },
         {
-            "food": {"$ref": "../bases/flour.json"},
+            "food": "b/flour",
             "amount": 4
         },
         {
-            "food": {"$ref": "../bases/yeast.json"},
+            "food": "b/yeast",
             "amount": 2.25
         },
         {
-            "food": {"$ref": "./honeyButter.json"},
+            "food": "r/honeyButter",
             "amount": 1
         }
     ],

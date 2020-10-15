@@ -2,15 +2,15 @@
     "name": "Spiedies",
     "ingredients": [
         {
-            "food": {"$ref": "../bases/chickenBreast.json"},
+            "food": "b/chickenBreast",
             "amount": 2
         },
         {
-            "food": {"$ref": "./spiedieMarinade.json"},
+            "food": "r/spiedieMarinade",
             "amount": 1
         },
         {
-            "food": {"$ref": "../bases/italianSesameBread.json"},
+            "food": "b/italianSesameBread",
             "amount": 8
         }
     ],

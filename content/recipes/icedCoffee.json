@@ -2,17 +2,17 @@
     "name": "Iced Coffee",
     "ingredients": [
         {
-            "food": {"$ref": "./pourOver.json"}
+            "food": "r/pourOver"
         },
         {
-            "food": {"$ref": "../bases/milkWhole.json"},
+            "food": "b/milkWhole",
             "amount": 0.1875,
             "potentialSubstitution": [
-                {"$ref": "../bases/milk2.json"}
+                "b/milk2"
             ]
         },
         {
-            "food": {"$ref": "../bases/ice.json"},
+            "food": "b/ice",
             "amount": 2
         }
     ],

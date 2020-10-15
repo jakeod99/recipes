@@ -2,36 +2,36 @@
     "name": "Rosemary Bread",
     "ingredients": [
         {
-            "food": {"$ref": "../bases/yeast.json"},
+            "food": "b/yeast",
             "amount": 3
         },
         {
-            "food": {"$ref": "../bases/sugar.json"},
+            "food": "b/sugar",
             "amount": 1
         },
         {
-            "food": {"$ref": "../bases/water.json"},
+            "food": "b/water",
             "amount": 1,
             "preparation": "warm (~110F)"
         },
         {
-            "food": {"$ref": "../bases/oliveOil.json"},
+            "food": "b/oliveOil",
             "amount": 1
         },
         {
-            "food": {"$ref": "../bases/oliveOil.json"},
+            "food": "b/oliveOil",
             "amount": 1
         },
         {
-            "food": {"$ref": "../bases/driedRosemary.json"},
+            "food": "b/driedRosemary",
             "amount": 3
         },
         {
-            "food": {"$ref": "../bases/driedRosemary.json"},
+            "food": "b/driedRosemary",
             "amount": 3
         },
         {
-            "food": {"$ref": "../bases/oilDip.json"},
+            "food": "r/oilDip",
             "amount": 1,
             "optional": true
         }

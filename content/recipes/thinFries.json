@@ -2,34 +2,34 @@
     "name": "Thin Fries",
     "ingredients": [
         {
-            "food": {"$ref": "../bases/potatoRussett.json"},
+            "food": "b/potatoRussett",
             "amount": 4
         },
         {
-            "food": {"$ref": "../bases/iceWater.json"},
+            "food": "b/iceWater",
             "amount": 10
         },
         {
-            "food": {"$ref": "../bases/water.json"},
+            "food": "b/water",
             "amount": 12
         },
         {
-            "food": {"$ref": "../bases/sugar.json"},
+            "food": "b/sugar",
             "amount": 8
         },
         {
-            "food": {"$ref": "../bases/cornSyrup.json"},
+            "food": "b/cornSyrup",
             "amount": 8
         },
         {
-            "food": {"$ref": "../bases/peanutOil.json"},
+            "food": "b/peanutOil",
             "amount": 32,
             "potentialSubstitution": [
-                {"$ref": "../bases/vegetableOil.json"}
+                "b/vegetableOil"
             ]
         },
         {
-            "food": {"$ref": "../bases/salt.json"},
+            "food": "b/salt",
             "amount": 6
         }
     ],

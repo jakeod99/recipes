@@ -2,19 +2,19 @@
     "name": "Mild Buffalo Sauce",
     "ingredients": [
         {
-            "food": {"$ref": "../bases/redhot.json"},
+            "food": "b/redhot",
             "amount": 4
         },
         {
-            "food": {"$ref": "../bases/butter.json"},
+            "food": "b/butter",
             "amount": 4
         },
         {
-            "food": {"$ref": "../bases/honey.json"},
+            "food": "b/honey",
             "amount": 4
         },
         {
-            "food": {"$ref": "../bases/worcestershire.json"},
+            "food": "b/worcestershire",
             "amount": 1
         }
     ],

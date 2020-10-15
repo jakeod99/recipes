@@ -2,59 +2,59 @@
     "name": "Ribs",
     "ingredients": [
         {
-            "food": {"$ref": "../bases/stLouisRibs.json"},
+            "food": "b/stLouisRibs",
             "amount": 2
         },
         {
-            "food": {"$ref": "../bases/yellowMustard.json"},
+            "food": "b/yellowMustard",
             "amount": 3
         },
         {
-            "food": {"$ref": "../bases/worcestershire.json"},
+            "food": "b/worcestershire",
             "amount": 3
         },
         {
-            "food": {"$ref": "../bases/hickoryLiquidSmoke.json"},
+            "food": "b/hickoryLiquidSmoke",
             "amount": 30
         },
         {
-            "food": {"$ref": "../bases/hickoryLiquidSmoke.json"},
+            "food": "b/hickoryLiquidSmoke",
             "amount": 30
         },
         {
-            "food": {"$ref": "../bases/paprika.json"},
+            "food": "b/paprika",
             "amount": 15
         },
         {
-            "food": {"$ref": "../bases/chiliPowder.json"},
+            "food": "b/chiliPowder",
             "amount": 9
         },
         {
-            "food": {"$ref": "../bases/garlicPowder.json"},
+            "food": "b/garlicPowder",
             "amount": 9
         },
         {
-            "food": {"$ref": "../bases/onionPowder.json"},
+            "food": "b/onionPowder",
             "amount": 4.5
         },
         {
-            "food": {"$ref": "../bases/salt.json"},
+            "food": "b/salt",
             "amount": 4.5
         },
         {
-            "food": {"$ref": "../bases/blackPepper.json"},
+            "food": "b/blackPepper",
             "amount": 4.5
         },
         {
-            "food": {"$ref": "../bases/groundCayenne.json"},
+            "food": "b/groundCayenne",
             "amount": 1
         },
         {
-            "food": {"$ref": "../bases/appleJuice.json"},
+            "food": "b/appleJuice",
             "amount": 0.5
         },
         {
-            "food": {"$ref": "./ribBastingBarbecueSauce.json"},
+            "food": "r/ribBastingBarbecueSauce",
             "amount": 1
         }
     ],

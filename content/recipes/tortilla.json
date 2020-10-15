@@ -2,23 +2,23 @@
     "name": "Tortillas",
     "ingredients": [
         {
-            "food": {"$ref": "../bases/flour.json"},
+            "food": "b/flour",
             "amount": 3
         },
         {
-            "food": {"$ref": "../bases/bakingPowder.json"},
+            "food": "b/bakingPowder",
             "amount": 2
         },
         {
-            "food": {"$ref": "../bases/salt.json"},
+            "food": "b/salt",
             "amount": 1
         },
         {
-            "food": {"$ref": "../bases/shortening.json"},
+            "food": "b/shortening",
             "amount": 5
         },
         {
-            "food": {"$ref": "../bases/water.json"},
+            "food": "b/water",
             "amount": 1,
             "preparation": "real hot, not boiling"
         }

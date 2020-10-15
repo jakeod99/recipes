@@ -2,65 +2,65 @@
     "name": "Fried Chicken",
     "ingredients": [
         {
-            "food": {"$ref": "../bases/chickenBreast.json"},
+            "food": "b/chickenBreast",
             "amount": 5,
             "potentialSubstitution": [
-                {"$ref": "../bases/chickenDrumstick.json"}
+                "b/chickenDrumstick"
             ]
         },
         {
-            "food": {"$ref": "../bases/garlicPowder.json"},
+            "food": "b/garlicPowder",
             "amount": 3
         },
         {
-            "food": {"$ref": "../bases/onionPowder.json"},
+            "food": "b/onionPowder",
             "amount": 1.5
         },
         {
-            "food": {"$ref": "../bases/driedOregano.json"},
+            "food": "b/driedOregano",
             "amount": 1.5
         },
         {
-            "food": {"$ref": "../bases/groundCayenne.json"},
+            "food": "b/groundCayenne",
             "amount": 0.125
         },
         {
-            "food": {"$ref": "../bases/salt.json"},
+            "food": "b/salt",
             "amount": 0.5
         },
         {
-            "food": {"$ref": "../bases/salt.json"},
+            "food": "b/salt",
             "amount": 1
         },
         {
-            "food": {"$ref": "../bases/blackPepper.json"},
+            "food": "b/blackPepper",
             "amount": 1
         },
         {
-            "food": {"$ref": "../bases/blackPepper.json"},
+            "food": "b/blackPepper",
             "amount": 2
         },
         {
-            "food": {"$ref": "../bases/flour.json"},
+            "food": "b/flour",
             "amount": 2
         },
         {
-            "food": {"$ref": "../bases/bakingPowder.json"},
+            "food": "b/bakingPowder",
             "amount": 4.5
         },
         {
-            "food": {"$ref": "../bases/egg.json"},
+            "food": "b/egg",
             "amount": 2
         },
         {
-            "food": {"$ref": "../bases/peanutOil.json"},
+            "food": "b/peanutOil",
             "amount": 16,
             "potentialSubstitution": [
-                {"$ref": "../bases/vegetableOil.json"}
+                "b/vegetableOil"
             ]
         },
         {
-            "food": {"$ref": "./chickfilaSauce.json"},
+            "food": "r/chickfilaSauce",
             "amount": 1,
             "optional": true
         }

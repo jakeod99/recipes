@@ -2,44 +2,44 @@
     "name": "Corn Butter",
     "ingredients": [
         {
-            "food": {"$ref": "../bases/butter.json"},
+            "food": "b/butter",
             "amount": 4,
             "preparation": "room temperature"
         },
         {
-            "food": {"$ref": "../bases/blackPepper.json"},
+            "food": "b/blackPepper",
             "amount": 1.5
         },
         {
-            "food": {"$ref": "../bases/saltSeasoned.json"},
+            "food": "b/saltSeasoned",
             "amount": 1
         },
         {
-            "food": {"$ref": "../bases/salt.json"},
+            "food": "b/salt",
             "amount": 0.5
         },
         {
-            "food": {"$ref": "../bases/garlicPowder.json"},
+            "food": "b/garlicPowder",
             "amount": 0.5
         },
         {
-            "food": {"$ref": "../bases/paprika.json"},
+            "food": "b/paprika",
             "amount": 0.5
         },
         {
-            "food": {"$ref": "../bases/driedParsley.json"},
+            "food": "b/driedParsley",
             "amount": 0.5
         },
         {
-            "food": {"$ref": "../bases/driedBasil.json"},
+            "food": "b/driedBasil",
             "amount": 0.5
         },
         {
-            "food": {"$ref": "../bases/driedOregano.json"},
+            "food": "b/driedOregano",
             "amount": 0.5
         },
         {
-            "food": {"$ref": "../bases/groundCayenne.json"},
+            "food": "b/groundCayenne",
             "amount": 0.25
         }
     ],

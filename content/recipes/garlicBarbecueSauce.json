@@ -2,35 +2,35 @@
     "name": "Garlic Barbecue Sauce",
     "ingredients": [
         {
-            "food": {"$ref": "../bases/sweetBabyRays.json"},
+            "food": "b/sweetBabyRays",
             "amount": 6
         },
         {
-            "food": {"$ref": "../bases/redhot.json"},
+            "food": "b/redhot",
             "amount": 2
         },
         {
-            "food": {"$ref": "../bases/honey.json"},
+            "food": "b/honey",
             "amount": 2
         },
         {
-            "food": {"$ref": "../bases/worcestershire.json"},
+            "food": "b/worcestershire",
             "amount": 1
         },
         {
-            "food": {"$ref": "../bases/butter.json"},
+            "food": "b/butter",
             "amount": 2
         },
         {
-            "food": {"$ref": "../bases/garlicPowder.json"},
+            "food": "b/garlicPowder",
             "amount": 1
         },
         {
-            "food": {"$ref": "../bases/onionPowder.json"},
+            "food": "b/onionPowder",
             "amount": 1
         },
         {
-            "food": {"$ref": "../bases/hickoryLiquidSmoke.json"},
+            "food": "b/hickoryLiquidSmoke",
             "amount": 2
         }
     ],

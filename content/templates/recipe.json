@@ -2,31 +2,31 @@
     "name": "", //Fajitas
     "ingredients": [
         {
-            "food": {"$ref": "./placeholder.json"}, //"./tortillas.json"
+            "food": "r/placeholder", //"r/tortillas"
             "amount": 1, //multiplier on primaryQuantity (which defaults to 1 is undefined)
             "potentialSubstitution": [ //optional
-                {"$ref": "../bases/placeholder.json"}, //"../bases/tortilla.json"
-                {"$ref": "../bases/placeholder.json"} //"../bases/bread.json
+                "b/placeholder", //"b/tortilla"
+                "b/placeholder" //"b/bread.json
             ],
             "optional": false, //false if undefined
             "preparation": "" //optional
         },
         {
-            "food": {"$ref": "../bases/placeholder.json"},
+            "food": "b/placeholder",
             "amount": 2,
             "optional": true
         },
         [ //these are interchangeable ingredients - like different sauce options for wings
             "Shared Term (like Sauce)",
             {
-                "food": {"$ref": "../bases/placeholder.json"}
+                "food": "b/placeholder"
             },
             {
-                "food": {"$ref": "../bases/placeholder.json"}
+                "food": "b/placeholder"
             }
         ],
         {
-            "food": {"$ref": "../bases/placeholder.json"},
+            "food": "b/placeholder",
             "amount": 1
         }
     ],

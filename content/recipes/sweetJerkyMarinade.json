@@ -2,43 +2,43 @@
     "name": "Sweet Jerky Marinade",
     "ingredients": [
         {
-            "food": {"$ref": "../bases/soySauce.json"},
+            "food": "b/soySauce",
             "amount": 4
         },
         {
-            "food": {"$ref": "../bases/worcestershireSauce.json"},
+            "food": "b/worcestershireSauce",
             "amount": 4
         },
         {
-            "food": {"$ref": "../bases/mapleSyrup.json"},
+            "food": "b/mapleSyrup",
             "amount": 1
         },
         {
-            "food": {"$ref": "../bases/honey.json"},
+            "food": "b/honey",
             "amount": 1
         },
         {
-            "food": {"$ref": "../bases/hickoryLiquidSmoke.json"},
+            "food": "b/hickoryLiquidSmoke",
             "amount": 15
         },
         {
-            "food": {"$ref": "../bases/blackPepper.json"},
+            "food": "b/blackPepper",
             "amount": 2
         },
         {
-            "food": {"$ref": "../bases/saltSeasoned.json"},
+            "food": "b/saltSeasoned",
             "amount": 1
         },
         {
-            "food": {"$ref": "../bases/onionPowder.json"},
+            "food": "b/onionPowder",
             "amount": 1
         },
         {
-            "food": {"$ref": "../bases/garlicPowder.json"},
+            "food": "b/garlicPowder",
             "amount": 0.5
         },
         {
-            "food": {"$ref": "../bases/groundCayenne.json"},
+            "food": "b/groundCayenne",
             "amount": 0.25
         }
     ],
