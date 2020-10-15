@@ -2,7 +2,7 @@
     "name": "Oil Dip",
     "ingredients": [
         {
-            "food": "b/oliveOil",
+            "food": "b/oilOlive",
             "amount": 8
         },
         {
@@ -15,10 +15,10 @@
             "preparation": "crushed"
         },
         {
-            "food": "b/driedParsley"
+            "food": "b/parsleyDried"
         },
         {
-            "food": "b/driedRosemary"
+            "food": "b/rosemaryDried"
         },
         {
             "food": "b/redPepperFlakes",

@@ -2,7 +2,7 @@
     "name": "Spiedie Marinade",
     "ingredients": [
         {
-            "food": "b/oliveOil",
+            "food": "b/oilOlive",
             "amount": 5
         },
         {
@@ -18,13 +18,13 @@
             "preparation": "crushed"
         },
         {
-            "food": "b/driedParsley"
+            "food": "b/parsleyDried"
         },
         {
-            "food": "b/driedBasil"
+            "food": "b/basilDried"
         },
         {
-            "food": "b/driedOregano",
+            "food": "b/oreganoDried",
             "amount": 0.5
         },
         {
@@ -40,7 +40,7 @@
             "amount": 0.5
         },
         {
-            "food": "b/groundCayenne",
+            "food": "b/cayenneGround",
             "amount": 0.5
         }
     ],

@@ -7,7 +7,7 @@
             "preparation": "room temperature"
         },
         {
-            "food": "b/powderedSugar",
+            "food": "b/sugarPowdered",
             "amount": 4
         },
         {
@@ -15,7 +15,7 @@
             "amount": 1.5
         },
         {
-            "food": "b/groundCinnamon",
+            "food": "b/cinnamonGround",
             "amount": 0.75
         }
     ],

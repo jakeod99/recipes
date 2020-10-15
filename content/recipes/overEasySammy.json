@@ -1,0 +1,79 @@
+{
+    "name": "Over Easy Sammy",
+    "ingredients": [
+        {
+            "food": "b/breadWhite",
+            "amount": 2
+        },
+        {
+            "food": "b/egg"
+        },
+        {
+            "food": "b/eggWhite"
+        },
+        {
+            "food": "b/basilDried",
+            "amount": 0.5
+        },
+        {
+            "food": "b/garlicPowder",
+            "amount": 0.25
+        },
+        {
+            "food": "b/salt",
+            "amount": 0.25
+        },
+        {
+            "food": "b/chiliPowder",
+            "amount": 0.125
+        },
+        {
+            "food": "b/cayenneGround",
+            "amount": 0.0625
+        },
+        {
+            "food": "b/butter",
+            "amount": 0.5
+        },
+        {
+            "food": "b/blackPepper",
+            "amount": 0.5
+        },
+        {
+            "food": "b/cheeseMozzarellaLM",
+            "preparation": "grated"
+        }
+    ],
+    "steps": [
+        "Toast White Bread Slices to a golden brown",
+        "Put a pan on medium-high heat",
+        "Whisk Egg White, Basil, Garlic, Salt, Chili, and Cayenne together",
+        "Add the Egg to the Egg Mixture (Be careful to not crack the yolk)",
+        "Coat the bottom of the pan with the Butter",
+        "Pour Egg Mixture into pan, aiming to keep the yolk in the center",
+        "Wait until the egg is solid enough to stay intact through a flip",
+        "Flip the egg carefully, taking care to keep the yolk intact",
+        "Quickly add Black Pepper then Mozzerella to the top of the egg",
+        "Quickly take the egg off the pan (to avoid overcooking the yolk)",
+        "Place the egg on one of the slices of toast and top with the other"
+    ],
+    "metrics": {
+        "time": {
+            "total": "15 minutes",
+            "active": "15 minutes"
+        },
+        "yield": {
+            "amount": 1,
+            "unit": "Sammy"
+        }
+    },
+    "tags": {
+        "type": [
+            "Entree",
+            "Sammy"
+        ], 
+        "meals": [ "Breakfast" ],
+        "misc": [],
+        "healthy": []
+    }
+}

@@ -6,7 +6,7 @@
             "amount": 2
         },
         {
-            "food": "b/yellowMustard",
+            "food": "b/mustardYellow",
             "amount": 3
         },
         {
@@ -46,7 +46,7 @@
             "amount": 4.5
         },
         {
-            "food": "b/groundCayenne"
+            "food": "b/cayenneGround"
         },
         {
             "food": "b/appleJuice",

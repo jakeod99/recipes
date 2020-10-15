@@ -11,7 +11,7 @@
             "preparation": "diced"
         },
         {
-            "food": "b/groundCayenne",
+            "food": "b/cayenneGround",
             "amount": 1.5
         },
         {
@@ -29,7 +29,7 @@
             "amount": 2
         },
         {
-            "food": "b/chipotleRanch"
+            "food": "b/ranchChipotle"
         },
         {
             "food": "b/potatoRoll",

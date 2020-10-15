@@ -17,11 +17,11 @@
             "amount": 1.5
         },
         {
-            "food": "b/driedOregano",
+            "food": "b/oreganoDried",
             "amount": 1.5
         },
         {
-            "food": "b/groundCayenne",
+            "food": "b/cayenneGround",
             "amount": 0.125
         },
         {
@@ -51,10 +51,10 @@
             "amount": 2
         },
         {
-            "food": "b/peanutOil",
+            "food": "b/oilPeanut",
             "amount": 16,
             "potentialSubstitution": [
-                "b/vegetableOil"
+                "b/oilVegetable"
             ]
         },
         {

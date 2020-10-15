@@ -6,7 +6,7 @@
             "amount": 4
         },
         {
-            "food": "b/iceWater",
+            "food": "b/waterIced",
             "amount": 10
         },
         {
@@ -22,10 +22,10 @@
             "amount": 8
         },
         {
-            "food": "b/peanutOil",
+            "food": "b/oilPeanut",
             "amount": 32,
             "potentialSubstitution": [
-                "b/vegetableOil"
+                "b/oilVegetable"
             ]
         },
         {
