@@ -1,0 +1,46 @@
+{
+    "name": "Iced Coffee",
+    "ingredients": [
+        {
+            "food": {"$ref": "./pourOver.json"}
+        },
+        {
+            "food": {"$ref": "../bases/milkWhole.json"},
+            "amount": 0.1875,
+            "potentialSubstitution": [
+                {"$ref": "../bases/milk2.json"}
+            ]
+        },
+        {
+            "food": {"$ref": "../bases/ice.json"},
+            "amount": 2
+        }
+    ],
+    "steps": [
+        "Add Ice to a large beverage container",
+        "Pour the Pour Over Coffee over the ice in the container",
+        "Add Milk, and mix everything until cold and consistent"
+    ],
+    "metrics": {
+        "time": {
+            "total": "10 minutes",
+            "active": "10 minutes"
+        },
+        "yield": {
+            "amount": 2,
+            "unit": "Cup"
+        }
+    },
+    "tags": {
+        "type": [
+            "Beverage",
+            "Coffee"
+        ], 
+        "meals": [ "Breakfast" ],
+        "misc": [ "Coffee" ],
+        "healthy": []
+    },
+    "comments": [
+        "Jake's favorite is Eight O'Clock's \"The Original\", which is nice because it's cheap"
+    ]
+}
