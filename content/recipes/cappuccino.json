@@ -1,0 +1,37 @@
+{
+    "name": "Cappuccino",
+    "ingredients": [
+        {
+            "food": "r/espresso"
+        },
+        {
+            "food": "b/milkWhole",
+            "amount": 0.5,
+            "potentialSubstitution": [
+                "b/milk2"
+            ]
+        }
+    ],
+    "steps": [
+        "Froth Milk and add 2-3oz worth to a double shot of Espresso"
+    ],
+    "metrics": {
+        "time": {
+            "total": "15 minutes",
+            "active": "15 minutes"
+        },
+        "yield": {
+            "amount": 4,
+            "unit": "Ounce"
+        }
+    },
+    "tags": {
+        "type": [
+            "Beverage",
+            "Coffee"
+        ], 
+        "meals": [ "Breakfast" ],
+        "misc": [],
+        "healthy": []
+    }
+}
