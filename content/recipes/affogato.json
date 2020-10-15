@@ -1,0 +1,33 @@
+{
+    "name": "Affogato",
+    "ingredients": [
+        {
+            "food": "r/espresso"
+        },
+        {
+            "food": "b/iceCreamFFrenchVanilla"
+        }
+    ],
+    "steps": [
+        "Pour Espresso over French Vanilla Ice Cream"
+    ],
+    "metrics": {
+        "time": {
+            "total": "15 minutes",
+            "active": "15 minutes"
+        },
+        "yield": {
+            "amount": 1.125,
+            "unit": "Cup"
+        }
+    },
+    "tags": {
+        "type": [
+            "Dessert",
+            "Coffee"
+        ], 
+        "meals": [ ],
+        "misc": [],
+        "healthy": [ "Terrible" ]
+    }
+}
