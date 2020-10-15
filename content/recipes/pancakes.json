@@ -1,0 +1,85 @@
+{
+    "name": "Pancakes",
+    "ingredients": [
+        {
+            "food": "b/butter",
+            "amount": 2
+        },
+        {
+            "food": "b/sugar",
+            "amount": 2
+        },
+        {
+            "food": "b/eggYolk"
+        },
+        {
+            "food": "b/eggWhite"
+        },
+        {
+            "food": "b/vanillaImitation",
+            "amount": 1,
+            "potentialSubstitution": [
+                "b/vanillaExtract"
+            ]
+        },
+        {
+            "food": "b/buttermilk",
+            "amount": 1.75
+        },
+        {
+            "food": "b/salt"
+        },
+        {
+            "food": "b/bakingPowder",
+            "amount": 1
+        },
+        {
+            "food": "b/flour",
+            "amount": 2
+        },
+        {
+            "food": "b/mapleSyrup",
+            "amount": 6,
+            "optional": true
+        }
+    ],
+    "steps": [
+        "Microwave Butter until half melted, swish around until fully liquid",
+        "Mix Sugar and an Egg's Yolk into the melted Butter",
+        "Put the Egg's White in an oversized bowl",
+        "Whisk the Egg White until foamy enough to leave stiff peaks",
+        "Add Buttermilk, Vanilla, Baking Powder, and Salt into the Butter",
+        "Mix the Flour into the mixture, Avoid over mixing - lumps are ok",
+        "Pour the mixture into the bowl with the whipped Egg White",
+        "Using a spoon to fold the whites into the mixture (don't overmix!)",
+        "Heat a pan on medium and spread butter on it",
+        "Once the butter just starts to brown, pour on batter",
+        "Once bubbles start appearing closer to the center, flip",
+        "Once cooked, take off pan and place on a grate",
+        "Put some Butter on top, let sit for a couple minutes before serving"
+    ],
+    "metrics": {
+        "time": {
+            "total": "35 minutes",
+            "active": "35 minutes"
+        },
+        "yield": {
+            "amount": 12,
+            "unit": "Pancake"
+        },
+        "serving": { 
+            "amount": 1,
+            "unit": "Pancake",
+            "ratio": 0.0833
+        }
+    },
+    "tags": {
+        "type": [ 
+            "Entree",
+            "Bread"
+        ], 
+        "meals": [ "Breakfast" ],
+        "misc": [ "Bread" ],
+        "healthy": []
+    }
+}
