@@ -73,7 +73,10 @@
             "Lunch",
             "Dinner"
         ],
-        "misc": [ "American" ],
+        "misc": [ 
+            "American",
+            "Freeze"
+        ],
         "healthy": [
             "Terrible",
             "Fat"

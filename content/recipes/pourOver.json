@@ -1,0 +1,54 @@
+{
+    "name": "Pour Over Coffee",
+    "ingredients": [
+        [
+            "Coffee Beans (Whole)",
+            {
+                "food": {"$ref": "../bases/coffee8Original.json"},
+                "amount": 3
+            },
+            {
+                "food": {"$ref": "../bases/coffeeSBPortside.json"},
+                "amount": 3
+            }
+        ],
+        {
+            "food": {"$ref": "../bases/water.json"},
+            "amount": 2.25 
+        }
+    ],
+    "steps": [
+        "Grind Coffee Beans to a Medium-Fine size (Jake likes '6' on his conical burr grinder)",
+        "Put a paper filter in your pour over maker receptical",
+        "Pour ground coffee into the paper filter such that it sits in a pointy mound",
+        "Bring Water to a boil in a gooseneck kettle",
+        "Take kettle off the heat",
+        "Right when the kettle stops boiling, pour over your grounds in concentric circles",
+        "Right when all the grounds ahave gotten wet, stop pouring and let sit for 30 seconds",
+        "Pour half the remaining water over the grounds in concentric circles",
+        "Once that's mostly drained, pour the rest of the water over the grounds in circles",
+        "Pour out coffee and wash everything (coffee stains pretty quick)"
+    ],
+    "metrics": {
+        "time": {
+            "total": "10 minutes",
+            "active": "10 minutes"
+        },
+        "yield": {
+            "amount": 2,
+            "unit": "Cup"
+        }
+    },
+    "tags": {
+        "type": [
+            "Beverage",
+            "Coffee"
+        ], 
+        "meals": [ "Breakfast" ],
+        "misc": [ "Coffee" ],
+        "healthy": []
+    },
+    "comments": [
+        "Jake's favorite is Eight O'Clock's \"The Original\", which is nice because it's cheap"
+    ]
+}
