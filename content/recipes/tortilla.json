@@ -10,8 +10,7 @@
             "amount": 2
         },
         {
-            "food": "b/salt",
-            "amount": 1
+            "food": "b/salt"
         },
         {
             "food": "b/shortening",
@@ -19,7 +18,6 @@
         },
         {
             "food": "b/water",
-            "amount": 1,
             "preparation": "real hot, not boiling"
         }
     ],

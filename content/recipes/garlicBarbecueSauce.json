@@ -14,20 +14,17 @@
             "amount": 2
         },
         {
-            "food": "b/worcestershire",
-            "amount": 1
+            "food": "b/worcestershire"
         },
         {
             "food": "b/butter",
             "amount": 2
         },
         {
-            "food": "b/garlicPowder",
-            "amount": 1
+            "food": "b/garlicPowder"
         },
         {
-            "food": "b/onionPowder",
-            "amount": 1
+            "food": "b/onionPowder"
         },
         {
             "food": "b/hickoryLiquidSmoke",

@@ -10,12 +10,10 @@
             "amount": 4
         },
         {
-            "food": "b/mapleSyrup",
-            "amount": 1
+            "food": "b/mapleSyrup"
         },
         {
-            "food": "b/honey",
-            "amount": 1
+            "food": "b/honey"
         },
         {
             "food": "b/hickoryLiquidSmoke",
@@ -26,12 +24,10 @@
             "amount": 2
         },
         {
-            "food": "b/saltSeasoned",
-            "amount": 1
+            "food": "b/saltSeasoned"
         },
         {
-            "food": "b/onionPowder",
-            "amount": 1
+            "food": "b/onionPowder"
         },
         {
             "food": "b/garlicPowder",

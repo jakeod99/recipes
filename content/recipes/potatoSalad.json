@@ -21,7 +21,6 @@
         },
         {
             "food": "b/scallion",
-            "amount": 1,
             "preparation": "sliced"
         },
         {
@@ -50,7 +49,6 @@
         },
         {
             "food": "b/garlic",
-            "amount": 1,
             "preparation": "crushed"
         },
         {

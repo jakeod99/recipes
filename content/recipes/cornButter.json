@@ -11,8 +11,7 @@
             "amount": 1.5
         },
         {
-            "food": "b/saltSeasoned",
-            "amount": 1
+            "food": "b/saltSeasoned"
         },
         {
             "food": "b/salt",

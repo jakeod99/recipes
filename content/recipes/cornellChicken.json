@@ -9,12 +9,10 @@
             ]
         },
         {
-            "food": "b/cornellMarinade",
-            "amount": 1
+            "food": "b/cornellMarinade"
         },
         {
-            "food": "b/cornellMarinade",
-            "amount": 1
+            "food": "b/cornellMarinade"
         }
     ],
     "steps": [

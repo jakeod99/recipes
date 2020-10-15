@@ -2,8 +2,7 @@
     "name": "Caramel (for Coffee)",
     "ingredients": [
         {
-            "food": "b/water",
-            "amount": 1
+            "food": "b/water"
         },
         {
             "food": "b/sugar",
@@ -14,8 +13,10 @@
             "amount": 10
         },
         {
-            "food": "b/vanillaExtract",
-            "amount": 1
+            "food": "b/vanillaImitation",
+            "potentialSubstitution": [
+                "b/vanillaExtract"
+            ]
         },
         {
             "food": "b/salt",
@@ -28,7 +29,7 @@
         "Continually heat until amber/golden without stirring, then take off heat",
         "Immediately add half of the Sweetened Condensed Milk, whisk until consistent",
         "Add the rest of the Sweetened Condensed Milk",
-        "Add Vanilla Extract, and stir until consistent",
+        "Add Vanilla and stir until consistent",
         "Store in the refridgerator"
     ],
     "metrics": {
@@ -53,6 +54,9 @@
         ], 
         "meals": [],
         "misc": [],
-        "healthy": [ "Terrible" ]
+        "healthy": [ "Terrible" ],
+        "comments": [
+            "Vanilla is crazy expensive right now because hurricanes, so go for imitation"
+        ]
     }
 }

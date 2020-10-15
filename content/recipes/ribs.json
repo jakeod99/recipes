@@ -46,16 +46,14 @@
             "amount": 4.5
         },
         {
-            "food": "b/groundCayenne",
-            "amount": 1
+            "food": "b/groundCayenne"
         },
         {
             "food": "b/appleJuice",
             "amount": 0.5
         },
         {
-            "food": "r/ribBastingBarbecueSauce",
-            "amount": 1
+            "food": "r/ribBastingBarbecueSauce"
         }
     ],
     "steps": [

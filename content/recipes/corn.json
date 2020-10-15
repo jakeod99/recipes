@@ -12,7 +12,6 @@
         },
         {
             "food": "r/cornButter",
-            "amount": 1,
             "optional": true
         }  
     ],

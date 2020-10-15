@@ -10,16 +10,13 @@
             "amount": 3
         },
         {
-            "food": "b/butter",
-            "amount": 1
+            "food": "b/butter"
         },
         {
-            "food": "b/worcestershire",
-            "amount": 1
+            "food": "b/worcestershire"
         },
         {
-            "food": "b/groundCayenne",
-            "amount": 1
+            "food": "b/groundCayenne"
         }
     ],
     "steps": [

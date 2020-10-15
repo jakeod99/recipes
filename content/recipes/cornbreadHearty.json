@@ -30,8 +30,7 @@
             "amount": 2
         },
         {
-            "food": "b/buttermilk",
-            "amount": 1
+            "food": "b/buttermilk"
         },
         {
             "food": "b/frozenCorn",
@@ -46,8 +45,7 @@
             "amount": 2
         },
         {
-            "food": "b/honey",
-            "amount": 1
+            "food": "b/honey"
         },
         {
             "food": "b/saltFlakey",
@@ -58,7 +56,6 @@
         },
         {
             "food": "r/honeyButter",
-            "amount": 1,
             "optional": true
         }
     ],

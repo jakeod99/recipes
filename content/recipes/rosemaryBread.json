@@ -6,21 +6,17 @@
             "amount": 3
         },
         {
-            "food": "b/sugar",
-            "amount": 1
+            "food": "b/sugar"
         },
         {
             "food": "b/water",
-            "amount": 1,
             "preparation": "warm (~110F)"
         },
         {
-            "food": "b/oliveOil",
-            "amount": 1
+            "food": "b/oliveOil"
         },
         {
-            "food": "b/oliveOil",
-            "amount": 1
+            "food": "b/oliveOil"
         },
         {
             "food": "b/driedRosemary",
@@ -32,7 +28,6 @@
         },
         {
             "food": "r/oilDip",
-            "amount": 1,
             "optional": true
         }
     ],

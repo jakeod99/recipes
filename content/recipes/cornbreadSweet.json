@@ -30,12 +30,14 @@
             "amount": 2
         },
         {
-            "food": "b/buttermilk",
-            "amount": 1
+            "food": "b/buttermilk"
         },
         {
-            "food": "b/vanillaExtract",
-            "amount": 0.5
+            "food": "b/vanillaImitation",
+            "amount": 0.5,
+            "potentialSubstitution": [
+                "b/vanillaExtract"
+            ]
         },
         {
             "food": "b/frozenCorn",
@@ -46,8 +48,7 @@
             "amount": 5
         },
         {
-            "food": "b/honey",
-            "amount": 1
+            "food": "b/honey"
         },
         {
             "food": "b/saltFlakey",
@@ -58,7 +59,6 @@
         },
         {
             "food": "r/honeyButter",
-            "amount": 1,
             "optional": true
         }
     ],
@@ -98,6 +98,9 @@
             "American",
             "Bread"
         ],
-        "healthy": [ "Terrible" ]
+        "healthy": [ "Terrible" ],
+        "comments": [
+            "Vanilla is crazy expensive right now because hurricanes, so go for imitation"
+        ]
     }
 }

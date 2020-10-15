@@ -14,12 +14,10 @@
             "amount": 2
         },
         {
-            "food": "b/brownSugar",
-            "amount": 1
+            "food": "b/brownSugar"
         },
         {
-            "food": "b/hickoryLiquidSmoke",
-            "amount": 1
+            "food": "b/hickoryLiquidSmoke"
         }
     ],
     "steps": [

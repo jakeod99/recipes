@@ -19,20 +19,17 @@
             "amount": 2
         },
         {
-            "food": "b/garlicPowder",
-            "amount": 1
+            "food": "b/garlicPowder"
         },
         {
-            "food": "b/garlicSalt",
-            "amount": 1
+            "food": "b/garlicSalt"
         },
         {
             "food": "b/worcestershire",
             "amount": 2
         },
         {
-            "food": "b/chipotleRanch",
-            "amount": 1
+            "food": "b/chipotleRanch"
         },
         {
             "food": "b/potatoRoll",

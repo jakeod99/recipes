@@ -6,8 +6,7 @@
             "amount": 1.25
         },
         {
-            "food": "b/salt",
-            "amount": 1
+            "food": "b/salt"
         },
         {
             "food": "b/butter",
@@ -16,12 +15,10 @@
         },
         {
             "food": "b/butter",
-            "amount": 1,
             "preparation": "melted"
         },
         {
             "food": "b/egg",
-            "amount": 1,
             "preparation": "room temperature"
         },
         {
@@ -37,8 +34,7 @@
             "amount": 2.25
         },
         {
-            "food": "r/honeyButter",
-            "amount": 1
+            "food": "r/honeyButter"
         }
     ],
     "steps": [

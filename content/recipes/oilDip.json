@@ -12,16 +12,13 @@
         },
         {
             "food": "b/garlic",
-            "amount": 1,
             "preparation": "crushed"
         },
         {
-            "food": "b/driedParsley",
-            "amount": 1
+            "food": "b/driedParsley"
         },
         {
-            "food": "b/driedRosemary",
-            "amount": 1
+            "food": "b/driedRosemary"
         },
         {
             "food": "b/redPepperFlakes",

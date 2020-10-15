@@ -11,8 +11,7 @@
             "amount": 0.125
         },
         {
-            "food": "b/sugar",
-            "amount": 1
+            "food": "b/sugar"
         },
         {
             "food": "b/yeast",
@@ -44,7 +43,6 @@
         },
         {
             "food": "r/oilDip",
-            "amount": 1,
             "optional": true
         }
     ],

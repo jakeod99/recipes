@@ -29,12 +29,10 @@
             "amount": 0.5
         },
         {
-            "food": "b/salt",
-            "amount": 1
+            "food": "b/salt"
         },
         {
-            "food": "b/blackPepper",
-            "amount": 1
+            "food": "b/blackPepper"
         },
         {
             "food": "b/blackPepper",
@@ -61,7 +59,6 @@
         },
         {
             "food": "r/chickfilaSauce",
-            "amount": 1,
             "optional": true
         }
     ],
