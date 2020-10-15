@@ -42,7 +42,7 @@
     "tags": {
         "type": [ "Side" ], 
         "meals": [ "Dinner" ],
-        "style": [ 
+        "misc": [ 
             "American",
             "Barbecue"
         ],

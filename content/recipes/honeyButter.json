@@ -40,7 +40,7 @@
             "Spread"
         ], 
         "meals": [],
-        "style": [ "American" ],
+        "misc": [ "American" ],
         "healthy": [ 
             "Terrible",
             "Fat"

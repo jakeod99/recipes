@@ -119,7 +119,7 @@
             "Bread"
         ], 
         "meals": [ "Dinner" ],
-        "style": [ 
+        "misc": [ 
             "Germany",
             "Bread" 
         ],

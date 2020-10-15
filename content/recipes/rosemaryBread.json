@@ -80,7 +80,7 @@
             "Bread"
         ], 
         "meals": [ "Dinner" ],
-        "style": [ "Bread" ],
+        "misc": [ "Bread" ],
         "healthy": []
     }
 }

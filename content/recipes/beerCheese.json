@@ -81,7 +81,7 @@
             "Dip"
         ], 
         "meals": [ "Dinner" ],
-        "style": [ "American" ],
+        "misc": [ "American" ],
         "healthy": [ 
             "Terrible",
             "Fat"

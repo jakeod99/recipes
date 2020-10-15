@@ -56,7 +56,7 @@
             "Lunch",
             "Dinner"
         ],
-        "style": [ "Barbecue" ],
+        "misc": [ "Barbecue" ],
         "healthy": []
     },
     "comments": [

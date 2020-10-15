@@ -65,7 +65,7 @@
             "", //"Lunch"
             "" //"Dinner"
         ],
-        "style": [ //required, entries are optional
+        "misc": [ //required, entries are optional
             "", //"Mexican"
             "" //"Barbecue"
         ],
