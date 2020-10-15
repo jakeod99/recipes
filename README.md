@@ -84,13 +84,14 @@ trigger all the necessary generations and overwrites housed here. To run
 `release.js`, see [Generating a Release](#gar).
 
 #### Versions
-Every version generated that updates recipe content and increments the 
-`StageVersion` digit is stored here indefinitely. Of course, during 
+Every major release is stored here indefinitely, along with any particularly 
+impactful version that updates the `StageVersion` digit. Of course, during 
 development of a feature, feature branches will temporarily store featured 
 versions (or versions which increment the `Feature` digit). When merging into 
 the `stage` branch, be sure that these are scrubbed and that the newest 
 version increments `StageVersion` (e.g., `v1.3.0` or `v2.0.0`, but not 
-`v1.5.3`). 
+`v1.5.3`). When merging into `master`, ensure that only the most meaningful 
+stage-incrementing versions remain (if any).
 
 ### Tech Stack
 It's basically just a bit of straight javascript that produces really basic 
@@ -112,14 +113,16 @@ feature branch would conclude by generating `v1.3.0`, scrubbing all `v1.2.X`
 versions (with the obvious exception of `v1.2.0`), and merging into the 
 `stage` branch. That said, if for whatever reason the changes being merged 
 into `stage` do not necessitate generating a new version (logic changes, 
-stylistic tweaks, etc.)
+stylistic tweaks, etc.), then certainly do not feel obligated to do so. Skip 
+the redundancy. 
 
 #### Stage Branch
 The `stage` branch persists, and is where all feature branches flow into. When 
 the system is ready for a new major release, the most up-to-date version on 
-`stage` should be a major release (e.g., `v.1.0.0` or `v2.0.0`), and it should 
-be pulled into `master`. No development should occur directly on `stage`, it 
-is merely a holding place for stage versions, which ultimately culminate to a 
+`stage` should be a major release (e.g., `v.1.0.0` or `v2.0.0`), it should be 
+scrubbed of all unimport stage-digit-incrementing versions, and it should be 
+pulled into `master`. No development should occur directly on `stage`, it is 
+merely a holding place for stage versions, which ultimately culminate to a 
 major release. 
 
 #### Master Branch
@@ -128,8 +131,7 @@ resides. The most up-to-date version on the `master` branch should always be a
 fresh major release (e.g., `v1.0.0` or `v2.0.0`). This is where all references 
 to Jake's recipe work should point, whether it's showing the current major 
 release or providing access to a deprecated recipe in the `versions` folder. 
-Everything in other branches are still under development and subject to 
-change. 
+Everything in other branches is still under development and subject to change. 
 
 ## Thanks!
 Jake has spent a lot of time learning about cooking recently, and there are a 
@@ -141,6 +143,6 @@ reason to be thankful for their help and guidance. They are:
 - Audrey Moore
 - Joanne O'Donnell
 - Bart Chumbley
-- [Adam Regusea](https://www.youtube.com/user/aragusea)
 - [Andrew Rea](https://www.youtube.com/user/bgfilms)
+- [Adam Ragusea](https://www.youtube.com/user/aragusea)
 - [John Mitzewich](https://www.youtube.com/user/foodwishes)
