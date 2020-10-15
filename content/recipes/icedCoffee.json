@@ -37,7 +37,7 @@
             "Coffee"
         ], 
         "meals": [ "Breakfast" ],
-        "misc": [ "Coffee" ],
+        "misc": [],
         "healthy": []
     },
     "comments": [

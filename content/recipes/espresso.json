@@ -1,0 +1,40 @@
+{
+    "name": "Espresso",
+    "ingredients": [
+        {
+            "food": {"$ref": "../bases/coffeeLSuperCrema"},
+            "amount": 1.25
+        },
+        {
+            "food": {"$ref": "../bases/water.json"},
+            "amount": 0.125
+        }
+    ],
+    "steps": [
+        "Add Water to espresso machine, and preheat along with portafilter",
+        "Grind Coffee Beans to a Fine size ('1.33' for 12 seconds on Jake's conical burr grinder)",
+        "Tamp grounds into portafilter with ~30 pounds of pressure",
+        "Secure portafilter in espresso machine",
+        "Run espresso machine until 2oz of espresso have poured out (~15 seconds)",
+        "Clean everything soon after, it tends to get somewhat dirty quickly"
+    ],
+    "metrics": {
+        "time": {
+            "total": "10 minutes",
+            "active": "10 minutes"
+        },
+        "yield": {
+            "amount": 2,
+            "unit": "Shot"
+        }
+    },
+    "tags": {
+        "type": [
+            "Beverage",
+            "Coffee"
+        ], 
+        "meals": [ "Breakfast" ],
+        "misc": [],
+        "healthy": []
+    }
+}

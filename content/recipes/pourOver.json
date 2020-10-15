@@ -18,7 +18,7 @@
         }
     ],
     "steps": [
-        "Grind Coffee Beans to a Medium-Fine size (Jake likes '6' on his conical burr grinder)",
+        "Grind Coffee Beans to a Medium-Fine size ('6' for 15 seconds on Jake's conical burr grinder)",
         "Put a paper filter in your pour over maker receptical",
         "Pour ground coffee into the paper filter such that it sits in a pointy mound",
         "Bring Water to a boil in a gooseneck kettle",
@@ -45,7 +45,7 @@
             "Coffee"
         ], 
         "meals": [ "Breakfast" ],
-        "misc": [ "Coffee" ],
+        "misc": [],
         "healthy": []
     },
     "comments": [
