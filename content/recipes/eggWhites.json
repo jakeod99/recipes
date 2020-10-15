@@ -1,0 +1,62 @@
+{
+    "name": "Egg Whites",
+    "ingredients": [
+        {
+            "food": "b/eggWhite",
+            "amount": 4
+        },
+        {
+            "food": "b/driedBasil"
+        },
+        {
+            "food": "b/garlicPowder",
+            "amount": 0.5
+        },
+        {
+            "food": "b/salt",
+            "amount": 0.5
+        },
+        {
+            "food": "b/chiliPowder",
+            "amount": 0.25
+        },
+        {
+            "food": "b/groundCayenne",
+            "amount": 0.125
+        },
+        {
+            "food": "b/butter",
+            "amount": 0.5
+        },
+        {
+            "food": "b/blackPepper",
+            "amount": 0.5
+        }
+    ],
+    "steps": [
+        "Put a pan on medium-high heat",
+        "Whisk Eggs, Basil, Garlic, Salt, Chili, and Cayenne thoroughly",
+        "Coat the bottom of the pan with the Butter",
+        "Pour Egg Mixture into pan",
+        "Scramble Eggs until cooked, but not so long that they dry out",
+        "Sprinkle Black Pepper on top and serve"
+    ],
+    "metrics": {
+        "time": {
+            "total": "15 minutes",
+            "active": "15 minutes"
+        },
+        "yield": {
+            "amount": 4,
+            "unit": "Eggs"
+        }
+    },
+    "tags": {
+        "type": [
+            "Entree"
+        ], 
+        "meals": [ "Breakfast" ],
+        "misc": [],
+        "healthy": []
+    }
+}

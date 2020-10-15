@@ -57,7 +57,7 @@
     },
     "tags": {
         "type": [ //required, entries are optional
-            "", //"Entrée", "Snack", "Side", "Dessert", "Beverage", or "Component"
+            "", //"Entree", "Snack", "Side", "Dessert", "Beverage", or "Component"
             "" //"Soup/Stew", "Salad", "Coffee", "Smoothie", "Dip", "Sauce", "Spread", "Meat", "Bread"
         ], 
         "meals": [ //required, entries are optional
@@ -69,7 +69,7 @@
             "" //"Barbecue"
         ],
         "healthy": [ //required, entries are optional 
-            "", //"Heart", "GI", "Terrible", "Protein"
+            "", //"Heart", "GI", "Terrible", "Protein" (Low/High Calorie will be determined programmatically)
         ]
     },
     "comments": [ //optional
