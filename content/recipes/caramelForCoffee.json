@@ -1,0 +1,58 @@
+{
+    "name": "Caramel (for Coffee)",
+    "ingredients": [
+        {
+            "food": "b/water",
+            "amount": 1
+        },
+        {
+            "food": "b/sugar",
+            "amount": 16
+        },
+        {
+            "food": "b/milkSweetenedCondensed",
+            "amount": 10
+        },
+        {
+            "food": "b/vanillaExtract",
+            "amount": 1
+        },
+        {
+            "food": "b/salt",
+            "amount": 0.25
+        }
+
+    ],
+    "steps": [
+        "Mix Water and Sugar in a big pot",
+        "Continually heat until amber/golden without stirring, then take off heat",
+        "Immediately add half of the Sweetened Condensed Milk, whisk until consistent",
+        "Add the rest of the Sweetened Condensed Milk",
+        "Add Vanilla Extract, and stir until consistent",
+        "Store in the refridgerator"
+    ],
+    "metrics": {
+        "time": {
+            "total": "15 minutes",
+            "active": "15 minutes"
+        },
+        "yield": {
+            "amount": 1.75,
+            "unit": "Cup"
+        },
+        "serving": {
+            "amount": 1,
+            "unit": "Teaspoon",
+            "calories": 0.012
+        }
+    },
+    "tags": {
+        "type": [ 
+            "Component",
+            "Sauce"
+        ], 
+        "meals": [],
+        "misc": [],
+        "healthy": [ "Terrible" ]
+    }
+}
