@@ -1,0 +1,85 @@
+{
+    "name": "Sriracha Queso",
+    "ingredients": [
+        {
+            "food": "b/butter",
+            "amount": 3
+        },
+        {
+            "food": "b/flour",
+            "amount": 0.125
+        },
+        {
+            "food": "b/milkWhole",
+            "amount": 0.5,
+            "potentialSubstitution": [
+                "b/milk2"
+            ]
+        },
+        {
+            "food": "b/rotelFR",
+            "amount": 10
+        },
+        {
+            "food": "b/jalapeno",
+            "preparation": "minced, without the seeds/core"
+        },
+        {
+            "food": "b/chiliPowder",
+            "amount": 7.5
+        },
+        {
+            "food": "b/sriracha",
+            "amount": 1.5
+        },
+        {
+            "food": "b/cheeseCheddar16White",
+            "amount": 16
+        }
+    ],
+    "steps": [
+        "Grate Sharp White Cheddar and cover so it does not lose moisture",
+        "Leave grated Cheddar out to come to room temp (~3hrs)",
+        "Put pot on low-medium heat (don't overheat)",
+        "Melt Butter",
+        "Stir in Flour bit by bit",
+        "Stir in Milk bit by bit",
+        "Stir in Rotel bit by bit",
+        "Stir in Jalapeño, Chili Powder, & Sriracha",
+        "Stir in Cheddar in very small increments",
+        "Stir until consistent (don't overheat, be patient)"
+    ],
+    "metrics": {
+        "time": {
+            "total": "3.5 hours",
+            "active": "40 minutes"
+        },
+        "yield": {
+            "amount": 4,
+            "unit": "Cup"
+        },
+        "serving": { 
+            "amount": 2,
+            "unit": "Tablespoon",
+            "ratio": 0.03125
+        }
+    },
+    "tags": {
+        "type": [
+            "Snack",
+            "Dip"
+        ], 
+        "meals": [
+            "Dinner"
+        ],
+        "misc": [
+            "Cheese"
+        ],
+        "healthy": [ 
+            "Terrible"
+        ]
+    },
+    "comments": [
+        "This version congeals easily, will soon (if not already) be deprecated favoring future versions"
+    ]
+}

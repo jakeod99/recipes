@@ -46,7 +46,7 @@
             "amount": 0.25
         },
         {
-            "food": "b/cheeseCheddar",
+            "food": "b/cheeseCheddar9Orange",
             "amount": 20
         }
     ],
@@ -81,7 +81,10 @@
             "Dip"
         ], 
         "meals": [ "Dinner" ],
-        "misc": [ "American" ],
+        "misc": [ 
+            "American",
+            "Cheese"
+        ],
         "healthy": [ 
             "Terrible",
             "Fat"

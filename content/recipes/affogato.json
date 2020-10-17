@@ -27,7 +27,8 @@
             "Coffee"
         ], 
         "meals": [ ],
-        "misc": [],
+        "misc": [
+        ],
         "healthy": [ "Terrible" ]
     }
 }

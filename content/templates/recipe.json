@@ -65,8 +65,8 @@
             "" //"Dinner"
         ],
         "misc": [ //required, entries are optional
-            "", //"Mexican"
-            "" //"Barbecue"
+            "", //"Mexican", "American", "Italian", "Chinese", "Indian", "Cajun"
+            "" //"Barbecue", "Cheese", "Meat", "Coffee", "Sammy", "BigGame"
         ],
         "healthy": [ //required, entries are optional 
             "", //"Heart", "GI", "Protein", or "Terrible" (Low/High Calorie will be determined programmatically)
