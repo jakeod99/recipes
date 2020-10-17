@@ -1,0 +1,89 @@
+{
+    "name": "Gaucamole",
+    "ingredients": [
+        {
+            "food": "b/avocado",
+            "amount": 5
+        },
+        {
+            "food": "b/garlic",
+            "amount": 2,
+            "preparation": "crushed"
+        },
+        {
+            "food": "b/onionRed",
+            "amount": 0.5,
+            "preparation": "diced"
+        },
+        {
+            "food": "b/jalapeno",
+            "preparation": "diced, without the seeds/core"
+        },
+        {
+            "food": "b/cilantro",
+            "amount": 2,
+            "preparation": "chopped"
+        },
+        {
+            "food": "b/chiliPowder",
+            "amount": 0.25
+        },
+        {
+            "food": "b/cayenneGround",
+            "amount": 0.25
+        },
+        {
+            "food": "b/salt",
+            "amount": 0.25
+        },
+        {
+            "food": "b/blackPepper",
+            "amount": 0.25
+        },
+        {
+            "food": "b/cumin",
+            "amount": 0.125
+        },
+        {
+            "food": "b/lime"
+        }
+    ],
+    "steps": [
+        "Roughly chop the Avacados",
+        "Mix everything together",
+        "Mash until mostly smooth with some good chunks in there"
+    ],
+    "metrics": {
+        "time": {
+            "total": "30 minutes",
+            "active": "30 minutes"
+        },
+        "yield": {
+            "amount": 4,
+            "unit": "Cup"
+        },
+        "serving": {
+            "amount": 2,
+            "unit": "Tablespoon",
+            "ratio": 0.03125
+        }
+    },
+    "tags": {
+        "type": [
+            "Side",
+            "Dip"
+        ], 
+        "meals": [
+            "Lunch",
+            "Dinner"
+        ],
+        "misc": [
+            "Mexican",
+            "BigGame"
+        ],
+        "healthy": [
+            "Heart",
+            "GI"
+        ]
+    }
+}
