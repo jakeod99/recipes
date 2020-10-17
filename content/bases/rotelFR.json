@@ -1,8 +1,8 @@
 {
     "name": "Fire Roasted Diced Tomatoes & Green Chilies",
     "brand": "Ro-Tel",
-    "unit": "Ounce",
-    "unitAbbreviation": "oz",
+    "unit": "Can (10oz)",
+    "unitAbbreviation": "Can",
     "calories": 65,
-    "price": 0.10
+    "price": 1
 }

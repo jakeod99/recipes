@@ -1,0 +1,84 @@
+{
+    "name": "Salsa",
+    "ingredients": [
+        {
+            "food": "b/tomatoGP",
+            "amount": 0.5
+        },
+        {
+            "food": "b/jalapeno",
+            "preparation": "diced, without the seeds/core"
+        },
+        {
+            "food": "b/water",
+            "amount": 0.75,
+            "preparation": "cold"
+        },
+        {
+            "food": "b/garlic",
+            "amount": 6,
+            "preparation": "crushed"
+        },
+        {
+            "food": "b/salt",
+            "amount": 0.5
+        },
+        {
+            "food": "b/onionWhite",
+            "amount": 0.5,
+            "preparation": "diced"
+        },
+        {
+            "food": "b/scallion",
+            "amount": 4,
+            "preparation": "finely sliced"
+        },
+        {
+            "food": "b/cilantro",
+            "amount": 1.5,
+            "preparation": "chopped"
+        },
+        {
+            "food": "b/hatchGreenChilesHot",
+            "optional": true
+        }
+    ],
+    "steps": [
+        "Mix all ingredients thoroughly",
+        "Refrigerate for 1 hour (or longer)"
+    ],
+    "metrics": {
+        "time": {
+            "total": "1.5 hours",
+            "active": "30 minutes"
+        },
+        "yield": {
+            "amount": 4,
+            "unit": "Cup",
+            "calories": 0
+        },
+        "serving": {
+            "amount": 2,
+            "unit": "Tablespoon",
+            "ratio": 0.03125
+        }
+    },
+    "tags": {
+        "type": [
+            "Side",
+            "Dip"
+        ], 
+        "meals": [
+            "Lunch",
+            "Dinner"
+        ],
+        "misc": [
+            "Mexican",
+            "BigGame"
+        ],
+        "healthy": [
+            "Heart",
+            "GI"
+        ]
+    }
+}
