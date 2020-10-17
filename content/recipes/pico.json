@@ -1,46 +1,42 @@
 {
-    "name": "Salsa",
+    "name": "Pico de Gallo",
     "ingredients": [
         {
-            "food": "b/tomatoGP",
-            "amount": 0.5
+            "food": "b/tomatoRoma",
+            "amount": 6,
+            "preparation": "diced"
+        },
+        {
+            "food": "b/onionRed",
+            "amount": 0.25,
+            "preparation": "minced"
+        },
+        {
+            "food": "b/cilantro",
+            "amount": 3,
+            "preparation": "chopped"
         },
         {
             "food": "b/jalapeno",
-            "preparation": "diced, without the seeds/core"
-        },
-        {
-            "food": "b/water",
-            "amount": 0.75,
-            "preparation": "cold"
+            "amount": 6,
+            "preparation": "minced, without the seeds/core"
         },
         {
             "food": "b/garlic",
-            "amount": 6,
+            "amount": 1,
             "preparation": "crushed"
         },
         {
             "food": "b/salt",
-            "amount": 0.5
+            "amount": 0.25
         },
         {
-            "food": "b/onionWhite",
-            "amount": 0.5,
-            "preparation": "diced"
+            "food": "b/chiliPowder",
+            "amount": 0.125
         },
         {
-            "food": "b/scallion",
-            "amount": 4,
-            "preparation": "finely sliced"
-        },
-        {
-            "food": "b/cilantro",
-            "amount": 1.5,
-            "preparation": "chopped"
-        },
-        {
-            "food": "b/hatchGreenChilesHot",
-            "optional": true
+            "food": "b/blackPepper",
+            "amount": 0.0625
         }
     ],
     "steps": [
