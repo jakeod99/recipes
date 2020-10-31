@@ -1,0 +1,69 @@
+{
+    "name": "Buffalo Chicken Dip",
+    "ingredients": [
+        {
+            "food": "b/chickenBreast",
+            "amount": 3
+        },
+        {
+            "food": "b/salt",
+            "amount": 6
+        },
+        {
+            "food": "b/cheeseCream",
+            "amount": 32
+        },
+        {
+            "food": "b/redhot",
+            "amount": 48
+        },
+        {
+            "food": "b/ranch",
+            "amount": 32
+        },
+        {
+            "food": "b/cheeseCheddar9Orange",
+            "amount": 16
+        }
+    ],
+    "steps": [
+        "Bring a pot of water to a boil",
+        "Spread the Salt over the Chicken Breasts",
+        "Boil the salted Chicken Breasts for 20 minutes",
+        "Shread the Chicken",
+        "Mix Cream Cheese, RedHot, Ranch, and Cheddar in Crockpot",
+        "Add shreaded Chicken to the crockpot",
+        "Put Crockpot on high for 2 hours",
+        "Serve with Chips"
+    ],
+    "metrics": {
+        "time": {
+            "total": "3 hours",
+            "active": "1 hour"
+        },
+        "yield": {
+            "amount": 8,
+            "unit": "Cups"
+        },
+        "serving": {
+            "amount": 2,
+            "unit": "Tablespoon",
+            "ratio": 0.015625
+        }
+    },
+    "tags": {
+        "type": [ 
+            "Component",
+            "Dip"
+        ], 
+        "meals": [ "Dinner" ],
+        "misc": [ 
+            "American",
+            "Cheese"
+        ],
+        "healthy": [ 
+            "Terrible",
+            "Fat"
+        ]
+    }
+}
