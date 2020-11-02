@@ -1,7 +1,6 @@
 {
     "name": "Fresh Mozzarella",
-    "unit": "Ounces",
-    "unitAbbreviation": "oz",
+    "unit": "Ounce",
     "calories": 85,
     "price": 0.45
 }

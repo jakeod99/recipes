@@ -1,7 +1,6 @@
 {
     "name": "80/20 Ground Beef",
     "unit": "Pound",
-    "unitAbbreviation": "lb",
     "calories": 1150,
     "price": 5
 }

@@ -1,7 +1,6 @@
 {
     "name": "Honey",
     "unit": "Tablespoon",
-    "unitAbbreviation": "Tbsp",
     "calories": 60,
     "price": 0.25
 }

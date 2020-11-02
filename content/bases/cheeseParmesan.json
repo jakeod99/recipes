@@ -1,7 +1,6 @@
 {
     "name": "Parmigiano Reggiano",
-    "unit": "Ounces",
-    "unitAbbreviation": "oz",
+    "unit": "Ounce",
     "calories": 140,
-    "price": 1.40
+    "price": 1.30
 }

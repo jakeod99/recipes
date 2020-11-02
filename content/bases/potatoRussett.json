@@ -1,7 +1,7 @@
 {
     "name": "Russett Potato",
     "unit": "Potato",
-    "unitAbbreviation": "Potatoes",
+    "unitPlural": "Potatoes",
     "calories": 250,
     "price": 1
 }

@@ -52,10 +52,11 @@
         },
         {
             "food": "b/oilPeanut",
-            "amount": 16,
+            "amount": 3,
             "potentialSubstitution": [
                 "b/oilVegetable"
-            ]
+            ],
+            "calorieRatio": 0.12
         },
         {
             "food": "r/chickfilaSauce",

@@ -1,7 +1,8 @@
 {
     "name": "Flour",
     "unit": "Cup",
-    "unitAbbreviation": "C",
+    "secondaryUnit": "Gram",
+    "primaryToSecondary": 0.00667,
     "calories": 475,
     "price": 0.11
 }

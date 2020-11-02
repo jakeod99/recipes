@@ -2,7 +2,7 @@
     "name": "Mild Diced Green Chiles",
     "brand": "Hatch",
     "unit": "Can (4oz)",
-    "unitAbbreviation": "Can",
+    "unitPlural": "Cans (4oz each)",
     "calories": 40,
     "price": 2
 }

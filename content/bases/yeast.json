@@ -2,7 +2,6 @@
     "name": "Active Dry Yeast",
     "brand": "Fleischmann's",
     "unit": "Teaspoon",
-    "unitAbbreviation": "tsp",
     "calories": 15,
     "price": 0.20
 }

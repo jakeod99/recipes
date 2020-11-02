@@ -9,15 +9,17 @@
             ]
         },
         {
-            "food": "b/cornellMarinade"
+            "food": "b/cornellMarinade",
+            "calorieRatio": 0.1
         },
         {
-            "food": "b/cornellMarinade"
+            "food": "b/cornellMarinade",
+            "calorieRatio": 0.3
         }
     ],
     "steps": [
         "Cut the Whole Chickens in into Half Chickens (or Quarters)",
-        "Use teh first batch of Cornell Marinade to marinate the Half Chickens overnight (~18 hours)",
+        "Use the first batch of Cornell Marinade to marinate the Half Chickens overnight (~18 hours)",
         "Drain the marinade from the Chicken",
         "Grill Chicken about 1 foot over charcoal (make sure coals are hot)",
         "If you're feelin' it, maybe put some wood on the coals for smoke",

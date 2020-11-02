@@ -3,8 +3,10 @@
     "brand": "", //optional, only define if relevant. Just prepended to name in certain circumstances.
     "quantity": 1, //if undefined, 1 is assumed
     "unit": "", //if undefined, `name` is assumed. Could be "Cup", "Tablespoon", "Slice", etc.
-    "unitAbbreviation": "", //if undefined, `unit` is assumed. Could be "C", "Tbsp", etc.
     "unitPlural": "", //if undefined, `unit` + "s" is assumed. Could be "Cups", "Tablespoons"
+    "secondaryUnit": "", //optional, only define if relevant
+    "secondaryUnitPlural": "", //if undefined, `secondaryUnit` + "s" is assumed.
+    "primaryToSecondary": 0, //only define with `secondaryUnit` - multiplier to convert to secondary
     "calories": 0,
     "price": 0 //clearly this varies by location and season, and should be updated with inflation
 }

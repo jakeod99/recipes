@@ -6,7 +6,8 @@
             "amount": 2
         },
         {
-            "food": "r/spiedieMarinade"
+            "food": "r/spiedieMarinade",
+            "calorieRatio": 0.15
         },
         {
             "food": "b/breadItalianSesame",

@@ -1,7 +1,7 @@
 {
     "name": "Baby Red Potato",
     "unit": "Potato",
-    "unitAbbreviation": "Potatoes",
+    "unitPlural": "Potatoes",
     "calories": 20,
     "price": 0.16
 }

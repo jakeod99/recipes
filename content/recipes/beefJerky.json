@@ -7,10 +7,12 @@
         [
             "Marinade",
             {
-                "food": "r/sweetJerkyMarinade"
+                "food": "r/sweetJerkyMarinade",
+                "calorieRatio": 0.2
             },
             {
-                "food": "r/hotJerkyMarinade"
+                "food": "r/hotJerkyMarinade",
+                "calorieRatio": 0.2
             }
         ]
     ],

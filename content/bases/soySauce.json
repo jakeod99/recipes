@@ -1,7 +1,6 @@
 {
     "name": "Soy Sauce",
     "unit": "Tablespoon",
-    "unitAbbreviation": "Tbsp",
     "calories": 10,
     "price": 0.10
 }

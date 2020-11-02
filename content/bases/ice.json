@@ -1,7 +1,6 @@
 {
     "name": "Ice",
     "unit": "Cup",
-    "unitAbbreviation": "C",
     "calories": 0,
     "price": 0.01
 }

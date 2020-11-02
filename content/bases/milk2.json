@@ -1,7 +1,6 @@
 {
     "name": "2% Milk",
     "unit": "Cup",
-    "unitAbbreviation": "C",
     "calories": 130,
     "price": 0.18
 }

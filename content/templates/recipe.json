@@ -1,5 +1,6 @@
 {
     "name": "", //Fajitas
+    "credit": "", //optional, undefined assumes `Jake`
     "ingredients": [
         {
             "food": "r/placeholder", //"r/tortillas"
@@ -9,7 +10,12 @@
                 "b/placeholder" //"b/bread.json
             ],
             "optional": false, //false if undefined
-            "preparation": "" //optional
+            "preparation": "", //optional
+            "secondary": false, //false if undefined, 
+            "calorieRatio": "", //1 if undefined, only counts a portion of the calories in recipe total
+            "unitOverride": "", //optionally provide custom unit
+            "calorieOverride": "", //required when `unitOverride` is defined - total calories for this ingredient
+            "priceOverride": "" //required when `unitOverride` is defined - total price for this ingredient
         },
         {
             "food": "b/placeholder",
@@ -46,8 +52,7 @@
         },
         "yield": {
             "amount": 0, //8
-            "unit": "", //"fajita"
-            "calories": 0 //optional, only define to override sum of ingredient calories
+            "unit": "" //"fajita"
         },
         "serving": { //if undefined, assumes `yield` is one serving
             "amount": 0, //2

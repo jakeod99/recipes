@@ -2,7 +2,7 @@
     "name": "Original Diced Tomatoes & Green Chilies",
     "brand": "Ro-Tel",
     "unit": "Can (10oz)",
-    "unitAbbreviation": "Can",
+    "unitPlural": "Cans (10z)",
     "calories": 65,
     "price": 1
 }

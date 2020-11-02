@@ -1,7 +1,6 @@
 {
     "name": "Peanut Oil",
-    "unit": "Tablespoon",
-    "unitAbbreviation": "Tbsp",
-    "calories": 125,
-    "price": 0.10
+    "unit": "Cup",
+    "calories": 1925,
+    "price": 1.60
 }

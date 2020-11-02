@@ -10,7 +10,8 @@
         },
         {
             "food": "b/oilOlive",
-            "amount": 2
+            "amount": 2,
+            "calorieRatio": 0.5
         },
         {
             "food": "r/rosemaryGarlicFinishingButter"

@@ -23,10 +23,11 @@
         },
         {
             "food": "b/oilPeanut",
-            "amount": 32,
+            "amount": 2,
             "potentialSubstitution": [
                 "b/oilVegetable"
-            ]
+            ],
+            "calorieRatio": 0.12
         },
         {
             "food": "b/salt",

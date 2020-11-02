@@ -1,7 +1,6 @@
 {
     "name": "Maple Syrup",
     "unit": "Tablespoon",
-    "unitAbbreviation": "Tbsp",
     "calories": 55,
     "price": 0.35 
 }

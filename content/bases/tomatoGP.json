@@ -2,7 +2,7 @@
     "name": "'Kitchen Ready' Ground Peeled Tomatoes",
     "brand": "Pastene",
     "unit": "Can (28oz)",
-    "unitAbbreviation": "Can",
+    "unitPlural": "Cans (28oz)",
     "calories": 260,
     "price": 1.50
 }

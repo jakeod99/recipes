@@ -2,7 +2,6 @@
     "name": "Especial",
     "brand": "Modelo",
     "unit": "Cup",
-    "unitAbbreviation": "C",
     "calories": 100,
     "price": 0.85
 }
