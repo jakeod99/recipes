@@ -18,10 +18,10 @@
         },
         {
             "food": "b/rotelFR",
-            "amount": 10
+            "amount": 1
         },
         {
-            "food": "b/jalapeno",
+            "food": "b/pepperJalapeno",
             "preparation": "minced, without the seeds/core"
         },
         {

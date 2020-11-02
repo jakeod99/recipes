@@ -1,0 +1,102 @@
+{
+    "name": "Chile con Queso",
+    "ingredients": [
+        {
+            "food": "b/cheeseJackMonterey",
+            "amount": 8
+        },
+        {
+            "food": "b/cheeseCheddar9Orange",
+            "amount": 8
+        },
+        {
+            "food": "b/cheeseAmerican",
+            "amount": 4
+        },
+        {
+            "food": "b/cornStarch",
+            "amount": 1.5
+        },
+        {
+            "food": "b/butter",
+            "amount": 0.5
+        },
+        {
+            "food": "b/garlic",
+            "amount": 3,
+            "preparation": "crushed"
+        },
+        {
+            "food": "b/milkEvaporated",
+            "amount": 12
+        },
+        {
+            "food": "b/rotelFR"
+        },
+        {
+            "food": "b/hatchGreenChilesHot"
+        },
+        {
+            "food": "b/pepperJalapeno",
+            "preparation": "diced, without the seeds/core"
+        },
+        {
+            "food": "b/pepperFresno",
+            "preparation": "diced, without the seeds/core"
+        },
+        {
+            "food": "b/lime"
+        },
+        {
+            "food": "b/chiliPowder",
+            "amount": 1.5
+        },
+        {
+            "food": "b/cayenneGround",
+            "amount": 0.25
+        }
+    ],
+    "steps": [
+        "Grate Monterey Jack, Sharp Cheddar, and American together",
+        "Toss Cheese in Cornstarch",
+        "Put pot on medium-low heat (don't overheat)",
+        "Melt Butter",
+        "Stir in crushed Garlic, let sizzle for about 15 seconds",
+        "Stir in Evaporated Milk bit by bit and let heat up",
+        "Stir in cheese mix bit by bit (only adding when last bit has melted)",
+        "Stir in drained Rotel and drained Hot Green Chiles",
+        "Stir in the diced Jalapeno and Fresno peppers",
+        "Stir in Chili Powder, Cayenne, and Lime Juice",
+        "Stir until consistent (don't overheat, be patient)"
+    ],
+    "metrics": {
+        "time": {
+            "total": "30 minutes",
+            "active": "30 minutes"
+        },
+        "yield": {
+            "amount": 4,
+            "unit": "Cup"
+        },
+        "serving": { 
+            "amount": 2,
+            "unit": "Tablespoon",
+            "ratio": 0.03125
+        }
+    },
+    "tags": {
+        "type": [
+            "Snack",
+            "Dip"
+        ], 
+        "meals": [
+            "Dinner"
+        ],
+        "misc": [
+            "Cheese"
+        ],
+        "healthy": [ 
+            "Terrible"
+        ]
+    }
+}
