@@ -1,0 +1,73 @@
+{
+    "name": "Smoothie",
+    "ingredients": [
+        {
+            "food": "b/ice"
+        },
+        {
+            "food": "b/milk2",
+            "amount": 0.5,
+            "potentialSubstitution": [
+                "b/milkWhole"
+            ]
+        },
+        {
+            "food": "b/water",
+            "amount": 0.5
+        },
+        {
+            "food": "b/wheyPowder",
+            "amount": 2
+        },
+        {
+            "food": "b/vanillaImitation",
+            "amount": 0.5,
+            "potentialSubstitution": [
+                "b/vanillaExtract"
+            ]
+        },
+        {
+            "food": "b/honey"
+        },
+        {
+            "food": "b/walnut",
+            "amount": 0.125,
+            "optional": true
+        },
+        {
+            "food": "b/strawberryFrozen",
+            "amount": 2
+        },
+        {
+            "food": "b/blueberryFrozen",
+            "amount": 0.5
+        },
+        {
+            "food": "b/banana",
+            "amount": 0.5,
+            "preparation": "peeled/frozen"
+        }
+    ],
+    "steps": [
+        "Put all ingredients in blender and blend until consistent"
+    ],
+    "metrics": {
+        "time": {
+            "total": "10 minutes",
+            "active": "10 minutes"
+        },
+        "yield": {
+            "amount": 4,
+            "unit": "Cup"
+        }
+    },
+    "tags": {
+        "type": [ "Beverage" ], 
+        "meals": [ "Breakfast" ],
+        "misc": [],
+        "healthy": [ "Heart", "GI" ]
+    },
+    "comments": [
+        "Real Vanilla is super expensive right now because Cyclone Enawo murdered supply as snack companies pumped demand"
+    ]
+}

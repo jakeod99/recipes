@@ -63,7 +63,7 @@
     "tags": {
         "type": [ //required, entries are optional
             "", //"Entree", "Snack", "Side", "Dessert", "Beverage", or "Component"
-            "" //"Soup/Stew", "Salad", "Coffee", "Smoothie", "Dip", "Sauce", "Spread", "Meat", "Sammy", or "Bread"
+            "" //"Meat", "Sammy", "Soup/Stew", "Salad", "Bread", "Coffee", "Dip", "Sauce", or "Spread"
         ], 
         "meals": [ //required, entries are optional
             "", //"Lunch"
@@ -74,7 +74,7 @@
             "" //"Barbecue", "Cheese", "Meat", "Coffee", "Sammy", "BigGame"
         ],
         "healthy": [ //required, entries are optional 
-            "", //"Heart", "GI", "Protein", or "Terrible" (Low/High Calorie will be determined programmatically)
+            "" //"Heart", "GI", "Protein", or "Terrible" (Low/High Calorie will be determined programmatically)
         ]
     },
     "comments": [ //optional

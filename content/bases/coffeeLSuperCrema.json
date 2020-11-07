@@ -3,7 +3,6 @@
     "brand": "Lavazza",
     "unit": "Scoop (where 1 Scoop = 1/8 Cup)",
     "unitPlural": "Scoops (where 1 Scoop = 1/8 Cup)",
-    "unitAbbreviation": "Scoop",
     "calories": 5,
     "price": 0.23
 }

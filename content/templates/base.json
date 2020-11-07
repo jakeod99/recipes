@@ -6,7 +6,7 @@
     "unitPlural": "", //if undefined, `unit` + "s" is assumed. Could be "Cups", "Tablespoons"
     "secondaryUnit": "", //optional, only define if relevant
     "secondaryUnitPlural": "", //if undefined, `secondaryUnit` + "s" is assumed.
-    "primaryToSecondary": 0, //only define with `secondaryUnit` - multiplier to convert to secondary
+    "primaryToSecondary": 0, //Define with `secondaryUnit` - multiplier to convert to secondary
     "calories": 0,
     "price": 0 //clearly this varies by location and season, and should be updated with inflation
 }

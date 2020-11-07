@@ -1,0 +1,10 @@
+{
+    "name": "Whey Protein Powder (Vanilla)",
+    "brand": "Body Fortress",
+    "unit": "Tablespoon",
+    "secondaryUnit": "Scoop (where 1 Scoop = 1/2 Cup)",
+    "secondaryUnitPlural": "Scoops (where 1 Scoop = 1/2 Cup)",
+    "primaryToSecondary": 8,
+    "calories": 25,
+    "price": 0.13
+}
