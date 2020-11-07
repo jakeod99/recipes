@@ -31,7 +31,7 @@
             "Coffee"
         ], 
         "meals": [ "Breakfast" ],
-        "misc": [],
+        "misc": [ "Warming" ],
         "healthy": []
     }
 }

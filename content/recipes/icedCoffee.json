@@ -2,7 +2,8 @@
     "name": "Iced Coffee",
     "ingredients": [
         {
-            "food": "r/pourOver"
+            "food": "r/pourOver",
+            "preparation": "room temperature or colder"
         },
         {
             "food": "b/milkWhole",

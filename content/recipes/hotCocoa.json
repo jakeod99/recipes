@@ -1,0 +1,68 @@
+{
+    "name": "Hot Cocoa",
+    "ingredients": [
+        {
+            "food": "b/milkWhole",
+            "amount": 4
+        },
+        {
+            "food": "b/milkWhole",
+            "amount": 0.125
+        },
+        {
+            "food": "b/cocoaPowder",
+            "amount": 2
+        },
+        {
+            "food": "b/sugar",
+            "amount": 4
+        },
+        {
+            "food": "b/chocolateBar60",
+            "amounts": 3,
+            "preparation": "chopped"
+        },
+        {
+            "food": "b/nutella",
+            "amount": 2
+        },
+        {
+            "food": "b/vanillaImitation",
+            "amount": 2,
+            "potentialSubstitution": [
+                "b/vanillaExtract"
+            ]
+        }
+    ],
+    "steps": [
+        "Whisk Cocoa Powder and Sugar together thoroughly",
+        "Add 1/8 Cup of the Whole Milk and whisk thoroughly",
+        "Once fully consistent, slowly whisk in 4 Cups of Whole Milk",
+        "Put on heat (medium heat, not too hot or things will burn)",
+        "Always continually mix while on heat (to keep from burns)",
+        "Add Vanilla Extract and Nutella; keep mixing",
+        "Once consistent, add Chocolate bits and mix",
+        "Once consistent and steaming, take off heat and serve"
+    ],
+    "metrics": {
+        "time": {
+            "total": "20 minutes",
+            "active": "20 minutes"
+        },
+        "yield": {
+            "amount": 5,
+            "unit": "Cup"
+        },
+        "serving": {
+            "amount": 2.5,
+            "unit": "Cup",
+            "ratio": 0.5
+        }
+    },
+    "tags": {
+        "type": [ "Beverage" ], 
+        "meals": [],
+        "misc": [ "Warming" ],
+        "healthy": [ "Terrible" ]
+    }
+}

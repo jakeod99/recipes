@@ -1,0 +1,8 @@
+{
+    "name": "Chocolate Bar (60% Cocoa)",
+    "unit": "Bar",
+    "secondaryUnit": "Ounce",
+    "primaryToSecondary": 0.334,
+    "calories" : 450,
+    "price": 0.75
+}
