@@ -1,0 +1,104 @@
+{
+    "name": "Chicken Tikka Masala",
+    "ingredients": [
+        {
+            "food": "r/tandooriChicken",
+            "amount": 0.6
+        },
+        {
+            "food": "b/riceWhite",
+            "amount": 2
+        },
+        {
+            "food": "b/water",
+            "amount": 4
+        },
+        {
+            "food": "b/water",
+            "amount": 2
+        },
+        {
+            "food": "b/salt"
+        },
+        {
+            "food": "b/salt",
+            "amount": 0.25
+        },
+        {
+            "food": "b/oilVegetable",
+            "amount": 0.5
+        },
+        {
+            "food": "b/onionWhite"
+        },
+        {
+            "food": "b/garamMasala",
+            "amount": 6
+        },
+        {
+            "food": "b/tomatoPaste",
+            "amount": 2
+        },
+        {
+            "food": "b/paprika",
+            "amount": 3
+        },
+        {
+            "food": "b/cayenneGround",
+            "amount": 0.125
+        },
+        {
+            "food": "b/gingerGarlicPaste",
+            "amount": 4.5
+        },
+        {
+            "food": "b/tomatoGP"
+        },
+        {
+            "food": "b/creamHeavy",
+            "amount": 0.75
+        },
+        {
+            "food": "b/sugar",
+            "amount": 2
+        }
+    ],
+    "steps": [
+        "Rinse White Rice until water runs somewhat clear through it",
+        "Put Rice in pot w/ 4 Cups of Water",
+        "Add 1 teaspoon of Salt, and put on medium-high heat for 20 min",
+        "In a wide stovetop pan, put Vegetable Oil on medium-high heat",
+        "Add Onion, stir as it fries until translucent (~4 minutes)",
+        "Briefly toast Garam Masala, then stir into the onion",
+        "Stir in Tomato Paste for about 30 seconds",
+        "Stir in Paprika, Ground Cayenne, and Ginger-Garlic Paste",
+        "Lower heat a bit (maybe just high of medium) and keep stirring",
+        "After a minute, add the can of Ground Peeled Tomatoes",
+        "Stir and let reduce for 10 minutes",
+        "Break Tandoori Chicken down into big chunks (with your hands)",
+        "Stir in Heavy Cream, 2 Cups of Water, 1/4 tsp Salt, and Sugar",
+        "Let everything heat up in the pan, then serve with Rice"
+    ],
+    "metrics": {
+        "time": {
+            "total": "30 minutes",
+            "active": "30 minutes"
+        },
+        "yield": {
+            "amount": 5,
+            "unit": "Cup"
+        },
+        "serving": {
+            "amount": 1,
+            "unit": "Cup",
+            "ratio": 0.2
+        }
+    },
+    "tags": {
+        "type": [ "Entree" ], 
+        "meals": [ "Dinner" ],
+        "misc": [ "Indian", "Meat" ],
+        "healthy": []
+    },
+    "comments": [ "Great for using leftover tandoori chicken" ]
+}
