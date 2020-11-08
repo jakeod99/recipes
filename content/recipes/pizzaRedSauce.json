@@ -1,0 +1,54 @@
+{
+    "name": "Red Pizza Sauce",
+    "ingredients": [
+        {
+            "food": "b/tomatoGP"
+        },
+        {
+            "food": "b/oilOlive",
+            "amount": 4
+        },
+        {
+            "food": "b/oreganoDried",
+            "amount": 2
+        },
+        {
+            "food": "b/sugar",
+            "amount": 0.334
+        },
+        {
+            "food": "b/garlic",
+            "amount": 2,
+            "preparation": "crushed"
+        }
+    ],
+    "steps": [
+        "Whisk all ingredients together at room temperature",
+        "Let sit (in fridge) for at least an hour before use"
+    ],
+    "metrics": {
+        "time": {
+            "total": "1 hour",
+            "active": "10 minutes"
+        },
+        "yield": {
+            "amount": 4,
+            "unit": "Cup"
+        },
+        "serving": {
+            "amount": 0.75,
+            "unit": "Cup",
+            "ratio": 0.1825
+        }
+    },
+    "tags": {
+        "type": [
+            "Component",
+            "Sauce"
+        ], 
+        "meals": [],
+        "misc": [ "Italian" ],
+        "healthy": [ "GI" ]
+    },
+    "comments": []
+}
