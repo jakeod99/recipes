@@ -1,0 +1,53 @@
+{
+    "name": "White Pizza Sauce",
+    "ingredients": [
+        {
+            "food": "b/butter"
+        },
+        {
+            "food": "b/garlic",
+            "amount": 3,
+            "preparation": "crushed"
+        },
+        {
+            "food": "b/cheesePecorinoRomano",
+            "amount": 0.5,
+            "preparation": "finely grated"
+        },
+        {
+            "food": "b/creamHeavy",
+            "amount": 0.25
+        },
+        {
+            "food": "b/blackPepper"
+        }
+    ],
+    "steps": [
+        "Melt Butter in a pan on the stove at medium heat",
+        "Add in Garlic and let sizzle until barely starting to brown",
+        "Stir in Heavy Cream, making sure Garlic doesn't brown much",
+        "Once bubbling/boiling, take the pan off heat and add Black Pepper",
+        "Once no longer bubbling, stir in Pecorino Cheese until consistent",
+        "Don't wait too long to spread onto pizza dough, it will grow stiff"
+    ],
+    "metrics": {
+        "time": {
+            "total": "10 minutes",
+            "active": "10 minutes"
+        },
+        "yield": {
+            "amount": 0.334,
+            "unit": "Cup"
+        }
+    },
+    "tags": {
+        "type": [
+            "Component",
+            "Sauce"
+        ], 
+        "meals": [],
+        "misc": [ "Italian" ],
+        "healthy": [ "Terrible" ]
+    },
+    "comments": [ "Do not try to make ahead of time, make right before spreading onto dough" ]
+}
