@@ -143,6 +143,7 @@ reason to be thankful for their help and guidance. They are:
 - Audrey Moore
 - Joanne O'Donnell
 - Barb O'Donnell
+- Luke O'Donnell
 - Bart Chumbley
 - [Andrew Rea](https://www.youtube.com/user/bgfilms)
 - [Adam Ragusea](https://www.youtube.com/user/aragusea)

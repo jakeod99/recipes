@@ -1,0 +1,81 @@
+{
+    "name": "Tandoori Chicken",
+    "ingredients": [
+        {
+            "food": "b/chickenDrumstick",
+            "amount": 10
+        },
+        {
+            "food": "b/salt"
+        },
+        {
+            "food": "b/garamMasala",
+            "amount": 9
+        },
+        {
+            "food": "b/paprika",
+            "amount": 6
+        },
+        {
+            "food": "b/cayenneGround",
+            "amount": 0.5
+        },
+        {
+            "food": "b/lemon"
+        },
+        {
+            "food": "b/yogurtGreekFullPlain",
+            "amount": 0.5
+        },
+        {
+            "food": "b/gingerGarlicPaste",
+            "amount": 6
+        }
+    ],
+    "steps": [
+        "Deeply score Chicken Legs (to increase their surface area)",
+        "Mix Salt, Garam Masala, Paprika, and Ground Cayenne",
+        "Mix with Lemon Juice, Yogurt, and Ginger-Garlic Paste",
+        "Marinate Chicken Legs in the Mixture for 2-24 hours",
+        "Preheat the oven to 475F",
+        "Put an oven-safe grate on a pan",
+        "Place the marinated chicken legs on the grate",
+        "Put the chicken/grate/pan on the top oven rack for 6 minutes",
+        "Flip the chicken legs and put back on the top rack for 6 minutes",
+        "Lower oven heat to 350F",
+        "Move the chicken to a lower oven rack for another 30 minutes",
+        "Pull out and let sit for 10 minutes to finish carry-over cooking"
+    ],
+    "metrics": {
+        "time": {
+            "total": "3-25 hours",
+            "active": "1 hour"
+        },
+        "yield": {
+            "amount": 10,
+            "unit": "Drumstick"
+        },
+        "serving": {
+            "amount": 1,
+            "unit": "Drumstick",
+            "ratio": 0.1
+        }
+    },
+    "tags": {
+        "type": [
+            "Entree",
+            "Meat"
+        ], 
+        "meals": [
+            "Dinner"
+        ],
+        "misc": [
+            "Indian",
+            "Meat"
+        ],
+        "healthy": []
+    },
+    "comments": [
+        "Save leftovers, great to reheat when making Chicken Tikka Masala"
+    ]
+}
