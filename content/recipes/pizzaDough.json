@@ -1,0 +1,76 @@
+{
+    "name": "Pizza Dough",
+    "ingredients": [
+        {
+            "food": "b/water",
+            "amount": 2.5,
+            "preparation": "warm (~100F)"
+        },
+        {
+            "food": "b/sugar"
+        },
+        {
+            "food": "b/yeast"
+        },
+        {
+            "food": "b/oilOlive",
+            "amount": 2
+        },
+        {
+            "food": "b/oilOlive",
+            "amount": 2
+        },
+        {
+            "food": "b/salt",
+            "amount": 3
+        },
+        {
+            "food": "b/flour",
+            "amount": 5
+        },
+        {
+            "food": "b/flour",
+            "amount": 0.5
+        }
+    ],
+    "steps": [
+        "Mix Warm Water, Sugar, and Yeast in a big bowl",
+        "Let sit for 5 minutes",
+        "If there's no foaming, the yeast is dead and you need to start over",
+        "Mix in Olive Oil and Salt, then Flour",
+        "Knead the dough, only adding minimal extra flour when necessary",
+        "Stop kneading when dough can stretch thin without tearing (~15min)",
+        "Divide the dough into 4 equal balls",
+        "Lightly coat 4 glass tupperware containers with Olive Oil",
+        "Lightly coat the dough balls with Olive Oil",
+        "Put the dough balls into the containers",
+        "Leave the dough balls containers in fridge for 72-120 hours"
+    ],
+    "metrics": {
+        "time": {
+            "total": "3-5 days",
+            "active": "30 minutes"
+        },
+        "yield": {
+            "amount": 4,
+            "unit": "Dough Ball"
+        },
+        "serving": {
+            "amount": 1,
+            "unit": "Dough Ball",
+            "ratio": 0.25
+        }
+    },
+    "tags": {
+        "type": [
+            "Component",
+            "Bread"
+        ], 
+        "meals": [],
+        "misc": [ "Italian" ],
+        "healthy": []
+    },
+    "comments": [
+        "The cold ferment makes it taste super yummy. Not necessary, but highly recommended."
+    ]
+}
