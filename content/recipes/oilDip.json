@@ -8,11 +8,11 @@
         {
             "food": "b/cheeseParmesan",
             "amount": 0.5,
-            "preparation": "grated"
+            "prep": "grated"
         },
         {
             "food": "b/garlic",
-            "preparation": "crushed"
+            "prep": "crushed"
         },
         {
             "food": "b/parsleyDried"

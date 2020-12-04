@@ -7,12 +7,12 @@
         {
             "food": "b/garlic",
             "amount": 3,
-            "preparation": "crushed"
+            "prep": "crushed"
         },
         {
             "food": "b/cheesePecorinoRomano",
             "amount": 0.5,
-            "preparation": "finely grated"
+            "prep": "finely grated"
         },
         {
             "food": "b/creamHeavy",

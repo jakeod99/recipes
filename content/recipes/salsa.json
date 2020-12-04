@@ -7,17 +7,17 @@
         },
         {
             "food": "b/pepperJalapeno",
-            "preparation": "diced, without the seeds/core"
+            "prep": "diced, without the seeds/core"
         },
         {
             "food": "b/water",
             "amount": 0.75,
-            "preparation": "cold"
+            "prep": "cold"
         },
         {
             "food": "b/garlic",
             "amount": 6,
-            "preparation": "crushed"
+            "prep": "crushed"
         },
         {
             "food": "b/salt",
@@ -26,17 +26,17 @@
         {
             "food": "b/onionWhite",
             "amount": 0.5,
-            "preparation": "diced"
+            "prep": "diced"
         },
         {
             "food": "b/scallion",
             "amount": 4,
-            "preparation": "finely sliced"
+            "prep": "finely sliced"
         },
         {
             "food": "b/cilantro",
             "amount": 1.5,
-            "preparation": "chopped"
+            "prep": "chopped"
         },
         {
             "food": "b/hatchGreenChilesHot",

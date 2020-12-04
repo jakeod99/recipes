@@ -11,21 +11,21 @@
         {
             "food": "b/onionYellow",
             "amount": 4,
-            "preparation": "halved"
+            "prep": "halved"
         },
         {
             "food": "b/carrot",
             "amount": 3,
-            "preparation": "halved"
+            "prep": "halved"
         },
         {
             "food": "b/celery",
             "amount": 3,
-            "preparation": "halved"
+            "prep": "halved"
         },
         {
             "food": "b/garlicHead",
-            "preparation": "halved"
+            "prep": "halved"
         },
         {
             "food": "b/sageFresh",

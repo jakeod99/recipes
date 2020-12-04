@@ -8,14 +8,14 @@
         {
             "food": "b/sesameBun",
             "amount": 8,
-            "potentialSubstitution": [
+            "sub": [
                 "b/potatoRoll"
             ]
         },
         {
             "food": "b/mayo",
             "amount": 4,
-            "potentialSubstitution": [
+            "sub": [
                 "b/butter"
             ]
         }
@@ -68,7 +68,7 @@
         ]
     },
     "comments": [ 
-        "Definitely add the toppings of your choice, this recipe is for the base meat/bun preparation",
+        "Definitely add the toppings of your choice, this recipe is for the base meat/bun prep",
         "Suggested Topping: American Cheese, Mayo, Lettuce, and Extra Red Onion"
     ]
 }

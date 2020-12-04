@@ -3,12 +3,12 @@
     "ingredients": [
         {
             "food": "r/pourOver",
-            "preparation": "room temperature or colder"
+            "prep": "room temperature or colder"
         },
         {
             "food": "b/milkWhole",
             "amount": 0.1875,
-            "potentialSubstitution": [
+            "sub": [
                 "b/milk2"
             ]
         },

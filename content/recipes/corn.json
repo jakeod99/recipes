@@ -4,7 +4,7 @@
         {
             "food": "b/cornEar",
             "amount": 6,
-            "preparation": "still in husk"
+            "prep": "still in husk"
         },
         {
             "food": "b/water",
@@ -48,7 +48,7 @@
         "healthy": []
     },
     "comments": [ 
-        "Definitely add the toppings of your choice, this recipe is for the base meat/bun preparation",
+        "Definitely add the toppings of your choice, this recipe is for the base meat/bun prep",
         "Suggested Topping: American Cheese, Mayo, Lettuce, and Extra Red Onion"
     ]
 }

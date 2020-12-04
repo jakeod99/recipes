@@ -8,7 +8,7 @@
         {
             "food": "b/onionWhite",
             "amount": 0.25,
-            "preparation": "diced"
+            "prep": "diced"
         },
         {
             "food": "b/cayenneGround",
@@ -34,14 +34,14 @@
         {
             "food": "b/potatoRoll",
             "amount": 6,
-            "potentialSubstitution": [
+            "sub": [
                 "b/sesameBun"
             ]
         },
         {
             "food": "b/butter",
             "amount": 2,
-            "potentialSubstitution": [
+            "sub": [
                 "b/mayo"
             ]
         }
@@ -95,7 +95,7 @@
         ]
     },
     "comments": [ 
-        "Definitely add the toppings of your choice, this recipe is for the base meat/bun preparation",
+        "Definitely add the toppings of your choice, this recipe is for the base meat/bun prep",
         "Suggested Topping: Mayo, Lettuce, Extra Red Onion, Thick Bacon, and Jake's Beer Cheese"
     ]
 }

@@ -17,12 +17,12 @@
         {
             "food": "r/thymeFresh",
             "amount": 20,
-            "preparation": "picked and minced"
+            "prep": "picked and minced"
         },
         {
             "food": "r/sageFresh",
             "amount": 5,
-            "preparation": "minced"
+            "prep": "minced"
         }
     ],
     "steps": [

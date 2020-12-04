@@ -4,12 +4,12 @@
         {
             "food": "b/butter",
             "amount": 2,
-            "preparation": "room temperature"
+            "prep": "room temperature"
         },
         {
             "food": "b/garlic",
             "amount": 3,
-            "preparation": "crushed"
+            "prep": "crushed"
         },
         {
             "food": "b/rosemary",

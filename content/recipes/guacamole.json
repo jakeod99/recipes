@@ -8,21 +8,21 @@
         {
             "food": "b/garlic",
             "amount": 2,
-            "preparation": "crushed"
+            "prep": "crushed"
         },
         {
             "food": "b/onionRed",
             "amount": 0.5,
-            "preparation": "diced"
+            "prep": "diced"
         },
         {
             "food": "b/pepperJalapeno",
-            "preparation": "diced, without the seeds/core"
+            "prep": "diced, without the seeds/core"
         },
         {
             "food": "b/cilantro",
             "amount": 2,
-            "preparation": "chopped"
+            "prep": "chopped"
         },
         {
             "food": "b/chiliPowder",

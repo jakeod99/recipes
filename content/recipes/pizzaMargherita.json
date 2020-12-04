@@ -20,12 +20,12 @@
         {
             "food": "b/cheeseParmesan",
             "amount": 0.25,
-            "preparation": "finely grated"
+            "prep": "finely grated"
         },
         {
             "food": "b/cheeseMozzarellaFresh",
             "amount": 3,
-            "preparation": "in ripped chunks"
+            "prep": "in ripped chunks"
         },
         {
             "food": "b/basilFresh",

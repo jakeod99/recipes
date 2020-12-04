@@ -11,15 +11,15 @@
         {
             "food": "b/butter",
             "amount": 3,
-            "preparation": "melted"
+            "prep": "melted"
         },
         {
             "food": "b/butter",
-            "preparation": "melted"
+            "prep": "melted"
         },
         {
             "food": "b/egg",
-            "preparation": "room temperature"
+            "prep": "room temperature"
         },
         {
             "food": "b/honey",

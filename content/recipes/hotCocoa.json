@@ -20,7 +20,7 @@
         {
             "food": "b/chocolateBar60",
             "amounts": 3,
-            "preparation": "chopped"
+            "prep": "chopped"
         },
         {
             "food": "b/nutella",
@@ -29,7 +29,7 @@
         {
             "food": "b/vanillaImitation",
             "amount": 2,
-            "potentialSubstitution": [
+            "sub": [
                 "b/vanillaExtract"
             ]
         }

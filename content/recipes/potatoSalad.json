@@ -12,16 +12,16 @@
         {
             "food": "b/bacon",
             "amount": 2,
-            "preparation": "chopped"
+            "prep": "chopped"
         },
         {
             "food": "b/onionRed",
             "amount": 0.5,
-            "preparation": "diced"
+            "prep": "diced"
         },
         {
             "food": "b/scallion",
-            "preparation": "sliced"
+            "prep": "sliced"
         },
         {
             "food": "b/sourCream",
@@ -49,7 +49,7 @@
         },
         {
             "food": "b/garlic",
-            "preparation": "crushed"
+            "prep": "crushed"
         },
         {
             "food": "b/paprika",

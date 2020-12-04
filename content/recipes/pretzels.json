@@ -4,7 +4,7 @@
         {
             "food": "b/modeloEspecial",
             "amount": 1.5,
-            "preparation": "warm (~110F)"
+            "prep": "warm (~110F)"
         },
         {
             "food": "b/yeast",
@@ -13,7 +13,7 @@
         {
             "food": "b/butter",
             "amount": 2,
-            "preparation": "melted"
+            "prep": "melted"
         },
         {
             "food": "b/sugar",
@@ -52,7 +52,7 @@
         {
             "food": "b/saltFalkey",
             "amount": 2,
-            "potentialSubstitution": [
+            "sub": [
                 "b/saltCoarse"
             ]
         },

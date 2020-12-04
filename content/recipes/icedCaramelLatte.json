@@ -7,7 +7,7 @@
         {
             "food": "b/milkWhole",
             "amount": 0.75,
-            "potentialSubstitution": [
+            "sub": [
                 "b/milk2"
             ]
         },

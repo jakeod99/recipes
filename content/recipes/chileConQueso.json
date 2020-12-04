@@ -24,7 +24,7 @@
         {
             "food": "b/garlic",
             "amount": 3,
-            "preparation": "crushed"
+            "prep": "crushed"
         },
         {
             "food": "b/milkEvaporated",
@@ -38,11 +38,11 @@
         },
         {
             "food": "b/pepperJalapeno",
-            "preparation": "diced, without the seeds/core"
+            "prep": "diced, without the seeds/core"
         },
         {
             "food": "b/pepperFresno",
-            "preparation": "diced, without the seeds/core"
+            "prep": "diced, without the seeds/core"
         },
         {
             "food": "b/lime"

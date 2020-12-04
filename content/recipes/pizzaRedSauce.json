@@ -23,7 +23,7 @@
         {
             "food": "b/garlic",
             "amount": 2,
-            "preparation": "crushed"
+            "prep": "crushed"
         }
     ],
     "steps": [

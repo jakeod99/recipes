@@ -20,22 +20,22 @@
         {
             "food": "r/chickenBreast",
             "amount": 0.33,
-            "preparation": "poached and cut into ~2/3\" chunks"
+            "prep": "poached and cut into ~2/3\" chunks"
         },
         {
             "food": "b/cheeseParmesan",
             "amount": 0.2,
-            "preparation": "finely grated"
+            "prep": "finely grated"
         },
         {
             "food": "b/cheeseCheddar9Orange",
             "amount": 2,
-            "preparation": "grated"
+            "prep": "grated"
         },
         {
             "food": "b/cheeseMozzarellaLM",
             "amount": 3,
-            "preparation": "grated"
+            "prep": "grated"
         }
     ],
     "steps": [

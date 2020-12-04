@@ -7,7 +7,7 @@
         {
             "food": "b/milk2",
             "amount": 0.5,
-            "potentialSubstitution": [
+            "sub": [
                 "b/milkWhole"
             ]
         },
@@ -22,7 +22,7 @@
         {
             "food": "b/vanillaImitation",
             "amount": 0.5,
-            "potentialSubstitution": [
+            "sub": [
                 "b/vanillaExtract"
             ]
         },
@@ -45,7 +45,7 @@
         {
             "food": "b/banana",
             "amount": 0.5,
-            "preparation": "peeled/frozen"
+            "prep": "peeled/frozen"
         }
     ],
     "steps": [

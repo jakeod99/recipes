@@ -4,7 +4,7 @@
         {
             "food": "b/water",
             "amount": 2.5,
-            "preparation": "warm (~100F)"
+            "prep": "warm (~100F)"
         },
         {
             "food": "b/sugar"

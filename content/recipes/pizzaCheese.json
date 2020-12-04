@@ -20,12 +20,12 @@
         {
             "food": "b/cheeseParmesan",
             "amount": 0.2,
-            "preparation": "finely grated"
+            "prep": "finely grated"
         },
         {
             "food": "b/cheeseMozzarellaLM",
             "amount": 5,
-            "preparation": "grated"
+            "prep": "grated"
         }
     ],
     "steps": [

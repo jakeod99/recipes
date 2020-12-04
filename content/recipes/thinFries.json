@@ -24,7 +24,7 @@
         {
             "food": "b/oilPeanut",
             "amount": 2,
-            "potentialSubstitution": [
+            "sub": [
                 "b/oilVegetable"
             ],
             "calorieRatio": 0.12

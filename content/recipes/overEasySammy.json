@@ -41,7 +41,7 @@
         },
         {
             "food": "b/cheeseMozzarellaLM",
-            "preparation": "grated"
+            "prep": "grated"
         }
     ],
     "steps": [

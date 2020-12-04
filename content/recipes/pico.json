@@ -4,27 +4,27 @@
         {
             "food": "b/tomatoRoma",
             "amount": 6,
-            "preparation": "diced"
+            "prep": "diced"
         },
         {
             "food": "b/onionRed",
             "amount": 0.25,
-            "preparation": "minced"
+            "prep": "minced"
         },
         {
             "food": "b/cilantro",
             "amount": 3,
-            "preparation": "chopped"
+            "prep": "chopped"
         },
         {
             "food": "b/pepperJalapeno",
             "amount": 6,
-            "preparation": "minced, without the seeds/core"
+            "prep": "minced, without the seeds/core"
         },
         {
             "food": "b/garlic",
             "amount": 1,
-            "preparation": "crushed"
+            "prep": "crushed"
         },
         {
             "food": "b/salt",

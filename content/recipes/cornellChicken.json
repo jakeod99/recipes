@@ -4,7 +4,7 @@
         {
             "food": "b/chicken3",
             "amount": 2,
-            "potentialSubstitution": [
+            "sub": [
                 "b/chickenDrumstick"
             ]
         },

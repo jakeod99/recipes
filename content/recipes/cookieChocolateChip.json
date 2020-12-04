@@ -1,0 +1,116 @@
+{
+    "name": "Chocolate Chip Cookies",
+    "ingredients": [
+        {
+            "food": "b/butter",
+            "amount": 16
+        },
+        {
+            "food": "b/walnut",
+            "amount": 0.375
+        },
+        {
+            "food": "b/sugar",
+            "amount": 16
+        },
+        {
+            "food": "b/sugarBrown",
+            "amount": 16
+        },
+        {
+            "food": "b/vanillaImitation",
+            "sub": [
+                {
+                    "food": "b/vanillaExtract"
+                }
+            ]
+        },
+        {
+            "food": "b/egg",
+            "amount": 2,
+            "prep": "cold"
+        },
+        {
+            "food": "b/flour",
+            "amount": 2.25
+        },
+        {
+            "food": "b/salt",
+            "amount": 1.5
+        },
+        {
+            "food": "b/bakingSoda",
+            "amount": 0.5
+        },
+        {
+            "food": "b/cinnamonGround",
+            "amount": 0.25,
+            "optional": true
+        },
+        {
+            "food": "b/chocolateBar72",
+            "amount": 4
+        },
+        {
+            "food": "b/riceKrispies",
+            "amount": 2
+        },
+        {
+            "food": "b/oats",
+            "amount": 2
+        },
+        {
+            "food": "b/saltFlaky"
+        }
+    ],
+    "steps": [
+        "Put the Butter in a pot and stir over medium heat",
+        "Once the milkfats just start browning, pour into a cup/bowl",
+        "Refrigerate Butter for an hour until hard and cold",
+        "Chop Walnuts and put in a pan over medium heat to briefly toast",
+        "Allow Walnuts cool to room temperature (about an hour)",
+        "Whisk together Flour, Fine Salt, Baking Soda, and Cinnamon",
+        "Put cold browned Butter in a stand mixer",
+        "Mix with Sugar and Brown Sugar until consistent",
+        "Crack in the Eggs and mix until consistent",
+        "Over mixing from here on makes the cookies tough, so be quick",
+        "Add in half the dry mixture, mix just until consistent",
+        "Add in second half and only mix until it comes together",
+        "Mix in toasted Walnuts, Rice Crispies, and Oats",
+        "Cover tight and refrigerate over night (12-24 hours)",
+        "Preheat oven to 350F",
+        "Roll cold dough into 12 balls",
+        "Break balls in half, squish sides back together so top is textured",
+        "Place balls crackley-side-up and bake for 12 minutes ",
+        "Put cookies on a cooling rack and sprinkle salt flakes over top"
+    ],
+    "metrics": {
+        "time": {
+            "total": "14-26 hours",
+            "active": "1.5 hours"
+        },
+        "yield": {
+            "amount": 12,
+            "unit": "Cookie"
+        },
+        "serving": {
+            "amount": 1,
+            "unit": "Cookie",
+            "ratio": 0.0833
+        }
+    },
+    "tags": {
+        "type": {
+            "primary": "Dessert"
+        }, 
+        "meals": [],
+        "ethnicities": [ "American" ],
+        "misc": [],
+        "healthy": []
+    },
+    "comments": [],
+    "history": {
+        "intro": "v1.0.0",
+        "alterations": []
+    }
+}

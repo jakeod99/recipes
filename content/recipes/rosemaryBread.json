@@ -10,7 +10,7 @@
         },
         {
             "food": "b/water",
-            "preparation": "warm (~110F)"
+            "prep": "warm (~110F)"
         },
         {
             "food": "b/oilOlive"

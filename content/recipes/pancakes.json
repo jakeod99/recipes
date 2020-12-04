@@ -18,7 +18,7 @@
         {
             "food": "b/vanillaImitation",
             "amount": 1,
-            "potentialSubstitution": [
+            "sub": [
                 "b/vanillaExtract"
             ]
         },

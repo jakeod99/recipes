@@ -19,12 +19,12 @@
         {
             "food": "b/bacon",
             "amount": 2,
-            "preparation": "cut up into bits and cooked"
+            "prep": "cut up into bits and cooked"
         },
         {
             "food": "b/cheeseMozzarellaLM",
             "amount": 5,
-            "preparation": "grated"
+            "prep": "grated"
         }
     ],
     "steps": [

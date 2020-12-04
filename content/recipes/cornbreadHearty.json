@@ -48,9 +48,9 @@
             "food": "b/honey"
         },
         {
-            "food": "b/saltFlakey",
+            "food": "b/saltFlaky",
             "amount": 0.5,
-            "potentialSubstitution": [
+            "sub": [
                 "b/saltCoarse"
             ]
         },
@@ -72,7 +72,7 @@
         "Mix everything together minimally (avoid overworking the flour)",
         "Pour batter into the pan and put in the oven",
         "After 22 minutes, pull it out and give 'er the ol' toothpick test",
-        "Spread Honey on top and sprinkle with Flakey Salt",
+        "Spread Honey on top and sprinkle with Flaky Salt",
         "Once structurally sound, transfer to a cooling grate for ~30min"
     ],
     "metrics": {

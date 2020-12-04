@@ -4,7 +4,7 @@
         {
             "food": "b/chickenBreast",
             "amount": 5,
-            "potentialSubstitution": [
+            "sub": [
                 "b/chickenDrumstick"
             ]
         },
@@ -53,7 +53,7 @@
         {
             "food": "b/oilPeanut",
             "amount": 3,
-            "potentialSubstitution": [
+            "sub": [
                 "b/oilVegetable"
             ],
             "calorieRatio": 0.12

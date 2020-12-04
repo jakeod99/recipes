@@ -4,7 +4,7 @@
         {
             "food": "b/butter",
             "amount": 4,
-            "preparation": "room temperature"
+            "prep": "room temperature"
         },
         {
             "food": "b/blackPepper",
