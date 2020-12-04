@@ -1,6 +1,6 @@
 {
     "name": "Garlic",
     "unit": "Clove",
-    "calories": 0,
-    "price": 0
+    "calories": 5,
+    "price": 0.05
 }

@@ -23,7 +23,7 @@
         },
         {
             "food": "b/oilOlive",
-            "amount": 0.667
+            "amount": 0.67
         },
         {
             "food": "b/oilOlive",
@@ -57,6 +57,7 @@
         "Lightly coat each roll with Olive Oil (~1/8 Cup cumulative)",
         "Put in tupperware and place in the fridge for 36-48 hours",
         "Take dough out of the fridge",
+        "Each roll should be kinda flat, form them back into roll shapes",
         "Cover the bottom of each roll in Cornmeal",
         "Place each roll on a pan and leave in a dark, warm place for 2 hrs",
         "Preheat the Oven to 450F",
@@ -77,7 +78,7 @@
         "serving": { 
             "amount": 1,
             "unit": "Roll",
-            "ratio": 0.0834
+            "ratio": 0.0833
         }
     },
     "tags": {

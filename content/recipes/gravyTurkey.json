@@ -1,0 +1,69 @@
+{
+    "name": "Turkey Gravy",
+    "ingredients": [
+        {
+            "food": "b/butterUnsalted",
+            "amount": 4
+        },
+        {
+            "food": "b/drippingsTurkeyFat",
+            "amount": 4
+        },
+        {
+            "food": "b/flour"
+        },
+        {
+            "food": "r/stockTurkey",
+            "amount": 0.67
+        },
+        {
+            "food": "r/drippingsTurkey",
+            "amount": 0
+        },
+        {
+            "food": "b/wineWhiteChardonnay",
+            "amount": 0.5
+        }
+    ],
+    "steps": [
+        "Gather all drippings from Jake's Roasted Turkey and let separate",
+        "The provided amounts are estimates, save everything you gather",
+        "Heat Butter and exactly 4 Tablespoons of the fatty drippings",
+        "Once melted and hot, slowly whisk in flour",
+        "Keep whisking and cooking for like 3 minutes",
+        "Slowly whisk in Turkey Stock bit by bit",
+        "Whisk in all delicious watery drippings you can gather (not fatty)",
+        "Whisk in Chardonnay",
+        "Keep on heat, stir, and let reduce until at the desired consistency"
+    ],
+    "metrics": {
+        "time": {
+            "total": "30 minutes",
+            "active": "30 minutes"
+        },
+        "yield": {
+            "amount": 8,
+            "unit": "Cup"
+        },
+        "serving": {
+            "amount": 2,
+            "unit": "Tablespoon",
+            "ratio": 0.015625
+        }
+    },
+    "tags": {
+        "type": [
+            "Component",
+            "Sauce"
+        ], 
+        "meals": [ "Dinner" ],
+        "misc": [ 
+            "American",
+            "Holiday"
+        ],
+        "healthy": [ "Fat" ]
+    },
+    "comments": [
+        "If there are more non-fatty turkey drippings than 1 Cup, definitely use all you have"
+    ]
+}

@@ -2,7 +2,7 @@
     "name": "Cornell Chicken",
     "ingredients": [
         {
-            "food": "b/threePoundChicken",
+            "food": "b/chicken3",
             "amount": 2,
             "potentialSubstitution": [
                 "b/chickenDrumstick"

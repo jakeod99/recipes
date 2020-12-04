@@ -1,21 +1,26 @@
 {
     "name": "", //Fajitas
-    "credit": "", //optional, undefined assumes `Jake`
+    "credit": "", //OPTIONAL, undefined assumes `Jake`
     "ingredients": [
         {
             "food": "r/placeholder", //"r/tortillas"
             "amount": 3, //1 if undefined, multiplier on primaryQuantity (which also defaults to 1 if undefined)
-            "potentialSubstitution": [ //optional
-                "b/placeholder", //"b/tortilla"
-                "b/placeholder" //"b/bread.json
+            "potentialSubstitution": [ //OPTIONAL
+                {
+                    "food": "b/placeholder", //"b/tortilla"
+                    "amount": 3
+                },
+                {
+                    "food": "b/bread"
+                }
             ],
             "optional": false, //false if undefined
-            "preparation": "", //optional
-            "secondary": false, //false if undefined, 
+            "preparation": "", //OPTIONAL
+            "secondary": false, //false if undefined
             "calorieRatio": "", //1 if undefined, only counts a portion of the calories in recipe total
-            "unitOverride": "", //optionally provide custom unit
-            "calorieOverride": "", //required when `unitOverride` is defined - total calories for this ingredient
-            "priceOverride": "" //required when `unitOverride` is defined - total price for this ingredient
+            "unitOverride": "", //OPTIONAL, provide custom unit
+            "calorieOverride": "", //REQUIRED when `unitOverride` is defined - total calories for this ingredient
+            "priceOverride": "" //REQUIRED when `unitOverride` is defined - total price for this ingredient
         },
         {
             "food": "b/placeholder",
@@ -60,24 +65,52 @@
             "ratio": 0.25 // 2/8 == 0.25
         }
     },
-    "tags": {
-        "type": [ //required, second entry is optional
-            "", //"Entree", "Snack", "Side", "Dessert", "Beverage", or "Component"
-            "" //"Meat", "Sammy", "Soup/Stew", "Salad", "Bread", "Coffee", "Dip", "Sauce", or "Spread"
-        ], 
-        "meals": [ //required, entries are optional
-            "", //"Lunch"
-            "" //"Dinner"
+    "tags": { //TODO - revamp tagging system
+        "type": { //REQUIRED, second entry is OPTIONAL
+            "primary": , //REQUIRED - "Entree", "Snack", "Side", "Dessert", "Beverage", or "Component"
+            "secondary":  //"Meat", "Sammy", "Soup/Stew", "Salad", "Bread", "Coffee", "Dip", "Sauce", or "Spread"
+        }, 
+        "meals": [ //REQUIRED, entries are OPTIONAL
+            "" //"Breakfast", "Lunch", "Dinner"
         ],
-        "misc": [ //required, entries are optional
-            "", //"Mexican", "American", "Italian", "Chinese", "Indian", "Cajun"
-            "" //"Barbecue", "Cheese", "Meat", "Coffee", "Sammy", "BigGame", "Warming"
+        "ethnicities": [//REQUIRED, entries are OPTIONAL
+            "" //"Mexican", "American", "Italian", "Chinese", "Indian", "Cajun", "Universal"
         ],
-        "healthy": [ //required, entries are optional 
+        "misc": [ //REQUIRED, entries are OPTIONAL
+            "" //"Barbecue", "Cheese", "Meat", "Coffee", "Sammy", "BigGame", "Warming", "Pizza", "Pasta", "Holiday"
+        ],
+        "healthy": [ //REQUIRED, entries are OPTIONAL 
             "" //"Heart", "GI", "Protein", or "Terrible" (Low/High Calorie will be determined programmatically)
         ]
     },
-    "comments": [ //optional
+    "comments": [ //REQUIRED, entries OPTIONAL
         ""
-    ]
+    ],
+    "history": {
+        "intro": "v1.0.0", //REQUIRED
+        "alterations": [ //REQUIRED, entries OPTIONAL
+            {
+                "version": "v3.0.0",
+                "changes": [
+                    {
+                        "change": "Name changed from \"Fjaita\" to \"Fajita\"",
+                        "reason": "Fjaita was a typo"
+                    }
+                ]
+            },
+            {
+                "version": "v4.0.0",
+                "changes": [
+                    {
+                        "change": "1 Jalapeno -> 1/2 Jalapeno",
+                        "reason": "It was too spicy"
+                    },
+                    {
+                        "change": "1 Red Onion -> 2 Red Onions",
+                        "reason": "It was not oniony enough"
+                    }
+                ]
+            }
+        ]
+    }
 }

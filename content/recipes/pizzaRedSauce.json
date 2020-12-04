@@ -13,8 +13,12 @@
             "amount": 2
         },
         {
+            "food": "b/redPepperFlakes",
+            "amount": 0.25
+        },
+        {
             "food": "b/sugar",
-            "amount": 0.334
+            "amount": 0.33
         },
         {
             "food": "b/garlic",
@@ -47,7 +51,7 @@
             "Sauce"
         ], 
         "meals": [],
-        "misc": [ "Italian" ],
+        "misc": [ "Italian", "Pizza" ],
         "healthy": [ "GI" ]
     },
     "comments": []

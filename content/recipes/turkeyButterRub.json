@@ -1,0 +1,67 @@
+{
+    "name": "Turkey Butter Rub",
+    "ingredients": [
+        {
+            "food": "b/butterUnsalted",
+            "amount": 32
+        },
+        {
+            "food": "b/bacon",
+            "amount": 8,
+            "calorieRatio": 0.8
+        },
+        {
+            "food": "b/oilOlive",
+            "amount": 6
+        },
+        {
+            "food": "r/thymeFresh",
+            "amount": 20,
+            "preparation": "picked and minced"
+        },
+        {
+            "food": "r/sageFresh",
+            "amount": 5,
+            "preparation": "minced"
+        }
+    ],
+    "steps": [
+        "Render the fat out of the Bacon strips in the oven, and save the fat",
+        "Clarify Butter by heating it and skimming/discarding the solids",
+        "Once well clarified, keep on heat and add Thyme and Sage",
+        "Let fry for two minutes, then add Olive Oil and Rendered Bacon Fat",
+        "Stir until consistent, and stir it over heat for another minute",
+        "Take off the heat and let sit for a half hour",
+        "After letting sit, give one last stir and either use or refrigerate"
+    ],
+    "metrics": {
+        "time": {
+            "total": "30 minutes",
+            "active": "30 minutes"
+        },
+        "yield": {
+            "amount": 8,
+            "unit": "Cup"
+        },
+        "serving": {
+            "amount": 2,
+            "unit": "Tablespoon",
+            "ratio": 0.015625
+        }
+    },
+    "tags": {
+        "type": [
+            "Component",
+            "Spread"
+        ], 
+        "meals": [ "Dinner" ],
+        "misc": [ 
+            "American",
+            "Holiday"
+        ],
+        "healthy": [ "Fat" ]
+    },
+    "comments": [
+        "This recipe has a byproduct of 8 cooked bacon strips - save it for later!"
+    ]
+}

@@ -1,0 +1,80 @@
+{
+    "name": "Turkey Stock",
+    "ingredients": [
+        {
+            "food": "b/discardsTurkey"
+        },
+        {
+            "food": "b/water",
+            "amount": 14
+        },
+        {
+            "food": "b/onionYellow",
+            "amount": 4,
+            "preparation": "halved"
+        },
+        {
+            "food": "b/carrot",
+            "amount": 3,
+            "preparation": "halved"
+        },
+        {
+            "food": "b/celery",
+            "amount": 3,
+            "preparation": "halved"
+        },
+        {
+            "food": "b/garlicHead",
+            "preparation": "halved"
+        },
+        {
+            "food": "b/sageFresh",
+            "amount": 6
+        },
+        {
+            "food": "b/thymeFresh",
+            "amount": 8
+        }
+    ],
+    "steps": [
+        "Put a large pot on medium-high heat",
+        "Add in the Turkey Discards (without any liver - liver's gross)",
+        "Periodically stir the discards to brown them and to build fond",
+        "Continue browning as fond nears burning, then deglaze with Water",
+        "Once you've added all the Water, add everything else in",
+        "Bring it all to a light simmer, and let go for 8 hours",
+        "For the 8 hours of simmering, do the following every 15 minutes",
+        [
+            "Skim any scum off the top (it's just impurities boiling out)", 
+            "Stir the pot", 
+            "Add some more Water if it's boiled down significantly"
+        ],
+        "Put two layers of cheese cloth over a fine-mesh strainer",
+        "Strain the stock through the cloth/strainer",
+        "Store the stock in the fridge for quick use, freeze otherwise"
+    ],
+    "metrics": {
+        "time": {
+            "total": "8.5 hours",
+            "active": "1 hour"
+        },
+        "yield": {
+            "amount": 12,
+            "unit": "Cup"
+        },
+        "serving": {
+            "amount": 1,
+            "unit": "Cup",
+            "ratio": 0.0833
+        }
+    },
+    "tags": {
+        "type": [ "Component" ], 
+        "meals": [],
+        "misc": [],
+        "healthy": []
+    },
+    "comments": [
+        "Clear stock is overrated, nothing wrong with cloudy (assuming you use or freeze quickly)"
+    ]
+}

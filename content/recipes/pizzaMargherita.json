@@ -1,0 +1,78 @@
+{
+    "name": "Margherita Pizza",
+    "ingredients": [
+        {
+            "food": "r/pizzaDough",
+            "amount": 0.25
+        },
+        {
+            "food": "b/flour",
+            "amount": 0.125
+        },
+        {
+            "food": "b/cornmealStone",
+            "amount": 2
+        },
+        {
+            "food": "r/pizzaRedSauce",
+            "amount": 0.25
+        },
+        {
+            "food": "b/cheeseParmesan",
+            "amount": 0.25,
+            "preparation": "finely grated"
+        },
+        {
+            "food": "b/cheeseMozzarellaFresh",
+            "amount": 3,
+            "preparation": "in ripped chunks"
+        },
+        {
+            "food": "b/basilFresh",
+            "amount": 8
+        }
+    ],
+    "steps": [
+        "Preheat oven to 500F",
+        "Place Pizza Steel (or Stone if you don't have steel) in oven",
+        "Let Pizza Steel heat for 1 hour",
+        "Dust Cornmeal on a Pizza Peel",
+        "Take cold dough out of the fridge",
+        "Dust dough in flour before stretching (and a bit mid-stretch)",
+        "Stretch to a 10\" circle/oblong shape",
+        "Place stretched dough on Cornmealed Pizza Peel",
+        "Top with just enough Sauce to lightly coat the surface",
+        "Sprinkle Parmesan over Sauce, then Mozzarella over Parmesan",
+        "Shimmy Pizza Peel a bit to ensure the Pizza isn't stuck",
+        "Slide Pizza onto the Pizza Steel",
+        "Let cook for ~7 minutes (until cheese starts to brown)",
+        "Pull Pizza out with tongs onto a cooling grate",
+        "Evenly distribute ",
+        "Transfer to serving plate after cooling for like 3 minutes",
+        "Slice and munch"
+    ],
+    "metrics": {
+        "time": {
+            "total": "1.5 hours",
+            "active": "30 minutes"
+        },
+        "yield": {
+            "amount": 1,
+            "unit": "~10\" Pizza"
+        },
+        "serving": {
+            "amount": 1,
+            "unit": "Slice",
+            "ratio": 0.125
+        }
+    },
+    "tags": {
+        "type": [ "Entree" ], 
+        "meals": [ "Dinner" ],
+        "misc": [
+            "Italian",
+            "Pizza"
+        ],
+        "healthy": []
+    }
+}

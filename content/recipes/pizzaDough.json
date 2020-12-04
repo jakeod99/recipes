@@ -26,11 +26,7 @@
         },
         {
             "food": "b/flour",
-            "amount": 5
-        },
-        {
-            "food": "b/flour",
-            "amount": 0.5
+            "amount": 5.5
         }
     ],
     "steps": [
@@ -67,10 +63,11 @@
             "Bread"
         ], 
         "meals": [],
-        "misc": [ "Italian" ],
+        "misc": [ "Italian", "Pizza" ],
         "healthy": []
     },
     "comments": [
-        "The cold ferment makes it taste super yummy. Not necessary, but highly recommended."
+        "The cold ferment makes it taste super yummy. Not necessary, but highly recommended.",
+        "If you have a stand mixer, use it. Very helpful with such a wet dough."
     ]
 }
