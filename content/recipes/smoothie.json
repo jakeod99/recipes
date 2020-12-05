@@ -61,13 +61,23 @@
             "unit": "Cup"
         }
     },
-    "tags": {
-        "type": [ "Beverage" ], 
-        "meals": [ "Breakfast" ],
+    "tags": { 
+        "type": {
+            "primary": "Beverage"
+        }, 
+        "meals": [
+            "Breakfast"
+        ],
+        "ethnicities": [],
         "misc": [],
-        "healthy": [ "Heart", "GI" ]
+        "healthy": [
+            "Heart",
+            "GI"
+        ]
     },
-    "comments": [
-        "Real Vanilla is super expensive right now because Cyclone Enawo murdered supply as snack companies pumped demand"
-    ]
+    "comments": [],
+    "history": {
+        "intro": "v1.0.0",
+        "alterations": []
+    }
 }

@@ -40,17 +40,19 @@
             "ratio": 0.125
         }
     },
-    "tags": {
-        "type": [
-            "Entree",
-            "Meat"
-        ], 
+    "tags": { 
+        "type": {
+            "primary": "Entree",
+            "secondary": "Meat"
+        }, 
         "meals": [
             "Lunch",
-            "Dinner"
+            "Dinner" 
+        ],
+        "ethnicities": [
+            "American"
         ],
         "misc": [
-            "American",
             "Barbecue",
             "Meat"
         ],
@@ -60,7 +62,9 @@
             "GI"
         ]
     },
-    "comments": [
-        "Not too too far from the OG Lupo's"
-    ]
+    "comments": [],
+    "history": {
+        "intro": "v1.0.0",
+        "alterations": []
+    }
 }

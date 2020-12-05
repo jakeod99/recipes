@@ -68,22 +68,29 @@
             "ratio": 0.25
         }
     },
-    "tags": {
-        "type": [ "Side" ], 
+    "tags": { 
+        "type": {
+            "primary": "Side"
+        }, 
         "meals": [
             "Lunch",
-            "Dinner"
+            "Dinner" 
         ],
-        "misc": [ 
-            "American",
+        "ethnicities": [
+            "American"
+        ],
+        "misc": [
             "Freeze"
         ],
         "healthy": [
-            "Terrible",
             "Fat"
         ]
     },
     "comments": [
         "If you're going to go through the trouble of doing these, might as well make a bunch and freeze"
-    ]
+    ],
+    "history": {
+        "intro": "v1.0.0",
+        "alterations": []
+    }
 }

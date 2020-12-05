@@ -108,22 +108,34 @@
             "ratio": 0.09375
         }
     },
-    "tags": {
-        "type": [
-            "Entree",
-            "Meat"
+    "tags": { 
+        "type": {
+            "primary": "Entree",
+            "secondary": "Meat"
+        }, 
+        "meals": [
+            "Lunch",
+            "Dinner" 
         ],
-        "meals": [ "Dinner" ],
+        "ethnicities": [
+            "American"
+        ],
         "misc": [
-            "American",
             "Meat",
             "Holiday"
         ],
-        "healthy": []
+        "healthy": [
+            "Protein",
+            "Fat"
+        ]
     },
     "comments": [
         "Save the drippings from roasting and use to make Jake's Turkey Gravy!",
         "Be sure that your turkey is cooked to 165F, use a thermometer",
         "\"Cavity is just a nice way to say butthole\" - Mahatma Gandhi"
-    ]
+    ],
+    "history": {
+        "intro": "v1.0.0",
+        "alterations": []
+    }
 }

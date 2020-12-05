@@ -81,13 +81,25 @@
             "ratio": 0.0833
         }
     },
-    "tags": {
-        "type": [ 
-            "Side",
+    "tags": { 
+        "type": {
+            "primary": "Side",
+            "secondary": "Bread"
+        }, 
+        "meals": [
+            "Dinner" 
+        ],
+        "ethnicities": [],
+        "misc": [
             "Bread"
-        ], 
-        "meals": [ "Dinner" ],
-        "misc": [ "Bread" ],
-        "healthy": []
+        ],
+        "healthy": [
+            "Carb"
+        ]
+    },
+    "comments": [],
+    "history": {
+        "intro": "v1.0.0",
+        "alterations": []
     }
 }

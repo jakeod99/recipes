@@ -49,19 +49,29 @@
             "ratio": 0.015625
         }
     },
-    "tags": {
-        "type": [
-            "Component",
-            "Spread"
-        ], 
-        "meals": [ "Dinner" ],
-        "misc": [ 
-            "American",
+    "tags": { 
+        "type": {
+            "primary": "Component",
+            "secondary": "Spread"
+        }, 
+        "meals": [
+            "Dinner" 
+        ],
+        "ethnicities": [
+            "American"
+        ],
+        "misc": [
             "Holiday"
         ],
-        "healthy": [ "Fat" ]
+        "healthy": [
+            "Fat"
+        ]
     },
     "comments": [
         "This recipe has a byproduct of 8 cooked bacon strips - save it for later!"
-    ]
+    ],
+    "history": {
+        "intro": "v1.0.0",
+        "alterations": []
+    }
 }

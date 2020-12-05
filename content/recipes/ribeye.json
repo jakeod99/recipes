@@ -45,24 +45,31 @@
             "unit": "Steak"
         }
     },
-    "tags": {
-        "type": [
-            "Entree",
-            "Meat"
-        ], 
+    "tags": { 
+        "type": {
+            "primary": "Entree",
+            "secondary": "Meat"
+        }, 
         "meals": [
             "Lunch",
-            "Dinner"
+            "Dinner" 
+        ],
+        "ethnicities": [
+            "American"
         ],
         "misc": [
-            "American",
             "Meat"
         ],
-        "healthy": [ 
-            "Terrible",
+        "healthy": [
             "Protein",
             "Fat"
         ]
     },
-    "comments": [ "This is Jake's favorite thing to eat" ]
+    "comments": [
+        "This is Jake's favorite"
+    ],
+    "history": {
+        "intro": "v1.0.0",
+        "alterations": []
+    }
 }

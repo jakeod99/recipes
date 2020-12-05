@@ -43,13 +43,23 @@
             "unit": "Sammy"
         }
     },
-    "tags": {
-        "type": [
-            "Entree",
-            "Sammy"
-        ], 
-        "meals": [ "Breakfast" ],
+    "tags": { 
+        "type": {
+            "primary": "Entree",
+            "secondary": "Sammy"
+        }, 
+        "meals": [
+            "Breakfast" 
+        ],
+        "ethnicities": [],
         "misc": [],
-        "healthy": [ "Fat" ]
+        "healthy": [
+            "Fat"
+        ]
+    },
+    "comments": [],
+    "history": {
+        "intro": "v1.0.0",
+        "alterations": []
     }
 }

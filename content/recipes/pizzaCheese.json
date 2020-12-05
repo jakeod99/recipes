@@ -61,13 +61,26 @@
             "ratio": 0.125
         }
     },
-    "tags": {
-        "type": [ "Entree" ], 
-        "meals": [ "Dinner" ],
+    "tags": { 
+        "type": {
+            "primary": "Entree"
+        }, 
+        "meals": [
+            "Dinner" 
+        ],
+        "ethnicities": [
+            "Italian"
+        ],
         "misc": [
-            "Italian",
             "Pizza"
         ],
-        "healthy": []
+        "healthy": [
+            "Carb"
+        ]
+    },
+    "comments": [],
+    "history": {
+        "intro": "v1.0.0",
+        "alterations": []
     }
 }

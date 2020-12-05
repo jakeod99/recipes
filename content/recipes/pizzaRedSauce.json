@@ -45,14 +45,25 @@
             "ratio": 0.1825
         }
     },
-    "tags": {
-        "type": [
-            "Component",
-            "Sauce"
-        ], 
+    "tags": { 
+        "type": {
+            "primary": "Component",
+            "secondary": "Sauce"
+        }, 
         "meals": [],
-        "misc": [ "Italian", "Pizza" ],
-        "healthy": [ "GI" ]
+        "ethnicities": [
+            "Italian"
+        ],
+        "misc": [
+            "Pizza"
+        ],
+        "healthy": [
+            "GI"
+        ]
     },
-    "comments": []
+    "comments": [],
+    "history": {
+        "intro": "v1.0.0",
+        "alterations": []
+    }
 }

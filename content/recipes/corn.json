@@ -38,17 +38,24 @@
             "ratio": 0.125
         }
     },
-    "tags": {
-        "type": [ "Side" ], 
-        "meals": [ "Dinner" ],
-        "misc": [ 
-            "American",
+    "tags": { 
+        "type": {
+            "primary": "Side"
+        }, 
+        "meals": [
+            "Dinner" 
+        ],
+        "ethnicities": [
+            "American"
+        ],
+        "misc": [
             "Barbecue"
         ],
         "healthy": []
     },
-    "comments": [ 
-        "Definitely add the toppings of your choice, this recipe is for the base meat/bun prep",
-        "Suggested Topping: American Cheese, Mayo, Lettuce, and Extra Red Onion"
-    ]
+    "comments": [],
+    "history": {
+        "intro": "v1.0.0",
+        "alterations": []
+    }
 }

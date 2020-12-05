@@ -32,16 +32,23 @@
             "unit": "Cup"
         }
     },
-    "tags": {
-        "type": [
-            "Beverage",
-            "Coffee"
-        ], 
-        "meals": [ "Breakfast" ],
+    "tags": { 
+        "type": {
+            "primary": "Beverage",
+            "secondary": "Coffee"
+        }, 
+        "meals": [
+            "Breakfast" 
+        ],
+        "ethnicities": [],
         "misc": [],
         "healthy": []
     },
     "comments": [
         "Jake's favorite is Eight O'Clock's \"The Original\", which is nice because it's cheap"
-    ]
+    ],
+    "history": {
+        "intro": "v1.0.0",
+        "alterations": []
+    }
 }

@@ -45,18 +45,25 @@
             "ratio": 0.125
         }
     },
-    "tags": {
-        "type": [
-            "Snack",
-            "Meat"
-        ], 
+    "tags": { 
+        "type": {
+            "primary": "Snack",
+            "secondary": "Meat"
+        }, 
         "meals": [],
+        "ethnicities": [
+            "American"
+        ],
         "misc": [
-            "American",
             "Meat"
         ],
-        "healthy": [ 
+        "healthy": [
             "Protein"
         ]
+    },
+    "comments": [],
+    "history": {
+        "intro": "v1.0.0",
+        "alterations": []
     }
 }

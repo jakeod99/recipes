@@ -7,10 +7,6 @@
         },
         {
             "food": "b/cheeseCheddar9Orange",
-            "amount": 8
-        },
-        {
-            "food": "b/cheeseAmerican",
             "amount": 4
         },
         {
@@ -45,7 +41,8 @@
             "prep": "diced, without the seeds/core"
         },
         {
-            "food": "b/lime"
+            "food": "b/lime",
+            "amount": 0.5
         },
         {
             "food": "b/chiliPowder",
@@ -57,7 +54,7 @@
         }
     ],
     "steps": [
-        "Grate Monterey Jack, Sharp Cheddar, and American together",
+        "Grate Monterey Jack and Sharp Cheddar together",
         "Toss Cheese in Cornstarch",
         "Put pot on medium-low heat (don't overheat)",
         "Melt Butter",
@@ -84,19 +81,27 @@
             "ratio": 0.03125
         }
     },
-    "tags": {
-        "type": [
-            "Snack",
-            "Dip"
-        ], 
+    "tags": { 
+        "type": {
+            "primary": "Snack",
+            "secondary": "Dip"
+        }, 
         "meals": [
-            "Dinner"
+            "Dinner" 
+        ],
+        "ethnicities": [
+            "Mexican"
         ],
         "misc": [
             "Cheese"
         ],
-        "healthy": [ 
-            "Terrible"
+        "healthy": [
+            "Fat"
         ]
+    },
+    "comments": [],
+    "history": {
+        "intro": "v1.0.0",
+        "alterations": []
     }
 }

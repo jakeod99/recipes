@@ -74,16 +74,16 @@
             "" //"Breakfast", "Lunch", "Dinner"
         ],
         "ethnicities": [//REQUIRED, entries are OPTIONAL
-            "" //"Mexican", "American", "Italian", "Chinese", "Indian", "Cajun", "Universal"
+            "" //"Mexican", "American", "Italian", "Chinese", "Indian", "Cajun", "German"
         ],
         "misc": [ //REQUIRED, entries are OPTIONAL
-            "" //"Barbecue", "Cheese", "Meat", "Coffee", "Sammy", "BigGame", "Warming", "Pizza", "Pasta", "Holiday"
+            "" //"Barbecue", "Cheese", "Meat", "Coffee", "Sammy", "BigGame", "Warming", "Pizza", "Pasta", "Holiday", "Freeze"
         ],
-        "healthy": [ //REQUIRED, entries are OPTIONAL 
-            "" //"Heart", "GI", "Protein", or "Terrible" (Low/High Calorie will be determined programmatically)
+        "healthy": [ //REQUIRED, entries are OPTIONAL (Low/High Calorie will be determined programmatically)
+            "" //"Heart", "GI", "Protein", "Fat", or "Carb"
         ]
     },
-    "comments": [ //REQUIRED, entries OPTIONAL, vanilla disclaimer added later
+    "comments": [ //REQUIRED, entries OPTIONAL (vanilla disclaimer added later)
         ""
     ],
     "history": {

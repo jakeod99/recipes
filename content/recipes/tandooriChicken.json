@@ -61,21 +61,29 @@
             "ratio": 0.1
         }
     },
-    "tags": {
-        "type": [
-            "Entree",
-            "Meat"
-        ], 
+    "tags": { 
+        "type": {
+            "primary": "Entree",
+            "secondary": "Meat"
+        }, 
         "meals": [
-            "Dinner"
+            "Dinner" 
+        ],
+        "ethnicities": [
+            "Indian"
         ],
         "misc": [
-            "Indian",
             "Meat"
         ],
-        "healthy": []
+        "healthy": [
+            "Protein"
+        ]
     },
     "comments": [
         "Save leftovers, great to reheat when making Chicken Tikka Masala"
-    ]
+    ],
+    "history": {
+        "intro": "v1.0.0",
+        "alterations": []
+    }
 }

@@ -75,21 +75,22 @@
             "ratio": 0.167
         }
     },
-    "tags": {
-        "type": [ 
-            "Entree",
-            "Meat"
-        ], 
-        "meals": [ 
-            "Dinner"
+    "tags": { 
+        "type": {
+            "primary": "Entree",
+            "secondary": "Meat"
+        }, 
+        "meals": [
+            "Dinner" 
         ],
-        "misc": [ 
-            "American",
+        "ethnicities": [
+            "American"
+        ],
+        "misc": [
             "Barbecue",
             "Meat"
         ],
-        "healthy": [ 
-            "Terrible",
+        "healthy": [
             "Fat",
             "Protein"
         ]
@@ -97,5 +98,9 @@
     "comments": [ 
         "Definitely add the toppings of your choice, this recipe is for the base meat/bun prep",
         "Suggested Topping: Mayo, Lettuce, Extra Red Onion, Thick Bacon, and Jake's Beer Cheese"
-    ]
+    ],
+    "history": {
+        "intro": "v1.0.0",
+        "alterations": []
+    }
 }

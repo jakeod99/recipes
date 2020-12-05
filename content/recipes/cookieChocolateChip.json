@@ -106,7 +106,10 @@
         "meals": [],
         "ethnicities": [ "American" ],
         "misc": [],
-        "healthy": []
+        "healthy": [
+            "Carb",
+            "Fat"
+        ]
     },
     "comments": [],
     "history": {

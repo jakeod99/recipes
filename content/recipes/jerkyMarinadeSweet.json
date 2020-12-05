@@ -1,32 +1,27 @@
 {
-    "name": "Hot Jerky Marinade",
+    "name": "Sweet Jerky Marinade",
     "ingredients": [
         {
             "food": "b/soySauce",
-            "amount": 3
+            "amount": 4
         },
         {
-            "food": "b/worcestershire",
-            "amount": 3
+            "food": "b/worcestershireSauce",
+            "amount": 4
         },
         {
-            "food": "b/mapleSyrup",
-            "amount": 2
+            "food": "b/mapleSyrup"
         },
         {
-            "food": "b/honey",
-            "amount": 2
+            "food": "b/honey"
         },
         {
             "food": "b/hickoryLiquidSmoke",
             "amount": 15
         },
         {
-            "food": "b/sugarBrown",
+            "food": "b/blackPepper",
             "amount": 2
-        },
-        {
-            "food": "b/blackPepper"
         },
         {
             "food": "b/saltSeasoned"
@@ -37,6 +32,10 @@
         {
             "food": "b/garlicPowder",
             "amount": 0.5
+        },
+        {
+            "food": "b/cayenneGround",
+            "amount": 0.25
         }
     ],
     "steps": [
@@ -54,15 +53,23 @@
             "unit": "Cups"
         }
     },
-    "tags": {
-        "type": [ 
-            "Component",
-            "Marinade"
-        ], 
+    "tags": { 
+        "type": {
+            "primary": "Component",
+            "secondary": "Marinade"
+        }, 
         "meals": [],
-        "misc": [
+        "ethnicities": [
             "American"
         ],
-        "healthy": []
+        "misc": [],
+        "healthy": [
+            "Carb"
+        ]
+    },
+    "comments": [],
+    "history": {
+        "intro": "v1.0.0",
+        "alterations": []
     }
 }

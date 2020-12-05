@@ -21,14 +21,24 @@
             "unit": "Cup"
         }
     },
-    "tags": {
-        "type": [
-            "Dessert",
-            "Coffee"
-        ], 
-        "meals": [ ],
-        "misc": [
+    "tags": { 
+        "type": {
+            "primary": "Dessert",
+            "secondary": "Coffee"
+        }, 
+        "meals": [],
+        "ethnicities": [
+            "Italian"
         ],
-        "healthy": [ "Terrible" ]
+        "misc": [],
+        "healthy": [
+            "Fat",
+            "Carb"
+        ]
+    },
+    "comments": [],
+    "history": {
+        "intro": "v1.0.0",
+        "alterations": []
     }
 }

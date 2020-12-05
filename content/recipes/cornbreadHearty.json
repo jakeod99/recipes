@@ -85,16 +85,27 @@
             "unit": "Loaf"
         }
     },
-    "tags": {
-        "type": [ 
-            "Side",
-            "Bread"
-        ], 
-        "meals": [ "Dinner" ],
-        "misc": [ 
-            "American",
+    "tags": { 
+        "type": {
+            "primary": "Side",
+            "secondary": "Bread"
+        }, 
+        "meals": [
+            "Dinner" 
+        ],
+        "ethnicities": [
+            "American"
+        ],
+        "misc": [
             "Bread"
         ],
-        "healthy": []
+        "healthy": [
+            "Fat"
+        ]
+    },
+    "comments": [],
+    "history": {
+        "intro": "v1.0.0",
+        "alterations": []
     }
 }

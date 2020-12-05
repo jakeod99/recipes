@@ -51,19 +51,29 @@
             "ratio": 0.015625
         }
     },
-    "tags": {
-        "type": [
-            "Component",
-            "Sauce"
-        ], 
-        "meals": [ "Dinner" ],
-        "misc": [ 
-            "American",
+    "tags": { 
+        "type": {
+            "primary": "Component",
+            "secondary": "Sauce"
+        }, 
+        "meals": [
+            "Dinner" 
+        ],
+        "ethnicities": [
+            "American"
+        ],
+        "misc": [
             "Holiday"
         ],
-        "healthy": [ "Fat" ]
+        "healthy": [
+            "Fat"
+        ]
     },
     "comments": [
         "If there are more non-fatty turkey drippings than 1 Cup, definitely use all you have"
-    ]
+    ],
+    "history": {
+        "intro": "v1.0.0",
+        "alterations": []
+    }
 }

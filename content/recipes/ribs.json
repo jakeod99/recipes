@@ -94,21 +94,22 @@
             "ratio": 0.075
         }
     },
-    "tags": {
-        "type": [
-            "Entree",
-            "Meat"
-        ], 
+    "tags": { 
+        "type": {
+            "primary": "Entree",
+            "secondary": "Meat"
+        }, 
         "meals": [
-            "Dinner"
+            "Dinner" 
+        ],
+        "ethnicities": [
+            "American"
         ],
         "misc": [
-            "American",
-            "Barbecue",
-            "Meat"
+            "Meat",
+            "Barbecue"
         ],
         "healthy": [
-            "Terrible",
             "Protein",
             "Fat"
         ]
@@ -117,5 +118,9 @@
         "Don't forget to remove the membrane!",
         "Don't trim off all the extra meat on the cut, it's still good! It's just not pretty.",
         "Re-work once you have a way to smoke meat - oven is not ideal"
-    ]
+    ],
+    "history": {
+        "intro": "v1.0.0",
+        "alterations": []
+    }
 }

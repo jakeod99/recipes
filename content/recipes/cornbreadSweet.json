@@ -88,19 +88,28 @@
             "unit": "Loaf"
         }
     },
-    "tags": {
-        "type": [ 
-            "Side",
-            "Bread"
-        ], 
-        "meals": [ "Dinner" ],
-        "misc": [ 
-            "American",
+    "tags": { 
+        "type": {
+            "primary": "Side",
+            "secondary": "Bread"
+        }, 
+        "meals": [
+            "Dinner" 
+        ],
+        "ethnicities": [
+            "American"
+        ],
+        "misc": [
             "Bread"
         ],
-        "healthy": [ "Terrible" ],
-        "comments": [
-            "Vanilla is crazy expensive right now because hurricanes, so go for imitation"
+        "healthy": [
+            "Fat",
+            "Carb"
         ]
+    },
+    "comments": [],
+    "history": {
+        "intro": "v1.0.0",
+        "alterations": []
     }
 }

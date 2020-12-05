@@ -25,13 +25,25 @@
             "unit": "Ounce"
         }
     },
-    "tags": {
-        "type": [
-            "Beverage",
-            "Coffee"
-        ], 
-        "meals": [ "Breakfast" ],
-        "misc": [ "Warming" ],
+    "tags": { 
+        "type": {
+            "primary": "Beverage",
+            "secondary": "Coffee"
+        }, 
+        "meals": [
+            "Breakfast" 
+        ],
+        "ethnicities": [
+            "American"
+        ],
+        "misc": [
+            "Warming"
+        ],
         "healthy": []
+    },
+    "comments": [],
+    "history": {
+        "intro": "v1.0.0",
+        "alterations": []
     }
 }

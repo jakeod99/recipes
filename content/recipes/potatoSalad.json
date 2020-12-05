@@ -96,15 +96,26 @@
             "ratio": 0.167
         }
     },
-    "tags": {
-        "type": [ "Side" ], 
+    "tags": { 
+        "type": {
+            "primary": "Side"
+        }, 
         "meals": [
             "Lunch",
             "Dinner"
         ],
-        "misc": [
+        "ethnicities": [
             "American"
         ],
-        "healthy": []
+        "misc": [],
+        "healthy": [
+            "Fat",
+            "Carb"
+        ]
+    },
+    "comments": [],
+    "history": {
+        "intro": "v1.0.0",
+        "alterations": []
     }
 }

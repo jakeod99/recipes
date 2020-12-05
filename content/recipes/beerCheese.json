@@ -75,19 +75,27 @@
             "ratio": 0.03125
         }
     },
-    "tags": {
-        "type": [ 
-            "Component",
-            "Dip"
-        ], 
-        "meals": [ "Dinner" ],
-        "misc": [ 
-            "American",
+    "tags": { 
+        "type": {
+            "primary": "Component",
+            "secondary": "Dip"
+        }, 
+        "meals": [
+            "Dinner" 
+        ],
+        "ethnicities": [
+            "American"
+        ],
+        "misc": [
             "Cheese"
         ],
-        "healthy": [ 
-            "Terrible",
+        "healthy": [
             "Fat"
         ]
+    },
+    "comments": [],
+    "history": {
+        "intro": "v1.0.0",
+        "alterations": []
     }
 }

@@ -42,19 +42,26 @@
             "ratio": 0.2
         }
     },
-    "tags": {
-        "type": [
-            "Component",
-            "Sauce"
-        ], 
+    "tags": { 
+        "type": {
+            "primary": "Component",
+            "secondary": "Sauce"
+        }, 
         "meals": [
             "Lunch",
-            "Dinner"
+            "Dinner" 
         ],
-        "misc": [ "American" ],
-        "healthy": [ 
-            "Terrible",
+        "ethnicities": [
+            "American"
+        ],
+        "misc": [],
+        "healthy": [
             "Fat"
         ]
+    },
+    "comments": [],
+    "history": {
+        "intro": "v1.0.0",
+        "alterations": []
     }
 }

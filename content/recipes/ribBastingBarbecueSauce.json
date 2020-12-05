@@ -47,19 +47,33 @@
             "unit": "Cup"
         }
     },
-    "tags": {
-        "type": [
-            "Component",
-            "Sauce"
-        ], 
+    "tags": { 
+        "type": {
+            "primary": "Component",
+            "secondary": "Sauce"
+        }, 
         "meals": [
             "Lunch",
-            "Dinner"
+            "Dinner" 
         ],
-        "misc": [ "Barbecue" ],
-        "healthy": []
+        "ethnicities": [
+            "American"
+        ],
+        "misc": [
+            "Barbecue"
+        ],
+        "healthy": [
+            "GI",
+            "Carb"
+        ]
     },
     "comments": [
         "Usually used for basting ribs, but I bet it's pretty good on other things"
-    ]
+    ],
+    "history": {
+        "intro": "v1.0.0",
+        "alterations": []
+    }
+
+
 }

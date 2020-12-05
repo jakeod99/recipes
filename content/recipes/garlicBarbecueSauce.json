@@ -46,16 +46,23 @@
             "unit": "Cups"
         }
     },
-    "tags": {
-        "type": [ 
-            "Component",
-            "Sauce"
-        ], 
+    "tags": { 
+        "type": {
+            "primary": "Component",
+            "secondary": "Sauce"
+        }, 
         "meals": [],
+        "ethnicities": [
+            "American"
+        ],
         "misc": [
-            "American",
             "Barbecue"
         ],
         "healthy": []
+    },
+    "comments": [],
+    "history": {
+        "intro": "v1.0.0",
+        "alterations": []
     }
 }

@@ -47,16 +47,21 @@
             "calories": 0.012
         }
     },
-    "tags": {
-        "type": [ 
-            "Component",
-            "Sauce"
-        ], 
+    "tags": { 
+        "type": {
+            "primary": "Component",
+            "secondary": "Sauce"
+        }, 
         "meals": [],
+        "ethnicities": [],
         "misc": [],
-        "healthy": [ "Terrible" ],
-        "comments": [
-            "Vanilla is crazy expensive right now because hurricanes, so go for imitation"
+        "healthy": [
+            "Carb"
         ]
+    },
+    "comments": [],
+    "history": {
+        "intro": "v1.0.0",
+        "alterations": []
     }
 }

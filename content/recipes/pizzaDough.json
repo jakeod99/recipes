@@ -57,17 +57,28 @@
             "ratio": 0.25
         }
     },
-    "tags": {
-        "type": [
-            "Component",
-            "Bread"
-        ], 
+    "tags": { 
+        "type": {
+            "primary": "Component",
+            "secondary": "Bread"
+        }, 
         "meals": [],
-        "misc": [ "Italian", "Pizza" ],
-        "healthy": []
+        "ethnicities": [
+            "Italian"
+        ],
+        "misc": [
+            "Pizza"
+        ],
+        "healthy": [
+            "Carb"
+        ]
     },
     "comments": [
         "The cold ferment makes it taste super yummy. Not necessary, but highly recommended.",
         "If you have a stand mixer, use it. Very helpful with such a wet dough."
-    ]
+    ],
+    "history": {
+        "intro": "v1.0.0",
+        "alterations": []
+    }
 }

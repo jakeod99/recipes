@@ -88,24 +88,30 @@
             "unit": "Wings"
         }
     },
-    "tags": {
-        "type": [
-            "Entree",
-            "Meat"
-        ], 
+    "tags": { 
+        "type": {
+            "primary": "Entree",
+            "secondary": "Meat"
+        }, 
         "meals": [
             "Lunch",
-            "Dinner"
+            "Dinner" 
+        ],
+        "ethnicities": [
+            "American"
         ],
         "misc": [
-            "American",
             "Meat",
             "Barbecue"
         ],
-        "healthy": [ 
-            "Terrible",
+        "healthy": [
             "Protein",
             "Fat"
         ]
+    },
+    "comments": [],
+    "history": {
+        "intro": "v1.0.0",
+        "alterations": []
     }
 }

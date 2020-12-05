@@ -40,14 +40,26 @@
             "unit": "Cup"
         }
     },
-    "tags": {
-        "type": [
-            "Component",
-            "Sauce"
-        ], 
+    "tags": { 
+        "type": {
+            "primary": "Component"
+        }, 
         "meals": [],
-        "misc": [ "Italian", "Pizza" ],
-        "healthy": [ "Terrible" ]
+        "ethnicities": [
+            "Italian"
+        ],
+        "misc": [
+            "Pizza"
+        ],
+        "healthy": [
+            "Fat"
+        ]
     },
-    "comments": [ "Do not try to make ahead of time, make right before spreading onto dough" ]
+    "comments": [ 
+        "Do not try to make ahead of time, make right before spreading onto dough" 
+    ],
+    "history": {
+        "intro": "v1.0.0",
+        "alterations": []
+    }
 }

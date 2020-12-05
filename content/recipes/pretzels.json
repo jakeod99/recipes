@@ -110,16 +110,27 @@
             "ratio": 0.125
         }
     },
-    "tags": {
-        "type": [ 
-            "Side",
-            "Bread"
-        ], 
-        "meals": [ "Dinner" ],
-        "misc": [ 
-            "Germany",
-            "Bread" 
+    "tags": { 
+        "type": {
+            "primary": "Side",
+            "secondary": "Bread"
+        },
+        "meals": [
+            "Dinner" 
         ],
-        "healthy": []
+        "ethnicities": [
+            "German"
+        ],
+        "misc": [
+            "Bread"
+        ],
+        "healthy": [
+            "Carb"
+        ]
+    },
+    "comments": [],
+    "history": {
+        "intro": "v1.0.0",
+        "alterations": []
     }
 }

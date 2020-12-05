@@ -64,22 +64,29 @@
             "ratio": 0.03125
         }
     },
-    "tags": {
-        "type": [
-            "Snack",
-            "Dip"
-        ], 
+    "tags": { 
+        "type": {
+            "primary": "Snack",
+            "secondary": "Dip"
+        }, 
         "meals": [
-            "Dinner"
+            "Dinner" 
+        ],
+        "ethnicities": [
+            "Mexican"
         ],
         "misc": [
             "Cheese"
         ],
-        "healthy": [ 
-            "Terrible"
+        "healthy": [
+            "Fat"
         ]
     },
     "comments": [
-        "This version congeals easily, will soon (if not already) be deprecated favoring future versions"
-    ]
+        "This version congeals easily, will soon be deprecated favoring future versions"
+    ],
+    "history": {
+        "intro": "v1.0.0",
+        "alterations": []
+    }
 }

@@ -35,16 +35,27 @@
             "unit": "Cups"
         }
     },
-    "tags": {
-        "type": [ 
-            "Component",
-            "Sauce"
-        ], 
+    "tags": { 
+        "type": {
+            "primary": "Component",
+            "secondary": "Sauce"
+        }, 
         "meals": [],
+        "ethnicities": [
+            "American"
+        ],
         "misc": [
-            "American",
             "Barbecue"
         ],
-        "healthy": [ "Terrible" ]
+        "healthy": [
+            "Carb"
+        ]
+    },
+    "comments": [ 
+        "Frankly, this is more of a syrup than a sauce"
+    ],
+    "history": {
+        "intro": "v1.0.0",
+        "alterations": []
     }
 }

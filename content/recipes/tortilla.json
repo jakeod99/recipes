@@ -65,16 +65,28 @@
             "ratio": 0.0625
         }
     },
-    "tags": {
-        "type": [ 
-            "Side",
-            "Bread"
-        ], 
-        "meals": [ "Dinner" ],
-        "misc": [ 
-            "Mexican",
+    "tags": { 
+        "type": {
+            "primary": "Side",
+            "secondary": "Bread"
+        }, 
+        "meals": [
+            "Dinner" 
+        ],
+        "ethnicities": [
+            "Mexican"
+        ],
+        "misc": [
             "Bread"
         ],
-        "healthy": []
+        "healthy": [
+            "Carb",
+            "Fat"
+        ]
+    },
+    "comments": [],
+    "history": {
+        "intro": "v1.0.0",
+        "alterations": []
     }
 }

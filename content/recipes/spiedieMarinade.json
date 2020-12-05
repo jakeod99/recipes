@@ -59,19 +59,26 @@
             "unit": "Cup"
         }
     },
-    "tags": {
-        "type": [ 
-            "Component",
-            "Marinade"
-        ], 
+    "tags": { 
+        "type": {
+            "primary": "Component",
+            "secondary": "Marinade"
+        }, 
         "meals": [],
+        "ethnicities": [
+            "American"
+        ],
         "misc": [
-            "American",
             "Barbecue"
         ],
         "healthy": [
             "Heart",
             "GI"
         ]
+    },
+    "comments": [],
+    "history": {
+        "intro": "v1.0.0",
+        "alterations": []
     }
 }

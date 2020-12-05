@@ -34,16 +34,24 @@
             "unit": "Cup"
         }
     },
-    "tags": {
-        "type": [
-            "Component",
-            "Spread"
-        ], 
+    "tags": { 
+        "type": {
+            "primary": "Component",
+            "secondary": "Spread"
+        }, 
         "meals": [],
-        "misc": [ "American" ],
-        "healthy": [ 
-            "Terrible",
-            "Fat"
+        "ethnicities": [
+            "American"
+        ],
+        "misc": [],
+        "healthy": [
+            "Fat",
+            "Carb"
         ]
+    },
+    "comments": [],
+    "history": {
+        "intro": "v1.0.0",
+        "alterations": []
     }
 }

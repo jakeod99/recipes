@@ -50,13 +50,23 @@
             "amount": 4,
             "unit": "Eggs"
         }
-    },
-    "tags": {
-        "type": [
-            "Entree"
-        ], 
-        "meals": [ "Breakfast" ],
+    },   
+    "tags": { 
+        "type": {
+            "primary": "Entree"
+        }, 
+        "meals": [
+            "Breakfast" 
+        ],
+        "ethnicities": [],
         "misc": [],
-        "healthy": []
+        "healthy": [ 
+            "Protein"
+        ]
+    },
+    "comments": [],
+    "history": {
+        "intro": "v1.0.0",
+        "alterations": []
     }
 }

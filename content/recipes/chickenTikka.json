@@ -94,11 +94,26 @@
             "ratio": 0.2
         }
     },
-    "tags": {
-        "type": [ "Entree" ], 
-        "meals": [ "Dinner" ],
-        "misc": [ "Indian", "Meat" ],
+    "tags": { 
+        "type": {
+            "primary": "Entree"
+        }, 
+        "meals": [
+            "Dinner" 
+        ],
+        "ethnicities": [
+            "Indian"
+        ],
+        "misc": [
+            "Meat"
+        ],
         "healthy": []
     },
-    "comments": [ "Great for using leftover tandoori chicken" ]
+    "comments": [ 
+        "Great for using leftover tandoori chicken" 
+    ],
+    "history": {
+        "intro": "v1.0.0",
+        "alterations": []
+    }
 }

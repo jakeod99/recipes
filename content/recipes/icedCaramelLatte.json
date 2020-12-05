@@ -36,13 +36,21 @@
             "unit": "Cup"
         }
     },
-    "tags": {
-        "type": [
-            "Beverage",
-            "Coffee"
-        ], 
-        "meals": [ "Breakfast" ],
+    "tags": { 
+        "type": {
+            "primary": "Beverage",
+            "secondary": "Coffee"
+        }, 
+        "meals": [
+            "Breakfast" 
+        ],
+        "ethnicities": [],
         "misc": [],
         "healthy": []
+    },
+    "comments": [],
+    "history": {
+        "intro": "v1.0.0",
+        "alterations": []
     }
 }

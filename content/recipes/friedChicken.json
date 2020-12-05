@@ -100,25 +100,31 @@
             "ratio": 0.07
         }
     },
-    "tags": {
-        "type": [
-            "Entree",
-            "Meat"
-        ], 
+    "tags": { 
+        "type": {
+            "primary": "Entree",
+            "secondary": "Meat"
+        }, 
         "meals": [
             "Lunch",
-            "Dinner"
+            "Dinner" 
         ],
-        "misc": [ 
-            "American",
+        "ethnicities": [
+            "American"
+        ],
+        "misc": [
             "Meat"
         ],
-        "healthy": [ 
-            "Protein",
-            "Fat"
+        "healthy": [
+            "Fat",
+            "Protein"
         ]
     },
     "comments": [
         "If you sub in Drumsticks, finish the job in the oven at 400F for like 20 minutes."
-    ]
+    ],
+    "history": {
+        "intro": "v1.0.0",
+        "alterations": []
+    }
 }

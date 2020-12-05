@@ -73,13 +73,23 @@
             "ratio": 0.0833
         }
     },
-    "tags": {
-        "type": [ 
-            "Entree",
+    "tags": { 
+        "type": {
+            "primary": "Entree",
+            "secondary": "Bread"
+        }, 
+        "meals": [
+            "Breakfast" 
+        ],
+        "ethnicities": [],
+        "misc": [
             "Bread"
-        ], 
-        "meals": [ "Breakfast" ],
-        "misc": [ "Bread" ],
+        ],
         "healthy": []
+    },
+    "comments": [],
+    "history": {
+        "intro": "v1.0.0",
+        "alterations": []
     }
 }

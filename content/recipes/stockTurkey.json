@@ -68,13 +68,20 @@
             "ratio": 0.0833
         }
     },
-    "tags": {
-        "type": [ "Component" ], 
+    "tags": { 
+        "type": {
+            "primary": "Component"
+        }, 
         "meals": [],
+        "ethnicities": [],
         "misc": [],
         "healthy": []
     },
     "comments": [
         "Clear stock is overrated, nothing wrong with cloudy (assuming you use or freeze quickly)"
-    ]
+    ],
+    "history": {
+        "intro": "v1.0.0",
+        "alterations": []
+    }
 }

@@ -7,7 +7,7 @@
         },
         {
             "food": "b/cheeseParmesan",
-            "amount": 0.5,
+            "amount": 0.1,
             "prep": "grated"
         },
         {
@@ -22,7 +22,7 @@
         },
         {
             "food": "b/redPepperFlakes",
-            "amount": 0.5
+            "amount": 0.25
         },
         {
             "food": "b/salt",
@@ -48,15 +48,21 @@
             "unit": "Cup"
         }
     },
-    "tags": {
-        "type": [ 
-            "Component",
-            "Dip"
-        ], 
+    "tags": { 
+        "type": {
+            "primary": "Component",
+            "secondary": "Dip"
+        }, 
         "meals": [],
-        "misc": [
+        "ethnicities": [
             "Italian"
         ],
+        "misc": [],
         "healthy": []
+    },
+    "comments": [],
+    "history": {
+        "intro": "v1.0.0",
+        "alterations": []
     }
 }

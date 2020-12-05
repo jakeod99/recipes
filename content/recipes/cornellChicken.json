@@ -46,16 +46,18 @@
             "ratio": 0.25
         }
     },
-    "tags": {
-        "type": [ 
-            "Entree",
-            "Meat"
-        ], 
+    "tags": { 
+        "type": {
+            "primary": "Entree",
+            "secondary": "Meat"
+        }, 
         "meals": [
-            "Dinner"
+            "Dinner" 
+        ],
+        "ethnicities": [
+            "American"
         ],
         "misc": [
-            "American",
             "Barbecue",
             "Meat"
         ],
@@ -65,5 +67,9 @@
     },
     "comments": [
         "This is delicious, but easy to undercook so be careful"
-    ]
+    ],
+    "history": {
+        "intro": "v1.0.0",
+        "alterations": []
+    }
 }

@@ -67,23 +67,31 @@
             "unit": "Tablespoon",
             "ratio": 0.03125
         }
-    },
-    "tags": {
-        "type": [
-            "Side",
-            "Dip"
-        ], 
+    },    
+    "tags": { 
+        "type": {
+            "primary": "Side",
+            "secondary": "Dip"
+        }, 
         "meals": [
             "Lunch",
-            "Dinner"
+            "Dinner" 
+        ],
+        "ethnicities": [
+            "Mexican"
         ],
         "misc": [
-            "Mexican",
             "BigGame"
         ],
         "healthy": [
             "Heart",
-            "GI"
+            "GI",
+            "Fat"
         ]
+    },
+    "comments": [],
+    "history": {
+        "intro": "v1.0.0",
+        "alterations": []
     }
 }

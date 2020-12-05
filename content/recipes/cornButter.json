@@ -57,16 +57,23 @@
             "unit": "Tablespoon"
         }
     },
-    "tags": {
-        "type": [
-            "Component",
-            "Spread"
-        ], 
+    "tags": { 
+        "type": {
+            "primary": "Component",
+            "secondary": "Spread"
+        }, 
         "meals": [],
-        "misc": [ "American" ],
-        "healthy": [ 
-            "Terrible",
+        "ethnicities": [
+            "American"
+        ],
+        "misc": [],
+        "healthy": [
             "Fat"
         ]
+    },
+    "comments": [],
+    "history": {
+        "intro": "v1.0.0",
+        "alterations": []
     }
 }
