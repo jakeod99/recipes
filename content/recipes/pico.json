@@ -18,7 +18,7 @@
         },
         {
             "food": "b/pepperJalapeno",
-            "amount": 6,
+            "amount": 0.5,
             "prep": "minced, without the seeds/core"
         },
         {
@@ -27,16 +27,16 @@
             "prep": "crushed"
         },
         {
-            "food": "b/salt",
-            "amount": 0.25
-        },
-        {
             "food": "b/chiliPowder",
             "amount": 0.125
         },
         {
+            "food": "b/salt",
+            "toTaste": true
+        },
+        {
             "food": "b/blackPepper",
-            "amount": 0.0625
+            "toTaste": true
         }
     ],
     "steps": [

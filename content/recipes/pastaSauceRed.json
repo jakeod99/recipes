@@ -1,0 +1,108 @@
+{
+    "name": "Red Pasta Sauce",
+    "ingredients": [
+        {
+            "food": "b/oilOlive",
+            "amount": 5.33
+        },
+        {
+            "food": "b/oilOlive",
+            "amount": 2
+        },
+        {
+            "food": "b/onionWhite",
+            "amount": 0.75,
+            "prep": "finely diced"
+        },
+        {
+            "food": "b/garlic",
+            "amount": 8,
+            "prep": "crushed"
+        },
+        {
+            "food": "b/tomatoPaste",
+            "amount": 4
+        },
+        {
+            "food": "b/redPepperFlakes",
+            "amount": 0.5
+        },
+        {
+            "food": "b/oreganoDried",
+            "amount": 3
+        },
+        {
+            "food": "b/tomatoGP"
+        },
+        {
+            "food": "b/tomatoPeeled",
+            "prep": "drained of the canning liquid (only use the tomatoes themselves)"
+        },
+        {
+            "food": "b/basilFresh",
+            "amount": 6
+        },
+        {
+            "food": "b/wineWhiteChardonnay",
+            "amount": 0.1875
+        },
+        {
+            "food": "b/butter",
+            "amount": 2
+        },
+        {
+            "food": "b/sugar",
+            "amount": 2,
+            "unitOverride": "Pinches",
+            "calorieOverride": 5,
+            "priceOverride": 0
+        },
+        {
+            "food": "b/salt",
+            "toTaste": true
+        },
+        {
+            "food": "b/blackPepper",
+            "toTaste": true
+        }
+    ],
+    "steps": [
+        ""
+    ],
+    "metrics": {
+        "time": {
+            "total": "1 hour",
+            "active": "10 minutes"
+        },
+        "yield": {
+            "amount": 4,
+            "unit": "Cup"
+        },
+        "serving": {
+            "amount": 0.75,
+            "unit": "Cup",
+            "ratio": 0.1825
+        }
+    },
+    "tags": { 
+        "type": {
+            "primary": "Component",
+            "secondary": "Sauce"
+        }, 
+        "meals": [],
+        "ethnicities": [
+            "Italian"
+        ],
+        "misc": [
+            "Pizza"
+        ],
+        "healthy": [
+            "GI"
+        ]
+    },
+    "comments": [],
+    "history": {
+        "intro": "v1.0.0",
+        "alterations": []
+    }
+}

@@ -14,9 +14,10 @@
                     "food": "b/bread"
                 }
             ],
-            "optional": false, //false if undefined
+            "optional": false, //false if undefined, flags ingredient as optional when true
+            "toTaste": false, //false if undefined, flags ingredient as being added "to taste"
             "prep": "", //OPTIONAL
-            "secondary": false, //false if undefined
+            "secondary": false, //false if undefined, converts to secondary measurements when true
             "calorieRatio": "", //1 if undefined, only counts a portion of the calories in recipe total
             "unitOverride": "", //OPTIONAL, provide custom unit
             "calorieOverride": "", //REQUIRED when `unitOverride` is defined - total calories for this ingredient
@@ -24,10 +25,11 @@
         },
         {
             "food": "b/placeholder",
-            "optional": true
+            "optional": true, //false if undefined
+            "toTaste": true
         },
         [ //these are interchangeable ingredients - like different sauce options for wings
-            "Shared Term (like Sauce)",
+            "Shared Term (like 'Sauce')",
             {
                 "food": "b/placeholder"
             },

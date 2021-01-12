@@ -26,14 +26,14 @@
         },
         {
             "food": "b/flour",
-            "amount": 5.5
+            "amount": 6
         }
     ],
     "steps": [
         "Mix Warm Water, Sugar, and Yeast in a big bowl",
         "Let sit for 5 minutes",
         "If there's no foaming, the yeast is dead and you need to start over",
-        "Mix in Olive Oil and Salt, then Flour",
+        "Mix in Salt and 2 Tablespoonds Olive Oil, then Flour",
         "Knead the dough, only adding minimal extra flour when necessary",
         "Stop kneading when dough can stretch thin without tearing (~15min)",
         "Divide the dough into 4 equal balls",

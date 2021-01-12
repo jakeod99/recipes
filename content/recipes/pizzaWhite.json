@@ -14,12 +14,12 @@
             "amount": 2
         },
         {
-            "food": "r/pizzaWhiteSauce"
+            "food": "r/pizzaSauceWhite"
         },
         {
             "food": "b/bacon",
             "amount": 2,
-            "prep": "cut up into bits and cooked"
+            "prep": "cut up into bits and fried"
         },
         {
             "food": "b/cheeseMozzarellaLM",
