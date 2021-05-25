@@ -21,9 +21,8 @@
             "amount": 0.33
         },
         {
-            "food": "b/garlic",
-            "amount": 0.5,
-            "prep": "crushed"
+            "food": "b/garlicPowder",
+            "amount": 2
         }
     ],
     "steps": [

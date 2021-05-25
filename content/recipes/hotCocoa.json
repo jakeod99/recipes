@@ -27,11 +27,8 @@
             "amount": 2
         },
         {
-            "food": "b/vanillaImitation",
-            "amount": 2,
-            "sub": [
-                "b/vanillaExtract"
-            ]
+            "food": "b/vanillaExtract",
+            "amount": 2
         }
     ],
     "steps": [

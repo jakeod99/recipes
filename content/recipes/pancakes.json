@@ -16,11 +16,7 @@
             "food": "b/eggWhite"
         },
         {
-            "food": "b/vanillaImitation",
-            "amount": 1,
-            "sub": [
-                "b/vanillaExtract"
-            ]
+            "food": "b/vanillaExtract"
         },
         {
             "food": "b/buttermilk",

@@ -53,7 +53,7 @@ Frankly, this is a bit homegrown and doesn't follow any traditional
 organizational structure. The system has five main sections: `content`, 
 `current`, `docs`, `scripts`, and `versions`.
 
-#### Content
+#### `content`
 This is where all the actual recipe information is stored. Everything is 
 stored as `.json` and categorized as a `base` or a `recipe`. This is not the 
 ideal format for viewing the recipes, it's merely how the system reads in the 
@@ -61,14 +61,14 @@ information it needs to generate a more pleasing user experience. That said,
 if you honestly want to view the information as straight `.json`, then who am 
 I to stop you - it's a free country.
 
-#### Current
+#### `current`
 This is a duplicate of the most recent version in the `versions` folder. It is 
 here for quick access and so that a single unchanging link can always point to 
 the most recent version. This means the naming scheme of the contents of this 
 folder must be kept consistent, and therefore independent from their 
 respective version.
 
-#### Docs (Website)
+#### `docs` (Website)
 This folder holds all of the frontend code to be rendered by Github Pages. 
 A name like "website" would have been far clearer, but the Github Pages 
 configuration options do not currently allow for a custom folder name as the 
@@ -78,12 +78,12 @@ previous versions, so if you desire older content please look in the
 `versions` folder and settle for the markdown or the cookbook document. The 
 website can be seen hosted at https://jakeod99.github.io/recipes.
 
-#### Scripts
+#### `scripts`
 This is where all the logic is kept. Running `release.js` should 
 trigger all the necessary generations and overwrites housed here. To run 
 `release.js`, see [Generating a Release](#gar).
 
-#### Versions
+#### `versions`
 Every major release is stored here indefinitely, along with any particularly 
 impactful version that updates the `StageVersion` digit. Of course, during 
 development of a feature, feature branches will temporarily store featured 
@@ -136,13 +136,14 @@ Everything in other branches is still under development and subject to change.
 ## Thanks!
 Jake has spent a lot of time learning about cooking recently, and there are a 
 lot of people he has to thank. Whether they provided recipes he worked from, 
-or if they taught him general cooking tips, or if they patiently suffered 
-through his frustrating perfectionist tendencies, he certainly has a lot of 
+or they taught him general cooking tips, or they patiently suffered 
+through his frustrating perfectionist tendencies; he certainly has a lot of 
 reason to be thankful for their help and guidance. They are:
 
 - Audrey Moore
 - Joanne O'Donnell
 - Barb O'Donnell
+- Sue O'Donnell
 - Luke O'Donnell
 - Bart Chumbley
 - [Andrew Rea](https://www.youtube.com/user/bgfilms)

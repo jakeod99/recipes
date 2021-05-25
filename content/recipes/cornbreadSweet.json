@@ -33,11 +33,8 @@
             "food": "b/buttermilk"
         },
         {
-            "food": "b/vanillaImitation",
-            "amount": 0.5,
-            "sub": [
-                "b/vanillaExtract"
-            ]
+            "food": "b/vanillaExtract",
+            "amount": 0.5
         },
         {
             "food": "b/cornFrozen",

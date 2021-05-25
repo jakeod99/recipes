@@ -18,12 +18,7 @@
             "amount": 16
         },
         {
-            "food": "b/vanillaImitation",
-            "sub": [
-                {
-                    "food": "b/vanillaExtract"
-                }
-            ]
+            "food": "b/vanillaExtract"
         },
         {
             "food": "b/egg",
