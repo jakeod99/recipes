@@ -18,9 +18,7 @@
             "amount": 0.2
         },
         {
-            "food": "b/cheeseParmesan",
-            "amount": 0.2,
-            "prep": "finely grated"
+            "food": "b/cheeseParmesanRomano"
         },
         {
             "food": "b/cheeseMozzarellaLM",

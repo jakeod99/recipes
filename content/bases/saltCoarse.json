@@ -2,5 +2,8 @@
     "name": "Coarse Salt",
     "unit": "Teaspoon",
     "calories": 0,
-    "price": 0.13
+    "price": 0.13,
+    "secondaryUnit": "Pinch",
+    "secondaryUnitPlural": "Pinches",
+    "primaryToSecondary": 0.2
 }

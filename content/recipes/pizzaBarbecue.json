@@ -23,9 +23,7 @@
             "prep": "poached and cut into ~2/3\" chunks"
         },
         {
-            "food": "b/cheeseParmesan",
-            "amount": 0.2,
-            "prep": "finely grated"
+            "food": "b/cheeseParmesanRomano"
         },
         {
             "food": "b/cheeseCheddar9Orange",

@@ -5,24 +5,78 @@
             "food": "b/tortillaFlour",
             "amount": 2,
             "sub": [
-                
+                {
+                    "food": "r/tortilla",
+                    "amount": 2
+                }
             ]
+        },
+        {
+            "food": "b/cheeseJackMonterey",
+            "amount": 2,
+            "prep": "shredded"
+        },
+        {
+            "food": "b/spinachBaby",
+            "prep": "chopped, without stems"
+        },
+        {
+            "food": "b/saltKosher",
+            "amount": 3,
+            "secondary": true
+        },
+        {
+            "food": "b/cornFrozen",
+            "amount": 0.25
+        },
+        {
+            "food": "b/blackBeansCan",
+            "amount": 0.33,
+            "prep": "drained"
+
+        },
+        {
+            "food": "b/cheeseCotija",
+            "amount": 0.2,
+            "prep": "crumbled"
+        },
+        {
+            "food": "b/adobo",
+            "amount": 1.5
+        },
+        {
+            "food": "b/butter",
+            "amount": 0.33
+        },
+        {
+            "food": "b/butter",
+            "amount": 0.33
+        },
+        {
+            "food": "b/creamSour",
+            "amount": 2,
+            "optional": true
         }
     ],
     "steps": [
-        "step 1 description",
-        "step 2 description",
-        [
-            "step 2.1 description",
-            "step 2.2 description",
-            "step 2.3 description"
-        ],
-        "step 3 description"
+        "Put the Spinach on the stove over medium heat",
+        "Stir continuously as you sprinkle Salt over the Spinach",
+        "Put Spinach in heat-proof mixing bowl once fully wilted",
+        "Add Corn, Beans, Cheeses (Jack & Cotija), and Adobo",
+        "Mix thoroughly",
+        "Spread mix on tortilla (leave 1\" clearance at edges)",
+        "Align second tortilla evenly above first and press down",
+        "Put a pan wider than your tortillas on medium heat",
+        "Put the butter on the pan and spread evenly",
+        "Place uncooked quesadilla on the pan",
+        "Flip quesadilla once the bottom's browning is appealing",
+        "Once melted throughout, take off heat and let rest for 3 min",
+        "Cut into 6 slices and enjoy with a side of sour cream"
     ],
     "metrics": {
         "time": {
-            "total": "",
-            "active": ""
+            "total": "30 minutes",
+            "active": "30 minutes"
         },
         "yield": {
             "amount": 0, //8

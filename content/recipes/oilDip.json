@@ -6,9 +6,8 @@
             "amount": 8
         },
         {
-            "food": "b/cheeseParmesan",
-            "amount": 0.1,
-            "prep": "grated"
+            "food": "b/cheeseParmesanRomano",
+            "amount": 2
         },
         {
             "food": "b/garlic",
@@ -25,8 +24,8 @@
             "amount": 0.25
         },
         {
-            "food": "b/salt",
-            "amount": 0.25
+            "food": "b/saltKosher",
+            "secondary": true 
         },
         {
             "food": "b/blackPepper",

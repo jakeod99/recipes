@@ -31,10 +31,11 @@
         "Spread the Salt over the Chicken Breasts",
         "Boil the salted Chicken Breasts for 20 minutes",
         "Shread the Chicken",
-        "Mix Cream Cheese, RedHot, Ranch, and Cheddar in Crockpot",
-        "Add shreaded Chicken to the crockpot",
-        "Put Crockpot on high for 2 hours",
-        "Serve with Chips"
+        "Mix RedHot into Cream Cheese bit by bit until somewhat homogenous",
+        "Mix in, Ranch, and Cheddar in Crockpot",
+        "Add mixture to the crokcpot along with the shreaded Chicken",
+        "Put Crockpot on high for 2 hours, then reduce to warm while eating",
+        "Serve in crockpot along with Chips"
     ],
     "metrics": {
         "time": {
@@ -69,7 +70,9 @@
             "Fat"
         ]
     },
-    "comments": [],
+    "comments": [
+        "Definitely serve with Chips"
+    ],
     "history": {
         "intro": "v1.0.0",
         "alterations": []

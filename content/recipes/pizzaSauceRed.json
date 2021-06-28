@@ -10,7 +10,7 @@
         },
         {
             "food": "b/oreganoDried",
-            "amount": 2
+            "amount": 2.67
         },
         {
             "food": "b/redPepperFlakes",
@@ -22,7 +22,7 @@
         },
         {
             "food": "b/garlicPowder",
-            "amount": 2
+            "amount": 1.33
         }
     ],
     "steps": [

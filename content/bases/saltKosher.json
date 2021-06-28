@@ -4,5 +4,8 @@
     "unit": "Teaspoon",
     "calories": 0,
     "price": 0.01,
+    "secondaryUnit": "Pinch",
+    "secondaryUnitPlural": "Pinches",
+    "primaryToSecondary": 0.2,
     "disclaimer": "Kosher salt measurements are not interchangeable with table salt, and even vary by brand"
 }

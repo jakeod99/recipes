@@ -3,5 +3,8 @@
     "brand": "Maldon",
     "unit": "Teaspoon",
     "calories": 0,
-    "price": 0.20
+    "price": 0.20,
+    "secondaryUnit": "Pinch",
+    "secondaryUnitPlural": "Pinches",
+    "primaryToSecondary": 0.2
 }

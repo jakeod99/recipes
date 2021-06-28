@@ -2,5 +2,8 @@
     "name": "Salt (Fine)",
     "unit": "Teaspoon",
     "calories": 0,
-    "price": 0.01
+    "price": 0.01,
+    "secondaryUnit": "Pinch",
+    "secondaryUnitPlural": "Pinches",
+    "primaryToSecondary": 0.2
 }
