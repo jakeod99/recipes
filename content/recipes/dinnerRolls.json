@@ -3,7 +3,7 @@
     "ingredients": [
         {
             "food": "b/water",
-            "amount": 1.5,
+            "amount": 1.25,
             "prep": "warm (~110F)"
         },
         {
@@ -35,7 +35,7 @@
         },
         {
             "food": "b/flour",
-            "amount": 3.5
+            "amount": 4
         },
         {
             "food": "b/cornmealStone",

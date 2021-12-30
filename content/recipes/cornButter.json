@@ -11,11 +11,8 @@
             "amount": 1.5
         },
         {
-            "food": "b/saltSeasoned"
-        },
-        {
-            "food": "b/salt",
-            "amount": 0.5
+            "food": "b/saltSeasoned",
+            "amount": 1.5
         },
         {
             "food": "b/garlicPowder",
@@ -26,16 +23,7 @@
             "amount": 0.5
         },
         {
-            "food": "b/parsleyDried",
-            "amount": 0.5
-        },
-        {
-            "food": "b/basilDried",
-            "amount": 0.5
-        },
-        {
-            "food": "b/oreganoDried",
-            "amount": 0.5
+            "food": "b/parsleyDried"
         },
         {
             "food": "b/cayenneGround",
