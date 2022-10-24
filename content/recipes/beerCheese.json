@@ -18,8 +18,14 @@
             "amount": 0.75
         },
         {
-            "food": "b/modeloEspecial",
-            "amount": 1.5
+            "food": "b/beerModeloEspecial",
+            "amount": 1.5,
+            "sub": [
+              {
+                "food": "b/beerHighlandLager",
+                "amount": 1.5
+              }
+            ]
         },
         {
             "food": "b/worcestershire",
@@ -93,8 +99,11 @@
             "Fat"
         ]
     },
-    "comments": [],
+    "comments": [
+      "If you're close to Rochester NY, Rohrbach's Highland Lager is killer in this - definitely sub it in"
+    ],
     "history": {
+        "released": true,
         "intro": "v1.0.0",
         "alterations": []
     }

@@ -1,16 +1,9 @@
 # Jake's Recipes
 This project generates various ways to display Jake's recipes while tracking 
-previous versions/releases.
+previous versions/releases. 
 
 ## Accessing Recipes
-How can you access these recipes? Good question! Here are three answers:
-
-### [Website](https://jakeod99.github.io/recipes) - COMING SOON
-You can visit this [website](https://jakeod99.github.io/recipes)! It is a very 
-basic, static website hosted on Github Pages. It provides features other 
-mediums can't, like generating shopping lists. It will always display the most 
-recent release. To view older releases, opt for the markdown or document 
-options available in the `versions` folder.
+How can you access these recipes? Good question! Here are some answers:
 
 ### Document - COMING SOON
 Upon new releases, this system will generate a document (`.docx`) of each of 
@@ -36,6 +29,13 @@ specific problem by opening an `issue`.
 
 ## Development
 
+__Quick Aside__: The technological approach Jake took in developing this 
+solution is clearly quick and dirty. If he comes to the conclusion that this 
+must scale beyond its current scope, there will likely be some serious 
+architectural overhaul. However, the cost of implementing a higher quality 
+solution is worse than the cost of dealing with the existing, lower quality 
+system.
+
 ### <a name="gar"></a>Generating a Release
 To generate a fresh release, run `release.js` in command line, like 
 so: 
@@ -43,10 +43,14 @@ so:
 cd ~/workspace/recipes/scripts
 node release.js 0.1.0
 ```
-Doing this should overwrite the contents of `current` and `docs`, as well 
-as add a new entry into `version`. The release that this specific example 
-would generate would be version `v0.1.0`. Generally speaking, the version 
-digits represent the following increments `MajorRelease.StageVersion.Feature`. 
+Doing this will first run `validate.js` to ensure all data is formatted as 
+expected. Then, if valid, it will add a new entry into `version`. If the 
+version in question is a major release (like `v1.0.0` or `v3.0.0`), it will 
+also overwrite the contents of `current` and `docs`. The release that this 
+specific example would generate would be version `v0.1.0`, so it would only 
+add to `version` with no `current` or `docs` overwrite. Generally speaking, 
+the version digits represent the following increments 
+`MajorRelease.StageVersion.Feature`. 
 
 ### Basic System Overview
 Frankly, this is a bit homegrown and doesn't follow any traditional 
@@ -59,7 +63,8 @@ stored as `.json` and categorized as a `base` or a `recipe`. This is not the
 ideal format for viewing the recipes, it's merely how the system reads in the 
 information it needs to generate a more pleasing user experience. That said, 
 if you honestly want to view the information as straight `.json`, then who am 
-I to stop you - it's a free country.
+I to stop you - it's a free country. Obviously, this data would be better 
+handled in a 
 
 #### `current`
 This is a duplicate of the most recent version in the `versions` folder. It is 

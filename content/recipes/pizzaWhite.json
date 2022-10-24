@@ -30,7 +30,7 @@
     "steps": [
         "Preheat oven to 500F",
         "Place Pizza Steel (or Stone if you don't have steel) in oven",
-        "Let Pizza Steel heat for 1 hour",
+        "Let Pizza Steel heat for 40 minutes",
         "Dust Cornmeal on a Pizza Peel",
         "Take cold dough out of the fridge",
         "Dust dough in flour before stretching (and a bit mid-stretch)",
@@ -79,6 +79,7 @@
     },
     "comments": [],
     "history": {
+        "released": true,
         "intro": "v1.0.0",
         "alterations": []
     }

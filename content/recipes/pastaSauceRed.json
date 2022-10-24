@@ -3,25 +3,16 @@
     "ingredients": [
         {
             "food": "b/oilOlive",
-            "amount": 5.33
+            "amount": 3
         },
         {
             "food": "b/oilOlive",
-            "amount": 2
+            "amount": 3
         },
         {
             "food": "b/onionWhite",
             "amount": 0.75,
-            "prep": "finely diced"
-        },
-        {
-            "food": "b/garlic",
-            "amount": 8,
-            "prep": "crushed"
-        },
-        {
-            "food": "b/tomatoPaste",
-            "amount": 4
+            "prep": "finely diced (or minced)"
         },
         {
             "food": "b/redPepperFlakes",
@@ -32,30 +23,43 @@
             "amount": 3
         },
         {
-            "food": "b/tomatoGP"
+            "food": "b/tomatoPaste",
+            "amount": 4
         },
         {
-            "food": "b/tomatoPeeled",
-            "prep": "drained of the canning liquid (only use the tomatoes themselves)"
+            "food": "b/garlic",
+            "amount": 8,
+            "prep": "crushed (or minced)"
         },
         {
-            "food": "b/basilFresh",
-            "amount": 6
+            "food": "b/garlic",
+            "amount": 3,
+            "prep": "crushed (or minced)"
         },
         {
             "food": "b/wineWhiteChardonnay",
-            "amount": 0.1875
+            "amount": 0.75
+        },
+        {
+            "food": "b/wineWhiteChardonnay",
+            "amount": 0.25
+        },
+        {
+            "food": "b/tomatoSanMarzano",
+            "prep": "drained of the canning liquid (only use the tomatoes themselves)"
+        },
+        {
+            "food": "b/tomatoGP"
+        },
+        {
+            "food": "b/basilFresh",
+            "amount": 6,
+            "secondary": true,
+            "optional": true
         },
         {
             "food": "b/butter",
-            "amount": 2
-        },
-        {
-            "food": "b/sugar",
-            "amount": 2,
-            "unitOverride": "Pinches",
-            "calorieOverride": 5,
-            "priceOverride": 0
+            "amount": 3
         },
         {
             "food": "b/salt",
@@ -67,7 +71,19 @@
         }
     ],
     "steps": [
-        "todo"
+        "Heat 3 Tbsp of Olive Oil in a stainless-steel pot or dutch oven",
+        "Add Onions, stirring occasionally as they soften (should take a few minutes)",
+        "Push the onions to the sides of the pot, clearing a space at the center",
+        "Briefly (~10 seconds) toast the Red Pepper Flakes and Oregano in the center",
+        "Stir in the now toasted spices, and add the 8 cloves of crushed Garlic",
+        "Re-clear the center of the pot, and add the Tomato Paste",
+        "Let Tomato Paste toast in the center until the fond looks like its about to burn",
+        "Stir Tomato Taste in quickly deglaze with 3/4 Cup of Chardonnay",
+        "Scrape and stir with your wooden spoon until all the fond from the bottom is mixed in",
+        "Stir in the drained can of San Marzano tomatoes",
+        "Break up the tomatoes until slightly chunkier than is desired for the end product",
+        "Mix in the Ground Peeled Tomatoes",
+        "Add"
     ],
     "metrics": {
         "time": {
@@ -100,8 +116,12 @@
             "GI"
         ]
     },
-    "comments": [],
+    "comments": [
+        "This recipe really benefits from some mise en place, particulary for the beginning steps",
+        "This is a recipe where the specified brands really matter, as each has a distinct taste"
+    ],
     "history": {
+        "released": false,
         "intro": "v1.0.0",
         "alterations": []
     }

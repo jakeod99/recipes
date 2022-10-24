@@ -19,8 +19,6 @@
     ],
     "steps": [
         "Cut the Whole Chickens in into Half Chickens (or Quarters)",
-        "Use the first batch of Cornell Marinade to marinate the Half Chickens overnight (~18 hours)",
-        "Drain the marinade from the Chicken",
         "Grill Chicken about 1 foot over charcoal (make sure coals are hot)",
         "If you're feelin' it, maybe put some wood on the coals for smoke",
         "Continue the following until cooked (might take up to 3 hours)",
@@ -33,7 +31,7 @@
     ],
     "metrics": {
         "time": {
-            "total": "23 hours",
+            "total": "5 hours",
             "active": "5 hours"
         },
         "yield": {
@@ -69,6 +67,7 @@
         "This is delicious, but easy to undercook so be careful"
     ],
     "history": {
+        "released": false,
         "intro": "v1.0.0",
         "alterations": []
     }

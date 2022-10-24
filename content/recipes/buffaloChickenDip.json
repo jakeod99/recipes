@@ -74,6 +74,7 @@
         "Definitely serve with Chips"
     ],
     "history": {
+        "released": true,
         "intro": "v1.0.0",
         "alterations": []
     }

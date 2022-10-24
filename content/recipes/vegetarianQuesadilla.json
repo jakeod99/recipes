@@ -79,61 +79,25 @@
             "active": "30 minutes"
         },
         "yield": {
-            "amount": 0, //8
-            "unit": "" //"fajita"
+            "amount": 2, //8
+            "unit": "quesadilla"
         },
-        "serving": { //if undefined, assumes `yield` is one serving
-            "amount": 0, //2
-            "unit": "", //"fajita"
-            "ratio": 0.25 // 2/8 == 0.25
-        }
+        "serving": {}
     },
-    "tags": { //TODO - revamp tagging system
-        "type": { //REQUIRED, second entry is OPTIONAL
-            "primary": "", //REQUIRED - "Entree", "Snack", "Side", "Dessert", "Beverage", or "Component"
-            "secondary": "" //"Meat", "Sammy", "Soup/Stew", "Salad", "Bread", "Coffee", "Dip", "Sauce", or "Spread"
+    "tags": {
+        "type": { 
+            "primary": "", 
+            "secondary": ""
         }, 
-        "meals": [ //REQUIRED, entries are OPTIONAL
-            "" //"Breakfast", "Lunch", "Dinner"
-        ],
-        "ethnicities": [//REQUIRED, entries are OPTIONAL
-            "" //"Mexican", "American", "Italian", "Chinese", "Indian", "Cajun", "German"
-        ],
-        "misc": [ //REQUIRED, entries are OPTIONAL
-            "" //"Barbecue", "Cheese", "Meat", "Coffee", "Sammy", "BigGame", "Warming", "Pizza", "Pasta", "Holiday", "Freeze"
-        ],
-        "healthy": [ //REQUIRED, entries are OPTIONAL (Low/High Calorie will be determined programmatically)
-            "" //"Heart", "GI", "Protein", "Fat", or "Carb"
-        ]
+        "meals": [],
+        "ethnicities": [],
+        "misc": [],
+        "healthy": []
     },
-    "comments": [ //REQUIRED, entries OPTIONAL (vanilla disclaimer added later)
-        ""
-    ],
+    "comments": [],
     "history": {
-        "intro": "v1.0.0", //REQUIRED
-        "alterations": [ //REQUIRED, entries OPTIONAL
-            {
-                "version": "v3.0.0",
-                "changes": [
-                    {
-                        "change": "Name changed from \"Fjaita\" to \"Fajita\"",
-                        "reason": "Fjaita was a typo"
-                    }
-                ]
-            },
-            {
-                "version": "v4.0.0",
-                "changes": [
-                    {
-                        "change": "1 Jalapeno -> 1/2 Jalapeno",
-                        "reason": "It was too spicy"
-                    },
-                    {
-                        "change": "1 Red Onion -> 2 Red Onions",
-                        "reason": "It was not oniony enough"
-                    }
-                ]
-            }
-        ]
+        "released": false,
+        "intro": "v1.0.0",
+        "alterations": []
     }
 }

@@ -55,6 +55,7 @@
         "Frankly, this is more of a syrup than a sauce"
     ],
     "history": {
+        "released": true,
         "intro": "v1.0.0",
         "alterations": []
     }

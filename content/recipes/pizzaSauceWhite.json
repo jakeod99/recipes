@@ -59,6 +59,7 @@
         "Do not try to make ahead of time, make right before spreading onto dough" 
     ],
     "history": {
+        "released": true,
         "intro": "v1.0.0",
         "alterations": []
     }

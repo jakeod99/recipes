@@ -13,17 +13,18 @@
             ]
         },
         {
-            "food": "b/mayo",
-            "amount": 4,
+            "food": "b/butter",
+            "amount": 2,
+            "prep": "softened",
             "sub": [
-                "b/butter"
+                "b/mayo"
             ]
         }
     ],
     "steps": [
         "Carefully seperate Ground Beef into 8 equal chunks",
         "Roll the Ground Beef chunks into beef spheres",
-        "For each bun, lightly spread a thin layer of mayo on the insides",
+        "For each bun, lightly spread a thin layer of butter on the insides",
         "Put a griddle or cast-iron pan on medium heat",
         "Toast each bun until golden brown, then let rest on a grate",
         "Warning: There's no time estimates here, cook it to your desired doneness",
@@ -73,6 +74,7 @@
         "Suggested Topping: Mayo, Lettuce, Extra Red Onion, Thick Bacon, and Jake's Beer Cheese"
     ],
     "history": {
+        "released": true,
         "intro": "v1.0.0",
         "alterations": []
     }

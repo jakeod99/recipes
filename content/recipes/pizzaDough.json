@@ -17,8 +17,10 @@
             "amount": 2
         },
         {
-            "food": "b/oilOlive",
-            "amount": 2
+            "food": "b/oilOlive"
+        },
+        {
+            "food": "b/oilOlive"
         },
         {
             "food": "b/salt",
@@ -78,6 +80,7 @@
         "If you have a stand mixer, use it. Very helpful with such a wet dough."
     ],
     "history": {
+        "released": true,
         "intro": "v1.0.0",
         "alterations": []
     }

@@ -120,6 +120,7 @@
         "Re-work once you have a way to smoke meat - oven is not ideal"
     ],
     "history": {
+        "released": true,
         "intro": "v1.0.0",
         "alterations": []
     }

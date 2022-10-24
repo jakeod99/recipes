@@ -124,6 +124,7 @@
         "If you sub in Drumsticks, finish the job in the oven at 400F for like 20 minutes."
     ],
     "history": {
+        "released": true,
         "intro": "v1.0.0",
         "alterations": []
     }

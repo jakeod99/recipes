@@ -74,6 +74,7 @@
     },
     "comments": [],
     "history": {
+        "released": true,
         "intro": "v1.0.0",
         "alterations": []
     }

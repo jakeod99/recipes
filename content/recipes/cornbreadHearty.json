@@ -105,6 +105,7 @@
     },
     "comments": [],
     "history": {
+        "released": false,
         "intro": "v1.0.0",
         "alterations": []
     }

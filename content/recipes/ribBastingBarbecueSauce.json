@@ -71,6 +71,7 @@
         "Usually used for basting ribs, but I bet it's pretty good on other things"
     ],
     "history": {
+        "released": true,
         "intro": "v1.0.0",
         "alterations": []
     }

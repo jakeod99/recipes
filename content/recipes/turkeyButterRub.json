@@ -71,6 +71,7 @@
         "This recipe has a byproduct of 8 cooked bacon strips - save it for later!"
     ],
     "history": {
+        "released": true,
         "intro": "v1.0.0",
         "alterations": []
     }

@@ -90,6 +90,7 @@
         "If you're going to go through the trouble of doing these, might as well make a bunch and freeze"
     ],
     "history": {
+        "released": true,
         "intro": "v1.0.0",
         "alterations": []
     }

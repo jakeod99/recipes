@@ -1,0 +1,10 @@
+{
+    "name": "Highland Lager",
+    "brand": "Rohrbach's",
+    "unit": "Cup",
+    "calories": 0,
+    "price": 0,
+    "secondaryUnit": "Can (16oz)",
+    "secondaryUnitPlural": "Cans (16oz each)",
+    "primaryToSecondary": 1.33
+}

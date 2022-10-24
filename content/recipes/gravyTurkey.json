@@ -73,6 +73,7 @@
         "If there are more non-fatty turkey drippings than 1 Cup, definitely use all you have"
     ],
     "history": {
+        "released": true,
         "intro": "v1.0.0",
         "alterations": []
     }

@@ -89,6 +89,7 @@
         ""
     ],
     "history": {
+        "released": false, // REQUIRED, not included in releases unless set to true
         "intro": "v1.0.0", //REQUIRED
         "alterations": [ //REQUIRED, entries OPTIONAL
             {

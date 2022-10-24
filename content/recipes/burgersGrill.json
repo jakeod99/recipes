@@ -100,6 +100,7 @@
         "Suggested Topping: Mayo, Lettuce, Extra Red Onion, Thick Bacon, and Jake's Beer Cheese"
     ],
     "history": {
+        "released": false,
         "intro": "v1.0.0",
         "alterations": []
     }

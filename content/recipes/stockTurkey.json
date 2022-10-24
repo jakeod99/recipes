@@ -81,6 +81,7 @@
         "Clear stock is overrated, nothing wrong with cloudy (assuming you use or freeze quickly)"
     ],
     "history": {
+        "released": true,
         "intro": "v1.0.0",
         "alterations": []
     }
